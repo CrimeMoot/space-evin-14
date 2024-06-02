@@ -2,7 +2,11 @@
   id: FoxEars
   bodyPart: HeadTop
   markingCategory: HeadTop
+<<<<<<< HEAD
   speciesRestriction: [Human, Dwarf]
+=======
+  speciesRestriction: [Human]
+>>>>>>> a21d13c507 (Долой спонсоркие вещи,  ушки для всех)
   sponsorOnly: false # Corvax-Sponsors
   sprites:
   - sprite: Corvax/Mobs/Customization/fox_parts.rsi

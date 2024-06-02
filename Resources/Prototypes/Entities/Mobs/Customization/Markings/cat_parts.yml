@@ -2,7 +2,11 @@
   id: CatEars
   bodyPart: HeadTop
   markingCategory: HeadTop
+<<<<<<< HEAD
   speciesRestriction: [Human, Dwarf]
+=======
+  speciesRestriction: [Human]
+>>>>>>> a21d13c507 (Долой спонсоркие вещи,  ушки для всех)
   sponsorOnly: false # Corvax-Sponsors
   coloring:
     default:
@@ -26,7 +30,11 @@
   id: CatTail
   bodyPart: Tail
   markingCategory: Tail
+<<<<<<< HEAD
   speciesRestriction: [Human, Dwarf]
+=======
+  speciesRestriction: [Human]
+>>>>>>> a21d13c507 (Долой спонсоркие вещи,  ушки для всех)
   sponsorOnly: false # Corvax-Sponsors
   coloring:
     default:
