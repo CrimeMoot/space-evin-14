@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - type: job
   id: StationEngineer
   name: job-name-engineer
@@ -23,3 +24,30 @@
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
+=======
+- type: job
+  id: StationEngineer
+  name: job-name-engineer
+  description: job-description-engineer
+  playTimeTracker: JobStationEngineer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 10000 #5 hrs # Corvax-RoleTime
+  startingGear: StationEngineerGear
+  icon: "JobIconStationEngineer"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  extendedAccess:
+  - Atmospherics
+
+- type: startingGear
+  id: StationEngineerGear
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+>>>>>>> 080606975e (Изменение времени ролей.)

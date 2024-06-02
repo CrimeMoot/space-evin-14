@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿- type: job
   id: ResearchAssistant
   name: job-name-research-assistant
@@ -23,3 +24,30 @@
     id: ResearchAssistantPDA
     ears: ClothingHeadsetScience
     pocket2: BookScientistsGuidebook
+=======
+﻿- type: job
+  id: ResearchAssistant
+  name: job-name-research-assistant
+  description: job-description-research-assistant
+  playTimeTracker: JobResearchAssistant
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 12000 #10 hrs # Corvax-RoleTime
+      inverted: true # stop playing intern if you're good at science!
+  startingGear: ResearchAssistantGear
+  icon: "JobIconResearchAssistant"
+  supervisors: job-supervisors-science
+  canBeAntag: false
+  access:
+  - Research
+  - Maintenance
+
+- type: startingGear
+  id: ResearchAssistantGear
+  equipment:
+    shoes: ClothingShoesColorWhite
+    id: ResearchAssistantPDA
+    ears: ClothingHeadsetScience
+    pocket2: BookScientistsGuidebook
+>>>>>>> 080606975e (Изменение времени ролей.)

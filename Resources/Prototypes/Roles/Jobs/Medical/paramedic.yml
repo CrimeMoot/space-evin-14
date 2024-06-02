@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - type: job
   id: Paramedic
   name: job-name-paramedic
@@ -24,3 +25,31 @@
     id: ParamedicPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalEMTFilled
+=======
+- type: job
+  id: Paramedic
+  name: job-name-paramedic
+  description: job-description-paramedic
+  playTimeTracker: JobParamedic
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobMedicalDoctor
+      time: 6000 #4 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 180000 # 15 hrs
+  startingGear: ParamedicGear
+  icon: "JobIconParamedic"
+  supervisors: job-supervisors-cmo
+  access:
+  - Medical
+  - Maintenance
+  extendedAccess:
+  - Chemistry
+
+- type: startingGear
+  id: ParamedicGear
+  equipment:
+    id: ParamedicPDA
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalEMTFilled
+>>>>>>> 080606975e (Изменение времени ролей.)

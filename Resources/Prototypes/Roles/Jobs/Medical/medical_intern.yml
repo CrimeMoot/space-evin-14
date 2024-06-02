@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿- type: job
   id: MedicalIntern
   name: job-name-intern
@@ -24,3 +25,31 @@
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
     pocket2: BookMedicalReferenceBook
+=======
+﻿- type: job
+  id: MedicalIntern
+  name: job-name-intern
+  description: job-description-intern
+  playTimeTracker: JobMedicalIntern
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 12000 #10 hrs # Corvax-RoleTime
+      inverted: true # stop playing intern if you're good at med!
+  startingGear: MedicalInternGear
+  icon: "JobIconMedicalIntern"
+  supervisors: job-supervisors-medicine
+  canBeAntag: false
+  access:
+  - Medical
+  - Maintenance
+
+- type: startingGear
+  id: MedicalInternGear
+  equipment:
+    shoes: ClothingShoesColorWhite
+    id: MedicalInternPDA
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled
+    pocket2: BookMedicalReferenceBook
+>>>>>>> 080606975e (Изменение времени ролей.)

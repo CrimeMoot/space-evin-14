@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - type: job
   id: Warden
   name: job-name-warden
@@ -31,3 +32,38 @@
     id: WardenPDA
     ears: ClothingHeadsetSecurity
     pocket1: WeaponPistolMk58
+=======
+- type: job
+  id: Warden
+  name: job-name-warden
+  description: job-description-warden
+  playTimeTracker: JobWarden
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 #50 hrs # Corvax-RoleTime
+  startingGear: WardenGear
+  icon: "JobIconWarden"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Detective
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: WardenGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    id: WardenPDA
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58
+>>>>>>> 080606975e (Изменение времени ролей.)

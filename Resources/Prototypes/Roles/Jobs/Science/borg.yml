@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - type: job
   id: Borg
   name: job-name-borg
@@ -10,3 +11,17 @@
   icon: JobIconBorg
   supervisors: job-supervisors-rd
   jobEntity: PlayerBorgGeneric
+=======
+- type: job
+  id: Borg
+  name: job-name-borg
+  description: job-description-borg
+  playTimeTracker: JobBorg
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 72000 #60 hrs
+  canBeAntag: false
+  icon: JobIconBorg
+  supervisors: job-supervisors-rd
+  jobEntity: PlayerBorgGeneric
+>>>>>>> 080606975e (Изменение времени ролей.)

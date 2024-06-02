@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - type: job
   id: AtmosphericTechnician
   name: job-name-atmostech
@@ -23,3 +24,30 @@
     id: AtmosPDA
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
+=======
+- type: job
+  id: AtmosphericTechnician
+  name: job-name-atmostech
+  description: job-description-atmostech
+  playTimeTracker: JobAtmosphericTechnician
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 12000 #10 hrs # Corvax-RoleTime
+  startingGear: AtmosphericTechnicianGear
+  icon: "JobIconAtmosphericTechnician"
+  supervisors: job-supervisors-ce
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - Atmospherics
+
+- type: startingGear
+  id: AtmosphericTechnicianGear
+  equipment:
+    eyes: ClothingEyesGlassesMeson
+    id: AtmosPDA
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+>>>>>>> 080606975e (Изменение времени ролей.)

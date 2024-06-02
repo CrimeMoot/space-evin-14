@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿- type: job
   id: TechnicalAssistant
   name: job-name-technical-assistant
@@ -27,3 +28,34 @@
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
     pocket2: BookEngineersHandbook
+=======
+﻿- type: job
+  id: TechnicalAssistant
+  name: job-name-technical-assistant
+  description: job-description-technical-assistant
+  playTimeTracker: JobTechnicalAssistant
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 3600 #1 hr
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 12000 #10 hrs # Corvax-RoleTime
+      inverted: true # stop playing intern if you're good at engineering!
+  startingGear: TechnicalAssistantGear
+  icon: "JobIconTechnicalAssistant"
+  supervisors: job-supervisors-engineering
+  canBeAntag: false
+  access:
+  - Maintenance
+  - Engineering
+  - External
+
+- type: startingGear
+  id: TechnicalAssistantGear
+  equipment:
+    shoes: ClothingShoesBootsWork
+    id: TechnicalAssistantPDA
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+    pocket2: BookEngineersHandbook
+>>>>>>> 080606975e (Изменение времени ролей.)

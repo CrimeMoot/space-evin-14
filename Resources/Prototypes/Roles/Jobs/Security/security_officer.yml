@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - type: job
   id: SecurityOfficer
   name: job-name-security
@@ -28,3 +29,35 @@
     eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetSecurity
     pocket1: WeaponPistolMk58
+=======
+- type: job
+  id: SecurityOfficer
+  name: job-name-security
+  description: job-description-security
+  playTimeTracker: JobSecurityOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 12000 #10 hrs # Corvax-RoleTime
+  startingGear: SecurityOfficerGear
+  icon: "JobIconSecurityOfficer"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: SecurityOfficerGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58
+>>>>>>> 080606975e (Изменение времени ролей.)
