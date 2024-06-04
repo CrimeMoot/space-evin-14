@@ -2,7 +2,7 @@
   id: CatEars
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Human, Dwarf]
+  speciesRestriction: [Human]
   sponsorOnly: false # Corvax-Sponsors
   coloring:
     default:
@@ -26,7 +26,7 @@
   id: CatTail
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Human, Dwarf]
+  speciesRestriction: [Human]
   sponsorOnly: false # Corvax-Sponsors
   coloring:
     default:

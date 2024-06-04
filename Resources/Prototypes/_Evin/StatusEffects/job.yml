@@ -1,6 +1,0 @@
-- type: statusIcon
-  parent: JobIcon
-  id: JobIconBlueshield
-  icon:
-    sprite: /Textures/_Evin/Interface/Misc/job_icons.rsi
-    state: blueshield
