@@ -1,0 +1,17 @@
+- type: gameMapPool
+  id: EvinDefaultMapPool
+  maps:
+  - CorvaxDelta
+  - CorvaxSilly
+  - CorvaxPilgrim
+  - Atlas
+  - Bagel
+  - Box
+  - Cluster
+  - Core
+  - Marathon
+  - Meta
+  - Omega
+  - Origin
+  - Saltern
+  - Packed
