@@ -5,7 +5,7 @@
   description: Blueshields pda
   components:
   - type: Sprite
-    sprite: _Evin/Objects/Devices/pda.rsi
+    sprite: Objects/Devices/pda.rsi
   - type: Pda
     id: BlueshieldIDCard
     state: pda-blueshield

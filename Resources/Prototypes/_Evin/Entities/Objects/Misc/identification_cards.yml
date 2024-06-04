@@ -3,8 +3,6 @@
   id: BlueshieldIDCard
   name: Blueshields ID card
   components:
-  - type: Sprite
-    sprite: _Evin/Objects/Misc/id_cards.rsi
   - type: PresetIdCard
     job: Blueshield
   - type: Sprite
