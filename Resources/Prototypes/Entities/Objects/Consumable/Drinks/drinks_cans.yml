@@ -135,6 +135,24 @@
 
 - type: entity
   parent: DrinkCanBaseFull
+  id: DrinkTarhunCan
+  name: tarhun
+  description: A drink of the gods.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Tarhun
+          Quantity: 30
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/tarhun_can.rsi
+  - type: Item
+    sprite: Objects/Consumable/Drinks/tarhun_can.rsi
+
+- type: entity
+  parent: DrinkCanBaseFull
   id: DrinkLemonLimeCan
   name: lemon-lime can
   description: You wanted ORANGE. It gave you Lemon-Lime.
