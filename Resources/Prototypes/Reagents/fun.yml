@@ -406,8 +406,6 @@
             max: 50 # you've got a chance to get out of crit
           damage: # heals at the same rate as tricordrazine, doesn't heal poison because if you OD'd I'm not giving you a safety net
             groups:
-              Burn: -1
-              Brute: -1
-              Radiation: -1
-              Slash: -1
-              Piercing: -1
+              Burn: -2
+              Brute: -2
+              Toxin: -2

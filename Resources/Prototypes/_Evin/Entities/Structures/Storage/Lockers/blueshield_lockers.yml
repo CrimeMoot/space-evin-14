@@ -4,7 +4,7 @@
   name: blueshield locker
   components:
   - type: Sprite
-    sprite: _Evin/Structures/Storage/closet.rsi
+    sprite: Structures/Storage/closet.rsi
   - type: Appearance
   - type: EntityStorageVisuals
     stateBaseClosed: blueshield
