@@ -46,9 +46,11 @@ job-name-ertjanitor = уборщик ОБР
 job-name-boxer = боксёр
 job-name-zookeeper = зоотехник
 job-name-visitor = посетитель
+job-name-blueshield = Синий щит
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = атмосферный техник
 JobBartender = бармен
+JobBlueshield = Синий щит
 JobBorg = киборг
 JobBotanist = ботаник
 JobCaptain = капитан
