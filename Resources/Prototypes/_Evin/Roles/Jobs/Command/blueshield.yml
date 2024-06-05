@@ -3,17 +3,18 @@
   name: job-name-blueshield
   description: job-description-blueshield
   playTimeTracker: JobBlueshield
+  whitelisted: true
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 36000
+      time: 72000
     - !type:DepartmentTimeRequirement
       department: Medical
       time: 36000
     - !type:OverallPlaytimeRequirement
-      time: 80000
+      time: 100000
   startingGear: BlueshieldGear
-  icon: "JobIconBlueShield"
+  icon: "JobIconBlueshield"
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
@@ -53,6 +54,6 @@
     id: BlueshieldPDA
     ears: ClothingHeadsetAltCommand
     pocket1: WeaponRevolverMateba
-    pocket2: crowbar_red
+    pocket2: CrowbarRed
     belt: ClothingBeltSecurityFilled
     gloves: ClothingHandsGlovesCombat
