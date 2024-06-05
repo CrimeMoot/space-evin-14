@@ -3,8 +3,6 @@
   parent: LockerBaseSecure
   name: blueshield locker
   components:
-  - type: Sprite
-    sprite: Structures/Storage/closet.rsi
   - type: Appearance
   - type: EntityStorageVisuals
     stateBaseClosed: blueshield

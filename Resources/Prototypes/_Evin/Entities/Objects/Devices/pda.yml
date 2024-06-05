@@ -4,8 +4,6 @@
   name: blueshield PDA
   description: Blueshields pda
   components:
-  - type: Sprite
-    sprite: Objects/Devices/pda.rsi
   - type: Pda
     id: BlueshieldIDCard
     state: pda-blueshield
