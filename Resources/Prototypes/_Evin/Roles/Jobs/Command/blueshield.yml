@@ -50,7 +50,7 @@
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesBlueshield
     outerClothing: ClothingOuterArmorBulletproof
-    id: BlueShieldPDA
+    id: BlueshieldPDA
     ears: ClothingHeadsetAltCommand
     pocket1: WeaponRevolverMateba
     pocket2: crowbar_red
