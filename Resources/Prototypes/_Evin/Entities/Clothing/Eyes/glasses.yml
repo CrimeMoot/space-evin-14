@@ -5,9 +5,9 @@
   description: Blueshields glasses
   components:
   - type: Sprite
-    sprite: _Evin/Clothing/Eyes/Glasses/blueshieldsglasses.rsi
+    sprite: _Evin/Clothing/Eyes/Glasses/blueshieldglasses.rsi
   - type: Clothing
-    sprite: _Evin/Clothing/Eyes/Glasses/blueshieldsglasses.rsi
+    sprite: _Evin/Clothing/Eyes/Glasses/blueshieldglasses.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5

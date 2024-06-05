@@ -4,6 +4,9 @@
   name: blueshield locker
   components:
   - type: Appearance
+  - type: Sprite
+    sprite: Structures/Storage/closet.rsi
+    state: blueshield
   - type: EntityStorageVisuals
     stateBaseClosed: blueshield
     stateDoorOpen: blueshield_open
