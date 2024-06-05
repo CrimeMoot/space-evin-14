@@ -13,7 +13,7 @@
   id: AllAtOnce
   name: all-at-once-title
   description: all-at-once-description
-  showInVote: true
+  showInVote: false 
   rules:
     - Nukeops
     - Traitor
