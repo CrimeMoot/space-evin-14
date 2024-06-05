@@ -3,7 +3,7 @@
   alias:
     - survival
   name: survival-title
-  showInVote: false # secret
+  showInVote: true # secret
   description: survival-description
   rules:
     - RampingStationEventScheduler
@@ -13,7 +13,7 @@
   id: AllAtOnce
   name: all-at-once-title
   description: all-at-once-description
-  showInVote: false
+  showInVote: true
   rules:
     - Nukeops
     - Traitor
@@ -90,7 +90,7 @@
     - traitor
   name: traitor-title
   description: traitor-description
-  showInVote: false
+  showInVote: true
   rules:
     - Traitor
     - SubGamemodesRule
@@ -105,7 +105,7 @@
   name: death-match-title
   description: death-match-description
   maxPlayers: 15
-  showInVote: true
+  showInVote: false
   supportedMaps: DeathMatchMapPool
   rules:
     - DeathMatch31
@@ -116,7 +116,7 @@
     - nukeops
   name: nukeops-title
   description: nukeops-description
-  showInVote: false
+  showInVote: true
   rules:
     - Nukeops
     - SubGamemodesRule
@@ -131,7 +131,7 @@
     - revolutionaries
   name: rev-title
   description: rev-description
-  showInVote: false
+  showInVote: true
   rules:
     - Revolutionary
     - SubGamemodesRule
@@ -148,7 +148,7 @@
   - zomber
   name: zombie-title
   description: zombie-description
-  showInVote: false
+  showInVote: true
   rules:
   - Zombie
   - BasicStationEventScheduler

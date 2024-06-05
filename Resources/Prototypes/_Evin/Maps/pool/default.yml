@@ -1,18 +1,9 @@
 - type: gameMapPool
-  id: CorvaxDefaultMapPool
+  id: EvinDefaultMapPool
   maps:
   - CorvaxDelta
-  - CorvaxAvrite
   - CorvaxSilly
-  - CorvaxOutpost
-  - CorvaxAstra
-  - CorvaxGelta
-  - CorvaxMaus
-  - CorvaxIshimura
-  - CorvaxPaper
   - CorvaxPilgrim
-  - CorvaxSplit
-  - CorvaxTerra
   - Atlas
   - Bagel
   - Box
@@ -21,10 +12,8 @@
   - Fland
   - Marathon
   - Meta
-  - Oasis
   - Omega
   - Origin
   - Saltern
   - Packed
   - Reach
-  - Train
