@@ -1,0 +1,29 @@
+- type: entity
+  id: LockerBlueshield
+  parent: LockerBaseSecure
+  name: blueshield locker
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: Structures/Storage/closet.rsi
+    state: blueshield
+  - type: EntityStorageVisuals
+    stateBaseClosed: blueshield
+    stateDoorOpen: blueshield_open
+    stateDoorClosed: blueshield_door
+  - type: AccessReader
+    access: [ [ "Blueshield" ] ]
+
+- type: entity
+  id: LockerBlueshieldFilled
+  suffix: Filled
+  parent: LockerBlueshield
+  components:
+  - type: StorageFill
+    contents:
+    - id: BoxZiptie
+    - id: WeaponDisabler
+    - id: MedkitAdvancedFilled
+    - id: SpeedLoaderMagnum
+    - id: ClothingOuterHardsuitBlueshield
+    - id: DoubleEmergencyOxygenTank
