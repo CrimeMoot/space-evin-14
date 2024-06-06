@@ -3,10 +3,16 @@
   parent: LockerBaseSecure
   name: blueshield locker
   components:
+<<<<<<< HEAD
   - type: Appearance
   - type: Sprite
     sprite: Structures/Storage/closet.rsi
     state: blueshield
+=======
+  - type: Sprite
+    sprite: Structures/Storage/closet.rsi
+  - type: Appearance
+>>>>>>> b90c31ff14 (fixs)
   - type: EntityStorageVisuals
     stateBaseClosed: blueshield
     stateDoorOpen: blueshield_open
