@@ -4,7 +4,11 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -19,7 +23,11 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -34,7 +42,11 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -49,7 +61,11 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -64,7 +80,11 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -79,7 +99,11 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -94,7 +118,11 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -109,7 +137,11 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -124,7 +156,11 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -140,7 +176,11 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -155,7 +195,11 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -170,7 +214,11 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -185,7 +233,11 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -200,7 +252,11 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -215,7 +271,11 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -230,7 +290,11 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -245,7 +309,11 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -260,7 +328,11 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -276,7 +348,11 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -291,7 +367,11 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -306,7 +386,11 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -321,7 +405,11 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -336,7 +424,11 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -351,7 +443,11 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -366,7 +462,11 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -381,7 +481,11 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -396,7 +500,11 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -412,7 +520,11 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -427,7 +539,11 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -442,7 +558,11 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -457,7 +577,11 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -472,7 +596,11 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -487,7 +615,11 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -502,7 +634,11 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -517,7 +653,11 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -532,7 +672,11 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -549,7 +693,11 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -564,7 +712,11 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -579,7 +731,11 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -594,7 +750,11 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -609,7 +769,11 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -624,7 +788,11 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -639,7 +807,11 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -654,7 +826,11 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -670,7 +846,11 @@
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Arachnid ]
   sexRestriction: Male
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -686,7 +866,11 @@
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Arachnid ]
   sexRestriction: Female
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -702,7 +886,11 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -717,7 +905,11 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -732,7 +924,11 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -747,7 +943,11 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -762,7 +962,11 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -777,7 +981,11 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -792,7 +1000,11 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -807,7 +1019,11 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -822,7 +1038,11 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -838,7 +1058,11 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -853,7 +1077,11 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -868,7 +1096,11 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -883,7 +1115,11 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -898,7 +1134,11 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -913,7 +1153,11 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -928,7 +1172,11 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -943,7 +1191,11 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -958,7 +1210,11 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -974,7 +1230,11 @@
   bodyPart: RArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -989,7 +1249,11 @@
   bodyPart: LArm
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -1004,7 +1268,11 @@
   bodyPart: RHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -1019,7 +1287,11 @@
   bodyPart: LHand
   markingCategory: Arms
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -1034,7 +1306,11 @@
   bodyPart: RLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -1049,7 +1325,11 @@
   bodyPart: LLeg
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -1064,7 +1344,11 @@
   bodyPart: LFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -1079,7 +1363,11 @@
   bodyPart: RFoot
   markingCategory: Legs
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
@@ -1094,7 +1382,11 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Human, Dwarf, Arachnid ]
+<<<<<<< HEAD
   sponsorOnly: false
+=======
+  sponsorOnly: false # Corvax-Sponsors
+>>>>>>> 0f0317eae2 (remove sponsor)
   coloring:
     default:
       type:
