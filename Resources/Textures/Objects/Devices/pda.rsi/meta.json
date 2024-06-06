@@ -35,10 +35,14 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "name": "pda-blueshield"
 =======
       "name": "blueshield-pda"
 >>>>>>> b90c31ff14 (fixs)
+=======
+      "name": "pda-blueshield"
+>>>>>>> 5a5b99811b (e)
     },
     {
       "name": "light_overlay"
@@ -48,10 +52,6 @@
     },
     {
       "name": "pda-atmos"
-    },
-
-    {
-      "name": "blushield-atmos"
     },
     {
       "name": "pda-bartender"

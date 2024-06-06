@@ -8,11 +8,14 @@
   - type: Sprite
     sprite: Structures/Storage/closet.rsi
     state: blueshield
+<<<<<<< HEAD
 =======
   - type: Sprite
     sprite: Structures/Storage/closet.rsi
   - type: Appearance
 >>>>>>> b90c31ff14 (fixs)
+=======
+>>>>>>> 5a5b99811b (e)
   - type: EntityStorageVisuals
     stateBaseClosed: blueshield
     stateDoorOpen: blueshield_open

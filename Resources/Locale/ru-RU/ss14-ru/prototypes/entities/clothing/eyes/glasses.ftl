@@ -28,5 +28,9 @@ ent-ClothingEyesGlassesChemical = очки химического анализа
     .desc = Очки, позволяющие сканировать химический состав раствора.
 ent-ClothingEyesVisorNinja = очки ниндзя
     .desc = Усовершенствованные очки, защищающие глаза ниндзя от вспышек света.
+<<<<<<< HEAD
 ent-ClothingEyesGlassesBlueshield = очки Синего щита
+=======
+ent-lothingEyesGlassesBlueshield = очки Синего щита
+>>>>>>> 5a5b99811b (e)
     .desc = Стильные очки охраны, синего цвета. Самое то для агента Синего щита.
