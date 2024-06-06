@@ -29,8 +29,12 @@ ent-ClothingEyesGlassesChemical = очки химического анализа
 ent-ClothingEyesVisorNinja = очки ниндзя
     .desc = Усовершенствованные очки, защищающие глаза ниндзя от вспышек света.
 <<<<<<< HEAD
+<<<<<<< HEAD
 ent-ClothingEyesGlassesBlueshield = очки Синего щита
 =======
 ent-lothingEyesGlassesBlueshield = очки Синего щита
 >>>>>>> 5a5b99811b (e)
+=======
+ent-ClothingEyesGlassesBlueshield = очки Синего щита
+>>>>>>> d2fe47db03 (tweaks fixes)
     .desc = Стильные очки охраны, синего цвета. Самое то для агента Синего щита.

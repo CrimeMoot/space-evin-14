@@ -4,6 +4,7 @@
   description: job-description-blueshield
   playTimeTracker: JobBlueshield
 <<<<<<< HEAD
+<<<<<<< HEAD
   whitelisted: true
   requirements:
     - !type:DepartmentTimeRequirement
@@ -15,10 +16,18 @@
       department: Security
       time: 36000
 >>>>>>> cde25e3a06 (w)
+=======
+  whitelisted: true
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 72000
+>>>>>>> d2fe47db03 (tweaks fixes)
     - !type:DepartmentTimeRequirement
       department: Medical
       time: 36000
     - !type:OverallPlaytimeRequirement
+<<<<<<< HEAD
 <<<<<<< HEAD
       time: 100000
   startingGear: BlueshieldGear
@@ -28,6 +37,11 @@
   startingGear: BlueshieldGear
   icon: "JobIconBlueShield"
 >>>>>>> cde25e3a06 (w)
+=======
+      time: 100000
+  startingGear: BlueshieldGear
+  icon: "JobIconBlueshield"
+>>>>>>> d2fe47db03 (tweaks fixes)
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
@@ -68,9 +82,13 @@
     ears: ClothingHeadsetAltCommand
     pocket1: WeaponRevolverMateba
 <<<<<<< HEAD
+<<<<<<< HEAD
     pocket2: CrowbarRed
 =======
     pocket2: crowbar_red
 >>>>>>> cde25e3a06 (w)
+=======
+    pocket2: CrowbarRed
+>>>>>>> d2fe47db03 (tweaks fixes)
     belt: ClothingBeltSecurityFilled
     gloves: ClothingHandsGlovesCombat
