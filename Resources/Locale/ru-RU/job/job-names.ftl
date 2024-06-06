@@ -95,3 +95,4 @@ JobWarden = смотритель
 JobVisitor = посетитель
 JobBoxer = боксёр
 JobZookeeper = зоотехник
+JobBlueshield = Синий Щит
