@@ -25,9 +25,6 @@
   - type: CameraRecoil
   - type: Examiner
   - type: CanHostGuardian
-  - type: Faction
-    factions:
-    - NanoTrasen
   - type: InteractionPopup
     successChance: 1
     interactSuccessString: hugging-success-generic
