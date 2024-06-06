@@ -884,10 +884,12 @@
     - SyndicateAgent
 
 - type: entity
-  parent: IDCardStandard
+  parent: PassengerIDCard
   id: BlueshieldIDCard
-  name: blueshield id card
+  name: Blueshields ID card
   components:
+  - type: PresetIdCard
+    job: Blueshield
   - type: Sprite
     layers:
     - state: default
