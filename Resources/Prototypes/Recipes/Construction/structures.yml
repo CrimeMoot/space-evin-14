@@ -1866,23 +1866,6 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: wood false wall
-  id: WoodFalseWall
-  graph: Girder
-  startNode: start
-  targetNode: woodFalseWall
-  category: construction-category-structures
-  description: False wall for your secrets
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  icon:
-    sprite: Structures/Walls/false_walls/false_wall_wood.rsi
-    state: closed
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
   name: reinforced false wall
   id: ReinforcedFalseWall
   graph: Girder
