@@ -882,3 +882,15 @@
     - CentralCommand
     - NuclearOperative
     - SyndicateAgent
+
+- type: entity
+  parent: PassengerIDCard
+  id: BlueshieldIDCard
+  name: Blueshields ID card
+  components:
+  - type: PresetIdCard
+    job: Blueshield
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idblueshield
