@@ -32,7 +32,7 @@
         - to: displacedGirder
           completed:
             - !type:SnapToGrid
-              southRotation: true
+              southRotation: false
           conditions:
             - !type:EntityAnchored {}
           steps:

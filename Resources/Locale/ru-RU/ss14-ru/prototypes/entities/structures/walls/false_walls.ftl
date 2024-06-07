@@ -1,4 +1,4 @@
-ent-SolidFalseWall = базовая стена
+ent-SolidFalseWall = обычная стена
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
 ent-PlasticFalseWall = пластиковая стена
     .desc = { ent-SolidFalseWall.desc }
