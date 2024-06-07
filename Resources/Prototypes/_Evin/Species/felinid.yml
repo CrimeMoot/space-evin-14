@@ -1,10 +1,9 @@
 - type: species
-  id: felinid
-  name: фелинид
+  id: Felinid
+  name: Фелинид
   roundStart: true
   prototype: MobFelinid
   sprites: MobHumanSprites
   markingLimits: MobHumanMarkingLimits
   dollPrototype: MobFelinidDummy
   skinColoration: HumanToned
-
