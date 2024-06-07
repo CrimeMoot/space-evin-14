@@ -46,10 +46,10 @@
       Male: UnisexDwarf
       Female: FemaleDwarf
       Unsexed: UnisexDwarf
-  - type: ReplacementAccent
-    accent: OwOaccent
+  - type: OwOAccent
   - type: Speech
     speechSounds: Cat
+    speechVerb: SmallMob
   - type: HumanoidAppearance
     species: Human
     hideLayersOnEquip:
