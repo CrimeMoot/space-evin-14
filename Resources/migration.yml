@@ -349,3 +349,7 @@ CrateJanitorExplosive: ClosetJanitorBombFilled
 
 # 2024-05-27
 DoorRemoteFirefight: null
+
+# 2024-06-04
+BaseSecretDoorAssembly: null
+SolidSecretDoor: SolidFalseWall
