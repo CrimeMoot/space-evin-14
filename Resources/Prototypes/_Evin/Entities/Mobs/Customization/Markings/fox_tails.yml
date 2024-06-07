@@ -14,9 +14,9 @@
           category: FacialHair
         - !type:SkinColoring
   sprites:
-  - sprite: _Evin\Mobs\Customization\fox_tail.rsi
+  - sprite: _Evin/Mobs/Customization/fox_tail.rsi
     state: tail_fox_wag_stripes_prime
-  - sprite: _Evin\Mobs\Customization\fox_tail.rsi
+  - sprite: _Evin/Mobs/Customization/fox_tail.rsi
     state: tail_fox_wag_stripes_second
-  - sprite: _Evin\Mobs\Customization\fox_tail.rsi
+  - sprite: _Evin/Mobs/Customization/fox_tail.rsi
     state: tail_fox_wag_stripes_third
