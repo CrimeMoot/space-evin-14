@@ -17,8 +17,6 @@
     Tail:
       points: 2
       required: true
-      defaultMarkings: [ CatTail ]
     HeadTop:
       points: 1
       required: true
-      defaultMarkings: [ CatEars ]
