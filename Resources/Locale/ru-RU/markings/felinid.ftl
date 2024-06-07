@@ -1,0 +1,12 @@
+marking-FelinidEarsCurled = Завитые ушки
+marking-FelinidEarsDroopy = Висячие ушки
+marking-FelinidEarsFuzzy = Пушистые ушки
+marking-FelinidEarsStubby = Короткие ушки
+marking-FelinidEarsTall = Высокие ушки
+marking-FelinidEarsTorn = Рваные ушки
+marking-FelinidEarsWide = Широкие ушки
+marking-FelinidBasicBell = Поднятый хвостик
+marking-FelinidBasicBow = Изогнутый хвостик
+marking-FelinidBasicStripesEven = Полосатый хвостик (чётный)
+marking-FelinidBasicStripesOdd = Полосатый хвостик (нечётный)
+marking-FelinidBasicTip = Кончик хвоста
