@@ -17,8 +17,8 @@
     Tail:
       points: 2
       required: true
-      defaultMarkings: [ FelinidBasicBow ]
+      defaultMarkings: [ CatTail ]
     HeadTop:
       points: 1
       required: true
-      defaultMarkings: [ FelinidEarsBasic ]
+      defaultMarkings: [ CatEars ]
