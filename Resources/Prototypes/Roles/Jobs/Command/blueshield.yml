@@ -1,15 +1,15 @@
 ﻿- type: job
-  id: BlueShield
+  id: Blueshield
   name: job-name-blueshield
   description: job-description-blueshield
-  playTimeTracker: JobBlueShield
+  playTimeTracker: JobBlueshield
   whitelisted: true
   requirements:
   - !type:DepartmentTimeRequirement
     department: Security
     time: 100000 # Corvax-RoleTime
-  startingGear: BlueShieldGear
-  icon: "BlueShield"
+  startingGear: BlueshieldGear
+  icon: "Blueshield"
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
@@ -38,12 +38,12 @@
 - type: startingGear
   id: BlueshieldGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBlueShield
+    jumpsuit: ClothingUniformJumpsuitBlueshield
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsJack
-    eyes: ClothingEyesGlassesBlueShield
+    eyes: ClothingEyesGlassesBlueshield
     outerClothing: ClothingOuterArmorBulletproof
-    id: BlueShieldPDA
+    id: BlueshieldPDA
     ears: ClothingHeadsetAltCommand
     pocket1: WeaponHKPhalanx
     pocket2: WeaponRevolverMateba
