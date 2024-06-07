@@ -243,7 +243,7 @@
         - !type:SkinColoring
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_tails.rsi
-    state: basic_tail_sprites_even
+    state: basic_tail_stripes_even
 
 - type: marking
   id: FelinidBasicStripesOdd
