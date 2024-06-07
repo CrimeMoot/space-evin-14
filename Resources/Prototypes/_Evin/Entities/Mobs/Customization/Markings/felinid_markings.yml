@@ -24,7 +24,22 @@
 
 - type: marking
   id: FelinidEarsCurled
-  parent: FelinidEarsBasic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_cat_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_ears.rsi
     state: curled_outer
@@ -33,7 +48,22 @@
 
 - type: marking
   id: FelinidEarsDroopy
-  parent: FelinidEarsBasic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_cat_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_ears.rsi
     state: droopy_outer
@@ -64,7 +94,22 @@
 
 - type: marking
   id: FelinidEarsStubby
-  parent: FelinidEarsBasic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_cat_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_ears.rsi
     state: stubby_outer
@@ -73,7 +118,22 @@
 
 - type: marking
   id: FelinidEarsTall
-  parent: FelinidEarsBasic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_cat_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_ears.rsi
     state: tall_outer
@@ -82,7 +142,22 @@
 
 - type: marking
   id: FelinidEarsTorn
-  parent: FelinidEarsBasic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_cat_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_ears.rsi
     state: torn_outer
@@ -91,7 +166,22 @@
 
 - type: marking
   id: FelinidEarsWide
-  parent: FelinidEarsBasic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:SkinColoring
+    layers:
+      ears_cat_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_ears.rsi
     state: wide_outer
@@ -99,7 +189,7 @@
     state: wide_inner
 
 - type: marking
-  id: CatTail
+  id: FelinidBasicBell
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Dwarf, Felinid]
@@ -114,40 +204,81 @@
           category: FacialHair
         - !type:SkinColoring
   sprites:
-  - sprite: Mobs/Customization/cat_parts.rsi
-    state: tail_cat_wag
-
-- type: marking
-  id: FelinidBasicBell
-  parent: CatTail
-  sprites:
   - sprite: _Evin/Mobs/Customization/felinid_tails.rsi
     state: basic_bell
 
 - type: marking
   id: FelinidBasicBow
-  parent: CatTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_tails.rsi
     state: basic_bow
 
 - type: marking
   id: FelinidBasicStripesEven
-  parent: CatTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_sprites_even
 
 - type: marking
   id: FelinidBasicStripesOdd
-  parent: CatTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_stripes_odd
 
 - type: marking
   id: FelinidBasicTip
-  parent: CatTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Dwarf, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
   sprites:
   - sprite: _Evin/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
