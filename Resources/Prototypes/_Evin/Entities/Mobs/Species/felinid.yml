@@ -24,6 +24,12 @@
   - type: Body
     prototype: Dwarf
     requiredLegs: 2
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: hugging-success-generic
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/cat_meow.ogg
   - type: Butcherable
     butcheringType: Spike
     spawned:
