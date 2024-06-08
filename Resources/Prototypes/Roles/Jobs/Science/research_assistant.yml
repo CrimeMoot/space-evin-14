@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 12000 #10 hrs # Corvax-RoleTime
+      time: 0 #10 hrs # Corvax-RoleTime
       inverted: false # stop playing intern if you're good at science!
   startingGear: ResearchAssistantGear
   icon: "JobIconResearchAssistant"

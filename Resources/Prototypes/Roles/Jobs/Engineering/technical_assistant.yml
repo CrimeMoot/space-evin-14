@@ -8,7 +8,7 @@
       time: 3600 #1 hr
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 12000 #10 hrs # Corvax-RoleTime
+      time: 0 #10 hrs # Corvax-RoleTime
       inverted: false # stop playing intern if you're good at engineering!
   startingGear: TechnicalAssistantGear
   icon: "JobIconTechnicalAssistant"
