@@ -49,13 +49,11 @@
       path: /Audio/Effects/hit_kick.ogg
   - type: Stamina
     critThreshold: 85
-  - type: PseudoItem
   - type: Vocal
     sounds:
       Male: MaleFelinid
       Female: FemaleFelinid
       Unsexed: MaleFelinid
-  - type: Felinid
   - type: Respirator
     damage:
       types:
