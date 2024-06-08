@@ -1,0 +1,68 @@
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterSeniorEngineer
+  name: зимняя куртка ведущего инженера
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/OuterClothing/WinterCoats/wintercoat_seniorengineer.rsi
+  - type: Clothing
+    sprite: _Evin/Clothing/OuterClothing/WinterCoats/wintercoat_seniorengineer.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Heat: 0.95
+        Caustic: 0.95
+    priceMultiplier: 0.15
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterSeniorOfficer
+  name: зимняя куртка инструктора службы безопасности
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/OuterClothing/WinterCoats/wintercoat_seniorofficer.rsi
+  - type: Clothing
+    sprite: _Evin/Clothing/OuterClothing/WinterCoats/wintercoat_seniorofficer.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Heat: 0.95
+        Caustic: 0.95
+    priceMultiplier: 0.15
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterSeniorPhysician
+  name: зимняя куртка старшего врача
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/OuterClothing/WinterCoats/wintercoat_seniorphysician.rsi
+  - type: Clothing
+    sprite: _Evin/Clothing/OuterClothing/WinterCoats/wintercoat_seniorphysician.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Heat: 0.95
+        Caustic: 0.95
+    priceMultiplier: 0.15
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterSeniorResearcher
+  name: зимняя куртка ведущего учёного
+  description: A coat specifically designed for work inside cold storage, sorely needed by cold-blooded lizard chefs.
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/OuterClothing/WinterCoats/wintercoat_seniorresearcher.rsi
+  - type: Clothing
+    sprite: _Evin/Clothing/OuterClothing/WinterCoats/wintercoat_seniorresearcherr.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
+        Heat: 0.95
+        Caustic: 0.95
+    priceMultiplier: 0.15
