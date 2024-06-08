@@ -69,7 +69,7 @@
   - type: InteractionPopup
     successChance: 1
     interactSuccessString: Гладят
-    interactSuccessSound: /Audio/Evin/Voice/Felinidcat_purr1.ogg
+    interactSuccessSound: /Audio/Evin/Voice/Felinid/cat_purr1.ogg
     messagePerceivedByOthers: petting-success-soft-floofy-others
     interactSuccessSpawn: EffectHearts
     interactDelay: 5
