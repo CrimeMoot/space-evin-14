@@ -126,6 +126,8 @@
     - мя
     - мя.
     - мя!
+    - ня
+    - ня!
 
 - type: emote
   id: Mew
@@ -141,8 +143,9 @@
   chatTriggers:
     - мяв
     - мяв!
-    - мяв
+    - мяв.
     - мявкнул
+    - мявкнул.
 
 - type: emote
   id: Meows
@@ -182,6 +185,12 @@
   chatMessages: ["chat-emote-msg-purrs"]
   chatTriggers:
     - мурчит
+    - мур
+    - мур.
+    - мур!
+    - мурь.
+    - мурь
+    - мурь!
     - мурчит.
     - мурчит!
     - Purrs
@@ -200,9 +209,10 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-growls"]
   chatTriggers:
-    - рычит
-    - рычит.
-    - рычит!
-    - Growls
-    - Growls.
-    - Growls!
+    - р
+    - рр
+    - рррр
+    - ррррр
+    - рррррр
+    - ррррррр
+    - рррррррр
