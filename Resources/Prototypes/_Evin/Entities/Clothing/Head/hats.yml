@@ -20,9 +20,9 @@
   description: Тёмно синий берет с крестом на передней части. Его вид успокаивает и внушает надежду, что вас найдут и спасут.
   components:
   - type: Sprite
-    sprite: _Evin/Clothing/Head/Hats/chiefengineer_beret.rsi
+    sprite: _Evin/Clothing/Head/Hats/paramedic_beret.rsi
   - type: Clothing
-    sprite: _Evin/Clothing/Head/Hats/chiefengineer_beret.rsi
+    sprite: _Evin/Clothing/Head/Hats/paremedic_beret.rsi
   - type: Tag
     tags:
     - ClothMade
