@@ -40,7 +40,7 @@
     stealthy: true
     stripTimeReduction: 1
   - type: Speech
-    speechSounds: Cat
+    speechSounds: Alto
   - type: DamageOnHighSpeedImpact
     damage:
       types:
@@ -49,6 +49,7 @@
       path: /Audio/Effects/hit_kick.ogg
   - type: Stamina
     critThreshold: 85
+  - type: OwOAccent
   - type: Vocal
     sounds:
       Male: MaleFelinid
