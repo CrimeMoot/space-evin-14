@@ -51,6 +51,7 @@
     critThreshold: 85
   - type: OwOAccent
   - type: Vocal
+    wilhelm: "/Audio/cat_wilhelm.ogg"
     sounds:
       Male: MaleFelinid
       Female: FemaleFelinid
@@ -67,10 +68,11 @@
       - NanoTrasen
   - type: InteractionPopup
     successChance: 1
-    interactSuccessString: hugging-success-generic
+    interactSuccessString: Гладят
+    interactSuccessSound: /Audio/Evin/Voice/Felinidcat_purr1.ogg
+    messagePerceivedByOthers: petting-success-soft-floofy-others
     interactSuccessSpawn: EffectHearts
-    interactSuccessSound:
-      path: /Audio/Animals/cat_meow.ogg
+    interactDelay: 5
 
 
 - type: entity
