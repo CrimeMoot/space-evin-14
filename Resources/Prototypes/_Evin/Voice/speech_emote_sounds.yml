@@ -1,4 +1,5 @@
-﻿- type: emoteSounds
+﻿
+- type: emoteSounds
   id: MaleFelinid
   params:
     variation: 0.125
@@ -7,36 +8,24 @@
       collection: FelinidScreams
     Laugh:
       collection: MaleLaugh
-    Hiss:
-      collection: FelinidHisses
-    Meow:
-      collection: FelinidMeows
-    Mew:
-      collection: FelinidMews
-    Growls:
-      collection: FelinidGrowls
-    Purr:
-      collection: FelinidPurrs
     Sneeze:
       collection: MaleSneezes
     Cough:
       collection: MaleCoughs
-    MonkeyScreeches:
-      collection: MonkeyScreeches
-    RobotBeep:
-      collection: RobotBeeps
-    Yawn:
-      collection: MaleYawn
-    Snore:
-      collection: Snores
-    Honk:
-      collection: BikeHorn
-    Sigh:
-      collection: MaleSigh
     Crying:
       collection: MaleCry
     Whistle:
       collection: Whistles
+    Mews:
+      collection: FelinidMews
+    Meows:
+      collection: FelinidMeows
+    Purrs:
+      collection: FelinidPurrs
+    Growls:
+      collection: FelinidGrowls
+    Weh:
+      collection: Weh
 
 - type: emoteSounds
   id: FemaleFelinid
@@ -51,94 +40,18 @@
       collection: FemaleSneezes
     Cough:
       collection: FemaleCoughs
-    Hiss:
-      collection: FelinidHisses
-    Meow:
-      collection: FelinidMeows
-    Mew:
-      collection: FelinidMews
-    Growls:
-      collection: FelinidGrowls
-    Purr:
-      collection: FelinidPurrs
-    MonkeyScreeches:
-      collection: MonkeyScreeches
-    RobotBeep:
-      collection: RobotBeeps
-    Yawn:
-      collection: FemaleYawn
-    Snore:
-      collection: Snores
-    Honk:
-      collection: CluwneHorn
-    Sigh:
-      collection: FemaleSigh
     Crying:
       collection: FemaleCry
     Whistle:
       collection: Whistles
+    Mews:
+      collection: FelinidMews
+    Meows:
+      collection: FelinidMeows
+    Purrs:
+      collection: FelinidPurrs
+    Growls:
+      collection: FelinidGrowls
+    Weh:
+      collection: Weh
  
-- type: emote
-  id: Hiss
-  category: Vocal
-  chatMessages: [шипит]
-  chatTriggers:
-    - шипит
-    - шипит.
-    - шипит!
-
-- type: emote
-  id: Meow
-  category: Vocal
-  chatMessages: [мяукает]
-  chatTriggers:
-    - мяу
-    - мяукнул
-    - мяукнул.
-    - мяукнул!
-    - мяукнула
-    - мяукнула.
-    - мяукнула!
-    - мяукает
-    - мяукает.
-    - мяукает!
-
-- type: emote
-  id: Mew
-  category: Vocal
-  chatMessages: [мякает]
-  chatTriggers:
-    - мя
-    - мякает
-    - мякает.
-    - мякает!
-    - ня
-    - мякает?
-    - mews.
-    - mews!
-    - mewing
-    - mewed
-
-- type: emote
-  id: Growls
-  category: Vocal
-  chatMessages: [growls]
-  chatTriggers:
-    - рычит
-    - ррр
-    - growl
-    - growls
-    - growls.
-    - growls!
-    - growling
-    - growled
-
-- type: emote
-  id: Purr
-  category: Vocal
-  chatMessages: [мурчит]
-  chatTriggers:
-    - мур
-    - мурчит
-    - мурчит.
-    - мурчит!
