@@ -10,7 +10,8 @@
 
 - type: startingGear
   id: ParamedicBeret
-  equipment: ClothingHeadHatBeretParamedic
+  equipment: 
+    head: ClothingHeadHatBeretParamedic
 
 # Jumpsuit
 - type: loadout
