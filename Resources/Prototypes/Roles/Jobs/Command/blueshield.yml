@@ -39,13 +39,13 @@
   id: BlueshieldGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueshield
-    back: ClothingBackpackFilled
-    shoes: ClothingShoesBootsJack
+    back: ClothingBackpackERTLeader
+    shoes: ClothingShoesBootsCombatFilled #Лучше стандартных.
     eyes: ClothingEyesGlassesBlueshield
     outerClothing: ClothingOuterArmorBulletproof
     id: BlueshieldPDA
     ears: ClothingHeadsetAltCommand
-    pocket1: WeaponHKPhalanx
+    pocket1: CrowbarRed #Как блять оно сюда попало?
     pocket2: WeaponRevolverMateba
     belt: ClothingBeltSecurityFilled
   satchel: ClothingBackpackSatchelFilled
