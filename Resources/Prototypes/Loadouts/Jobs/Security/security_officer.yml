@@ -177,6 +177,13 @@
   equipment:
     outerClothing: ClothingOuterWinterSec
 
+- type: loadout
+  id: SeniorOfficerWinterCoat
+  equipment: ClothingOuterWinterSeniorOfficer
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+
 # Shoes
 - type: loadout
   id: CombatBoots

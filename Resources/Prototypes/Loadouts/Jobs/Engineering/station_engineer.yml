@@ -156,7 +156,14 @@
   id: StationEngineerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterEngi
-  
+
+- type: loadout
+  id: SeniorEngineerWinterCoat
+  equipment: ClothingOuterWinterSeniorEngineer
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorEngineering
+
 # Shoes
 - type: loadout
   id: WorkBoots

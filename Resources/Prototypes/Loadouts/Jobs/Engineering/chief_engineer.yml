@@ -49,6 +49,10 @@
   id: ChiefEngineerBeret
   equipment: EngineeringBeret
 
+- type: loadout
+  id: ChiefEngineerBeretNew
+  equipment: ClothingHeadHatBeretChiefEngineer
+
 # Neck
 - type: loadout
   id: ChiefEngineerCloak

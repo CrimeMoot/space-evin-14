@@ -198,6 +198,13 @@
   equipment:
     outerClothing: ClothingOuterCoatLabSeniorResearcher
 
+- type: loadout
+  id: SeniorResearcherWinterCoat
+  equipment: ClothingOuterWinterSeniorResearcher
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorResearcher
+
 # Gloves
 - type: loadout
   id: LatexGloves

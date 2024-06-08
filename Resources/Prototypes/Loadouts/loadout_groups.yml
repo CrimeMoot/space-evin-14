@@ -577,6 +577,7 @@
   loadouts:
   - ChiefEngineerHead
   - ChiefEngineerBeret
+  - ChiefEngineerBeretNew
 
 - type: loadoutGroup
   id: ChiefEngineerJumpsuit
@@ -632,6 +633,7 @@
   - StationEngineerHardhatOrange
   - StationEngineerHardhatRed
   - SeniorEngineerBeret
+  - SeniorEngineerWinterCoat
 
 - type: loadoutGroup
   id: StationEngineerJumpsuit
@@ -795,6 +797,7 @@
   - RoboticistLabCoat
   - RoboticistWintercoat
   - SeniorResearcherLabCoat
+  - SeniorResearcherWinterCoat
 
 - type: loadoutGroup
   id: ScientistShoes
@@ -903,6 +906,7 @@
   - SecurityJumpskirtGrey
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
+  - SeniorOfficerWinterCoat
 
 - type: loadoutGroup
   id: SecurityBackpack
@@ -1071,6 +1075,7 @@
   - RegularLabCoat
   - MedicalDoctorWintercoat
   - SeniorPhysicianLabCoat
+  - SeniorPhysicianWinterCoat
 
 - type: loadoutGroup
   id: MedicalBackpack
