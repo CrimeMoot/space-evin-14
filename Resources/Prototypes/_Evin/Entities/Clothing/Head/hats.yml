@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatChiefEngineer
+  id: ClothingHeadHatBeretChiefEngineer
   name: берет старшего инженера
   description: Для тех, кто предпочёл стиль вместо безопасности.
   components:
@@ -15,7 +15,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatParamedic
+  id: ClothingHeadHatBeretParamedic
   name: берет парамедика
   description: Тёмно синий берет с крестом на передней части. Его вид успокаивает и внушает надежду, что вас найдут и спасут.
   components:
