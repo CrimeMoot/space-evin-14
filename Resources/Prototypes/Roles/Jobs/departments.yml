@@ -38,6 +38,7 @@
   color: "#334E6D"
   roles:
   - Captain
+  - Blueshield
   - IAA # Corvax-IAA
   - CentralCommandOfficial
   - ChiefEngineer
