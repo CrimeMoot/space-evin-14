@@ -9,7 +9,7 @@
     head: ClothingHeadHatParamedicsoft
 
 - type: startingGear
-  id: ParamedicHBeret
+  id: ParamedicBeret
   equipment: ClothingHeadHatBeretParamedic
 
 # Jumpsuit
