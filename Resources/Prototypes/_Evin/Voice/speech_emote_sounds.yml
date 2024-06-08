@@ -13,7 +13,7 @@
       collection: FelinidMeows
     Mew:
       collection: FelinidMews
-    Growl:
+    Growls:
       collection: FelinidGrowls
     Purr:
       collection: FelinidPurrs
@@ -57,7 +57,7 @@
       collection: FelinidMeows
     Mew:
       collection: FelinidMews
-    Growl:
+    Growls:
       collection: FelinidGrowls
     Purr:
       collection: FelinidPurrs
@@ -120,7 +120,7 @@
     - mewed
 
 - type: emote
-  id: Growl
+  id: Growls
   category: Vocal
   chatMessages: [growls]
   chatTriggers:
