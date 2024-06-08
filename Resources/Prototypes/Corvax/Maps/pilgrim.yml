@@ -22,7 +22,6 @@
             - Passenger
           availableJobs:
             # service
-            Blueshield: [1, 1]
             HeadOfPersonnel: [ 1, 1 ]
             Passenger: [ -1, -1 ]
             ServiceWorker: [ 3, 3 ]
