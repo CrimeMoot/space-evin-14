@@ -205,11 +205,11 @@
 - type: reaction
   id: Tarhun
   reactants:
-    sodawater:
+    Sodawater:
       amount: 1
-    desoxyephedrine:
+    Desoxyephedrine:
       amount: 1
-    tricordrazine:
+    Tricordrazine:
       amount: 1
   products:
     tarhun: 3
