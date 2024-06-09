@@ -14,6 +14,13 @@
 
 - type: statusIcon
   parent: JobIcon
+  id: JobIconBlueshield #Evin
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Blueshield
+
+- type: statusIcon
+  parent: JobIcon
   id: JobIconQuarterMaster
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi

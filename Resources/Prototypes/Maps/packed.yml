@@ -44,7 +44,6 @@
             Scientist: [ 4, 4 ]
             ResearchAssistant: [ 2, 2 ]
             #security
-            HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
             SecurityOfficer: [ 4, 4 ]
             Detective: [ 1, 1 ]
