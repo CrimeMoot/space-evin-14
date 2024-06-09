@@ -36,9 +36,6 @@
       types:
         Blunt: 1
         Slash: 5
-  - type: Thieving
-    stealthy: true
-    stripTimeReduction: 1
   - type: Speech
     speechSounds: Alto
   - type: DamageOnHighSpeedImpact
