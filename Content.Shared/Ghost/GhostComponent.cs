@@ -38,7 +38,14 @@ public sealed partial class GhostComponent : Component
 
     [DataField, AutoNetworkedField]
     public EntityUid? BooActionEntity;
+    //Evin-220 noDeath
+    [DataField]
+    public EntProtoId RespawnAction = "ActionRespawn";
 
+    [DataField, AutoNetworkedField]
+    public EntityUid? RespawnActionEntity;
+    //Evin end noDeath
+    // End actions
     //Evin-ghost-steath begin
     [DataField]
     public EntProtoId ToggleAGhostBodyVisualsAction = "ActionToggleAGhostBodyVisuals";
@@ -122,3 +129,5 @@ public sealed partial class ToggleGhostVisibilityToAllEvent : InstantActionEvent
 public sealed partial class BooActionEvent : InstantActionEvent { }
 
 public sealed partial class ToggleAGhostBodyVisualsActionEvent : InstantActionEvent { } //Evin-ghost-steath
+
+public sealed partial class RespawnActionEvent : InstantActionEvent { } //Evin noDeath
