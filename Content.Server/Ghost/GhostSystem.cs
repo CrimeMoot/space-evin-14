@@ -75,6 +75,7 @@ namespace Content.Server.Ghost
             SubscribeLocalEvent<GhostComponent, BooActionEvent>(OnActionPerform);
             SubscribeLocalEvent<GhostComponent, ToggleGhostHearingActionEvent>(OnGhostHearingAction);
             SubscribeLocalEvent<GhostComponent, InsertIntoEntityStorageAttemptEvent>(OnEntityStorageInsertAttempt);
+			SubscribeLocalEvent<GhostComponent, ToggleAGhostBodyVisualsActionEvent>(OnToggleBodyVisualsAction);
 
             SubscribeLocalEvent<RoundEndTextAppendEvent>(_ => MakeVisible(true));
             SubscribeLocalEvent<ToggleGhostVisibilityToAllEvent>(OnToggleGhostVisibilityToAll);
@@ -125,6 +126,20 @@ namespace Content.Server.Ghost
             args.Handled = true;
         }
 
+
+        //Evin-ghost-steath begin
+        private void OnToggleBodyVisualsAction(EntityUid uid, GhostComponent component, ToggleAGhostBodyVisualsActionEvent args)
+        {
+            if (args.Handled)
+                return;
+
+            component.BodyVisible = !component.BodyVisible;
+            Dirty(uid, component);
+
+            args.Handled = true;
+        }
+        //Evin-ghost-steath end
+		
         private void OnRelayMoveInput(EntityUid uid, GhostOnMoveComponent component, ref MoveInputEvent args)
         {
             // If they haven't actually moved then ignore it.

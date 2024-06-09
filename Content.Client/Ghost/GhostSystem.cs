@@ -1,10 +1,13 @@
 using Content.Client.Movement.Systems;
 using Content.Shared.Actions;
+using Content.Shared.Chat.TypingIndicator;
 using Content.Shared.Ghost;
 using Robust.Client.Console;
 using Robust.Client.GameObjects;
 using Robust.Client.Player;
 using Robust.Shared.Player;
+using Robust.Shared.Prototypes;
+using System.Linq;
 
 namespace Content.Client.Ghost
 {
@@ -12,11 +15,14 @@ namespace Content.Client.Ghost
     {
         [Dependency] private readonly IClientConsoleHost _console = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
+		[Dependency] private readonly IPrototypeManager _prototypeManager = default!;
         [Dependency] private readonly SharedActionsSystem _actions = default!;
         [Dependency] private readonly ContentEyeSystem _contentEye = default!;
 
         public int AvailableGhostRoleCount { get; private set; }
 
+        //Evin-ghost-steath
+        private const string HatEquippedState = "equipped-HELMET";
         private bool _ghostVisibility = true;
 
         private bool GhostVisibility
@@ -107,12 +113,40 @@ namespace Content.Client.Ghost
             args.Handled = true;
         }
 
+        //Evin-ghost-steath begin
+        private void SetBodyVisuals(EntityUid uid, SpriteComponent? sprite, bool visible)
+        {
+            if (!Resolve(uid, ref sprite))
+                return;
+
+            if (!HasComp<GhostComponent>(uid))
+                return;
+
+            var typingIndicatorStates = new string[0];
+            if (TryComp<TypingIndicatorComponent>(uid, out var typingIndicator) &&
+                _prototypeManager.TryIndex<TypingIndicatorPrototype>(typingIndicator.Prototype, out var typingProto))
+                typingIndicatorStates = new string[] { typingProto.TypingState, typingProto.IdleState };
+
+            var spriteLayers = sprite.AllLayers;
+            foreach (var layer in spriteLayers)
+            {
+                if (layer.RsiState == HatEquippedState ||
+                    typingIndicatorStates.Contains(layer.RsiState.ToString()))
+                    continue;
+
+                layer.Visible = visible;
+            }
+        }
+        //Evin-ghost-steath end
+		
         private void OnGhostRemove(EntityUid uid, GhostComponent component, ComponentRemove args)
         {
             _actions.RemoveAction(uid, component.ToggleLightingActionEntity);
             _actions.RemoveAction(uid, component.ToggleFoVActionEntity);
             _actions.RemoveAction(uid, component.ToggleGhostsActionEntity);
             _actions.RemoveAction(uid, component.ToggleGhostHearingActionEntity);
+			 //Evin-ghost-steath
+            _actions.RemoveAction(uid, component.ToggleAGhostBodyVisualsActionEntity);
 
             if (uid != _playerManager.LocalEntity)
                 return;
@@ -130,8 +164,13 @@ namespace Content.Client.Ghost
         private void OnGhostState(EntityUid uid, GhostComponent component, ref AfterAutoHandleStateEvent args)
         {
             if (TryComp<SpriteComponent>(uid, out var sprite))
+			{
                 sprite.LayerSetColor(0, component.color);
 
+                 //Evin-ghost-steath
+                SetBodyVisuals(uid, sprite, component.BodyVisible);
+            }
+			
             if (uid != _playerManager.LocalEntity)
                 return;
 
