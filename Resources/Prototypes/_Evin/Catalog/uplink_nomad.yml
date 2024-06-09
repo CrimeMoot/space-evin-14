@@ -4,9 +4,9 @@
   id: UplinkNightVisionDevice
   name: прибор ночного видения
   description: Ты можешь смотреть в темноте...
-  icon: { sprite: Clothing/Eyes/Glasses/ninjavisor.rsi, state: icon }
+  icon: { sprite: /Textures/Clothing/Eyes/Glasses/ninjavisor.rsi, state: icon }
   productEntity: ClothingEyesVisionNuki
   cost:
     Telecrystal: 4
   categories:
-  - UplinkWearable
+  - UplinkWearables

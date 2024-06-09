@@ -98,6 +98,7 @@
     Steel: 1500
     Glass: 500
     Plastic: 250
+    
 - type: latheRecipe
   id: ForensicPad
   result: ForensicPad
