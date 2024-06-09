@@ -2,6 +2,7 @@
 using Content.Server.GameTicking;
 using Content.Server.Ghost;
 using Content.Server.Mind;
+using Content.Shared.Actions;
 using Content.Shared.Administration;
 using Content.Shared.Ghost;
 using Content.Shared.Mind;
@@ -118,5 +119,10 @@ public sealed class AGhost : LocalizedCommands
 
         var comp = _entities.GetComponent<GhostComponent>(ghost);
         ghostSystem.SetCanReturnToBody(comp, canReturn);
-    }
+    
+	    //Evin-ghost-steath begin
+        var actions = _entities.System<SharedActionsSystem>();
+        actions.AddAction(ghost, ref comp.ToggleAGhostBodyVisualsActionEntity, comp.ToggleAGhostBodyVisualsAction);
+        //Evin-ghost-steath end
+	}
 }
