@@ -27,6 +27,7 @@ research-technology-draconic-munitions = Драконьи боеприпасы
 research-technology-uranium-munitions = Урановые боеприпасы
 research-technology-explosive-technology = Взрывчатые вещества
 research-technology-weaponized-laser-manipulation = Манипулирование лазерным оружием
+research-technology-weaponized-PNV-manipulation = Технология ПНВ
 research-technology-nonlethal-ammunition = Нелетальные боеприпасы
 research-technology-practice-ammunition = Учебные боеприпасы
 research-technology-concentrated-laser-weaponry = Концентрированное лазерное оружие

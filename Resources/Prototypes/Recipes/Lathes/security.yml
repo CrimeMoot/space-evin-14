@@ -90,6 +90,15 @@
     Gold: 100
 
 - type: latheRecipe
+  id: ClothingEyesVision
+  result: ClothingEyesVision
+  category: Weapons
+  completetime: 5
+  materials:
+    Steel: 1500
+    Glass: 500
+    Plastic: 250
+- type: latheRecipe
   id: ForensicPad
   result: ForensicPad
   completetime: 4
