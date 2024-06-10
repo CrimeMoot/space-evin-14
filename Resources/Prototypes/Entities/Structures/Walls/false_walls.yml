@@ -1,5 +1,5 @@
 - type: entity
-  id: BaseFalseWallUnWeldable # To prevent welding of wooden/meat/plastic false walls
+  id: BaseFalseWallUnWeldable # To prevent welding of meat/plastic false walls
   parent: BaseStructure
   name: solid wall # No meta
   suffix: false wall
