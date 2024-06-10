@@ -593,14 +593,6 @@
               amount: 2
               doAfter: 3
 
-        - to: woodFalseWall
-          conditions:
-            - !type:EntityAnchored {}
-          steps:
-            - material: WoodPlank
-              amount: 2
-              doAfter: 3
-
         - to: reinforcedFalseWall
           conditions:
             - !type:EntityAnchored {}
