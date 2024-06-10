@@ -647,6 +647,7 @@
     - JobIconSecurityCadet
     - JobIconZookeeper
     - JobIconVisitor
+    - JobIconBlueshield #Evin
   - type: ActivatableUI
     key: enum.AgentIDCardUiKey.Key
     inHandsOnly: true

@@ -48,7 +48,6 @@
     critThreshold: 85
   - type: OwOAccent
   - type: Vocal
-    wilhelm: "/Audio/cat_wilhelm.ogg"
     sounds:
       Male: MaleFelinid
       Female: FemaleFelinid

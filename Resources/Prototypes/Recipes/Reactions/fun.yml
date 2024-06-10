@@ -205,7 +205,7 @@
 - type: reaction
   id: Tarhun
   reactants:
-    Sodawater:
+    SodaWater: #Мы это фиксили блять уже шесть раз.
       amount: 1
     Desoxyephedrine:
       amount: 1
