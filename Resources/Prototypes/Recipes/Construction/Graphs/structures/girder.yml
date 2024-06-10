@@ -172,18 +172,6 @@
             - tool: Welding
               doAfter: 10
 
-    - node: woodWall
-      entity: WallWood
-      edges:
-        - to: girder
-          completed:
-            - !type:GivePrototype
-              prototype: MaterialWoodPlank1
-              amount: 2
-          steps:
-            - tool: Prying
-              doAfter: 10
-
     - node: uraniumWall
       entity: WallUranium
       edges:
@@ -729,20 +717,6 @@
           completed:
             - !type:GivePrototype
               prototype: SheetUranium1
-              amount: 2
-          steps:
-            - tool: Prying
-              doAfter: 3
-
-    - node: woodFalseWall
-      entity: WoodFalseWall
-      edges:
-        - to: displacedGirder
-          conditions:
-            - !type:EntityAnchored {}
-          completed:
-            - !type:GivePrototype
-              prototype: MaterialWoodPlank1
               amount: 2
           steps:
             - tool: Prying
