@@ -91,17 +91,6 @@
     node: plasticFalseWall
 
 - type: entity
-  id: WoodFalseWall
-  name: wood wall
-  parent: BaseFalseWallUnWeldable
-  components:
-  - type: Sprite
-    sprite: Structures/Walls/false_walls/false_wall_wood.rsi
-  - type: Construction
-    graph: Girder
-    node: woodFalseWall
-
-- type: entity
   id: MeatFalseWall
   name: meat wall
   description: Sticky.
