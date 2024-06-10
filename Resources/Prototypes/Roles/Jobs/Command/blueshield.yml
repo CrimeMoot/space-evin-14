@@ -9,7 +9,7 @@
     department: Security
     time: 100000 # Corvax-RoleTime
   startingGear: BlueshieldGear
-  icon: "Blueshield"
+  icon: "JobIconBlueshield"
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:
@@ -43,11 +43,10 @@
     back: ClothingBackpackERTLeader
     shoes: ClothingShoesBootsCombatFilled #Лучше стандартных.
     eyes: ClothingEyesGlassesBlueshield
+    gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBulletproof
     id: BlueshieldPDA
     ears: ClothingHeadsetAltCommand
     pocket1: CrowbarRed #Как блять оно сюда попало?
     pocket2: WeaponRevolverMateba
     belt: ClothingBeltSecurityFilled
-  satchel: ClothingBackpackSatchelFilled
-  duffelbag: ClothingBackpackDuffelFilled
