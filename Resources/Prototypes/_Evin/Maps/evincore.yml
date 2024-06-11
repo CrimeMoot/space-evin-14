@@ -1,7 +1,7 @@
 - type: gameMap
   id: EvinCore
   mapName: 'Core'
-  mapPath: /Maps/evincore.yml
+  mapPath: /Maps/EvinCore.yml
   minPlayers: 15
   maxPlayers: 60
   stations:

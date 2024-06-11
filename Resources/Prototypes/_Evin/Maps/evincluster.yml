@@ -1,7 +1,7 @@
 ﻿- type: gameMap
   id: EvinCluster
   mapName: 'Cluster'
-  mapPath: /Maps/evincluster.yml
+  mapPath: /Maps/EvinCluster.yml
   minPlayers: 0
   maxPlayers: 35
   stations:
