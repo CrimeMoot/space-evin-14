@@ -1,7 +1,7 @@
 - type: gameMap
   id: EvinBox
   mapName: 'Box Station'
-  mapPath: /Maps/evinbox.yml
+  mapPath: /Maps/EvinBox.yml
   minPlayers: 0
   stations:
     Boxstation:

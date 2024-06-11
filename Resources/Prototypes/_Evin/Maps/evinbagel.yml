@@ -1,7 +1,7 @@
 - type: gameMap
   id: EvinBagel
   mapName: 'Bagel Station'
-  mapPath: /Maps/evinbagel.yml
+  mapPath: /Maps/EvinBagel.yml
   minPlayers: 0
   maxPlayers: 76
   stations:
