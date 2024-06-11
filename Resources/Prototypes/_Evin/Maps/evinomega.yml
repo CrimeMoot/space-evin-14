@@ -1,7 +1,7 @@
 - type: gameMap
   id: EvinOmega
   mapName: 'Omega'
-  mapPath: /Maps/evinomega.yml
+  mapPath: /Maps/EvinOmega.yml
   minPlayers: 0
   maxPlayers: 35
   stations:

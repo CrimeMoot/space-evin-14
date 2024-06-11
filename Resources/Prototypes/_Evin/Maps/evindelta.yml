@@ -1,7 +1,7 @@
 - type: gameMap
   id: EvinDelta
   mapName: 'Delta Station'
-  mapPath: /Maps/evindelta.yml
+  mapPath: /Maps/EvinDelta.yml
   minPlayers: 15
   stations:
     Delta:

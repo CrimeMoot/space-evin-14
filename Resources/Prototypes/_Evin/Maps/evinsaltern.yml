@@ -1,7 +1,7 @@
 - type: gameMap
   id: EvinSaltern
   mapName: 'Saltern'
-  mapPath: /Maps/evinsaltern.yml
+  mapPath: /Maps/EvinSaltern.yml
   minPlayers: 0
   maxPlayers: 35
   fallback: true

@@ -1,7 +1,7 @@
 - type: gameMap
   id: EvinSilly
   mapName: 'Silly Island'
-  mapPath: /Maps/evinsilly.yml
+  mapPath: /Maps/EvinSilly.yml
   minPlayers: 0
   maxPlayers: 30
   stations:

@@ -1,7 +1,7 @@
 - type: gameMap
   id: EvinOrigin
   mapName: 'Origin'
-  mapPath: /Maps/evinorigin.yml
+  mapPath: /Maps/EvinOrigin.yml
   minPlayers: 20
   stations:
     Origin:
