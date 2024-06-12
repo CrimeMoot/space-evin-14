@@ -363,7 +363,7 @@
 
 # Death Squad
 
-- type: entity
+- type: entity #Evin
   noSpawn: false
   parent: ClothingBackpackERTSecurity
   id: ClothingBackpackDeathSquadFilled
@@ -372,7 +372,7 @@
   components:
     - type: Storage
       grid:
-      - 0,0,7,6
+      - 0,0,8,7
     - type: StorageFill
       contents:
         - id: BoxSurvivalEngineering
@@ -381,12 +381,15 @@
         - id: WeaponRevolverMateba
         - id: SpeedLoaderMagnumAP
         - id: SpeedLoaderMagnumAP
-        - id: BoxFlashbang
-        - id: ToolDebug # spanish army knife
+        - id: DoorRemoteAll
+        - id: ToolDebug
         - id: WelderExperimental
         - id: Hypospray
-        - id: DeathAcidifierImplanter # crew will try to steal their amazing hardsuits
+        - id: DeathAcidifierImplanter
         - id: FreedomImplanter
+        - id: WeaponSubMachineGunVector
+        - id: BaseMagazineMagnumAPSubMachineGun
+        amount: 3
 
 # Cargo
 
