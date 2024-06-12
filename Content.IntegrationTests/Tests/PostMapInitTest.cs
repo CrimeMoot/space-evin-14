@@ -59,6 +59,7 @@ namespace Content.IntegrationTests.Tests
             "CorvaxTerra",
             // Corvax-End
 			// Evin-Start
+            "EvinPacked",
             "EvinDelta",
 			"EvinSilly",
 			"EvinBagel",
