@@ -54,7 +54,7 @@
     - state: practice
 
 - type: entity
-  id: MagazineBoxMagnumIncendiary
+  id: MagazineBoxMagnumAP
   parent: BaseMagazineBoxMagnum
   name: ammunition box (.45 magnum incendiary)
   components:
