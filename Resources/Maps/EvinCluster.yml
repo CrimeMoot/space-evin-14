@@ -1654,7 +1654,7 @@ entities:
             372: -1,17
             373: 0,17
             374: 1,17
-            1491: -15,28
+            1488: -15,28
         - node:
             color: '#52B4E996'
             id: HalfTileOverlayGreyscale
@@ -1726,7 +1726,7 @@ entities:
             352: -5,27
             353: -4,27
             354: -3,27
-            1492: -15,27
+            1489: -15,27
         - node:
             color: '#52B4E996'
             id: HalfTileOverlayGreyscale180
@@ -2732,7 +2732,7 @@ entities:
             315: 3,19
             334: -4,32
             335: -6,31
-            1488: -16,28
+            1485: -16,28
         - node:
             color: '#52B4E996'
             id: ThreeQuarterTileOverlayGreyscale
@@ -2792,7 +2792,7 @@ entities:
             312: -14,30
             313: 5,18
             338: 5,21
-            1490: -14,27
+            1487: -14,27
         - node:
             color: '#52B4E996'
             id: ThreeQuarterTileOverlayGreyscale180
@@ -2861,7 +2861,7 @@ entities:
             330: 3,21
             336: 0,23
             337: -6,27
-            1489: -16,27
+            1486: -16,27
         - node:
             color: '#52B4E996'
             id: ThreeQuarterTileOverlayGreyscale270
@@ -2924,7 +2924,7 @@ entities:
             331: 5,25
             332: 1,31
             333: -1,32
-            1494: -14,28
+            1490: -14,28
         - node:
             color: '#52B4E996'
             id: ThreeQuarterTileOverlayGreyscale90
@@ -3465,13 +3465,13 @@ entities:
           -5,5:
             0: 53725
           -4,6:
-            0: 24703
+            0: 28799
           -5,6:
-            0: 52703
+            0: 17887
           -4,7:
-            0: 28422
+            0: 28487
           -5,7:
-            0: 27743
+            0: 27735
           -3,5:
             0: 63675
           -3,6:
@@ -28216,6 +28216,14 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 12.5,-27.5
+      parent: 1
+- proto: ComputerShuttleSalvage
+  entities:
+  - uid: 10890
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 24.5,-27.5
       parent: 1
 - proto: ComputerSolarControl
   entities:
