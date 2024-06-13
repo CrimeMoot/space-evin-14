@@ -2,7 +2,7 @@
   id: BaseFalseWallUnWeldable # To prevent welding of meat/plastic false walls
   parent: BaseStructure
   name: solid wall # No meta
-  suffix: false wall
+  suffix: secret door
   abstract: true
   description: Keeps the air in and the greytide out.
   components:
