@@ -93,10 +93,6 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
-  - type: Wieldable
-  - type: GunWieldBonus
-    minAngle: -19
-    maxAngle: -16
   - type: Gun
     minAngle: 21
     maxAngle: 32 
