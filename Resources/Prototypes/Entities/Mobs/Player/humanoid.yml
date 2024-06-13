@@ -31,8 +31,8 @@
     - type: RandomHumanoidSpawner
       settings: DeathSquad
     - type: InitialInfectedExempt
-  - type: Stamina
-    critThreshold: 300
+    - type: Stamina
+      critThreshold: 300
 
 - type: randomHumanoidSettings #Evin
   id: DeathSquad
