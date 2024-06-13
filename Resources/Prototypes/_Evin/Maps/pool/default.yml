@@ -1,0 +1,11 @@
+- type: gameMapPool
+  id: EvinDefaultMapPool
+  maps:
+  - EvinDelta
+  - EvinSilly
+  - EvinBagel
+  - EvinBox
+  - EvinCluster
+  - EvinCore
+  - EvinOmega
+  - EvinOrigin

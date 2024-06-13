@@ -201,3 +201,15 @@
   effects:
     - !type:CreateEntityReactionEffect
       entity: MaterialGunpowder
+
+- type: reaction
+  id: Tarhun
+  reactants:
+    SodaWater: #Мы это фиксили блять уже шесть раз.
+      amount: 1
+    Desoxyephedrine:
+      amount: 1
+    Tricordrazine:
+      amount: 1
+  products:
+    Tarhun: 3

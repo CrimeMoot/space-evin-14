@@ -1,0 +1,55 @@
+﻿- type: job
+  id: Blueshield
+  name: job-name-blueshield
+  description: job-description-blueshield
+  playTimeTracker: JobBlueshield
+  whitelisted: true
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 100000 # Corvax-RoleTime
+  startingGear: BlueshieldGear
+  icon: "JobIconBlueshield"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - Command
+  - Bar
+  - Service
+  - Maintenance
+  - Janitor
+  - Theatre
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - External
+  - Chemistry
+  - Engineering
+  - Research
+  - Detective
+  - Salvage
+  - Security
+  - Brig
+  - Cargo
+  - Atmospherics
+  - Cargo
+  - Medical
+  - Blueshield
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: BlueshieldGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueshield
+    back: ClothingBackpackERTLeader
+    shoes: ClothingShoesBootsCombatFilled #Лучше стандартных.
+    eyes: ClothingEyesGlassesBlueshield
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterArmorBulletproof
+    id: BlueshieldPDA
+    ears: ClothingHeadsetAltCommand
+    pocket1: CrowbarRed #Как блять оно сюда попало?
+    pocket2: WeaponRevolverMateba
+    belt: ClothingBeltSecurityFilled
