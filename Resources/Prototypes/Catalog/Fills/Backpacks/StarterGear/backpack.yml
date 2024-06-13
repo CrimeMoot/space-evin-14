@@ -389,7 +389,7 @@
         - id: FreedomImplanter
         - id: WeaponSubMachineGunVector
         - id: BaseMagazineMagnumAPSubMachineGun
-        amount: 3
+          amount: 3
 
 # Cargo
 
