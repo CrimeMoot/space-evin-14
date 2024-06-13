@@ -59,15 +59,15 @@ namespace Content.IntegrationTests.Tests
             "CorvaxTerra",
             // Corvax-End
 			// Evin-Start
-            "EvinDelta"
-			"EvinSilly"
-			"EvinBagel"
-			"EvinBox"
-			"EvinCluster"
-			"EvinCore"
-			"EvinOmega"
-			"EvinOrigin"
-			"EvinSaltern"
+            "EvinPacked",
+            "EvinDelta",
+			"EvinSilly",
+			"EvinBagel",
+			"EvinBox",
+			"EvinCluster",
+			"EvinCore",
+			"EvinOmega",
+			"EvinOrigin",
 			// Evin-End
             "Dev",
             "TestTeg",
