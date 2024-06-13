@@ -34,4 +34,9 @@
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58
-    pocket2: HyperLinkBookCorporateLaw # Corvax-HyperLink
+    pocket2: BookSecurity
+  storage:
+    back:
+    - BoxSurvivalSecurity
+    - Flash
+    - MagazinePistol
