@@ -26,4 +26,5 @@
     - id: MedkitAdvancedFilled
     - id: SpeedLoaderMagnum
     - id: ClothingOuterHardsuitBlueshield
-    - id: DoubleEmergencyOxygenTank
+    - id: DoubleEmergencyOxygenTankFilled
+    - id: DoubleEmergencyNitrogenTankFilled
