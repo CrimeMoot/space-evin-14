@@ -388,7 +388,7 @@
         - id: DeathAcidifierImplanter
         - id: FreedomImplanter
         - id: WeaponSubMachineGunVector
-        - id: BaseMagazineMagnumAPSubMachineGun
+        - id: MagazineMagnumSubMachineGunPiercing
           amount: 3
 
 # Cargo
