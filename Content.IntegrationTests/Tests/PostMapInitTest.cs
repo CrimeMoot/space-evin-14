@@ -72,7 +72,6 @@ namespace Content.IntegrationTests.Tests
             "EvinAtlas", 
             "EvinHonkSilly", 
             "EvinMarathon", 
-            "EvinSaltern",
       		// Evin-End
             "Dev",
             "TestTeg",
