@@ -59,10 +59,7 @@ namespace Content.IntegrationTests.Tests
             "CorvaxTerra",
             // Corvax-End
 			// Evin-Start
-<<<<<<< revert-41-revert-29-fwalls-test
-=======
             "EvinPacked",
->>>>>>> master
             "EvinDelta",
 			"EvinSilly",
 			"EvinBagel",
@@ -71,10 +68,6 @@ namespace Content.IntegrationTests.Tests
 			"EvinCore",
 			"EvinOmega",
 			"EvinOrigin",
-<<<<<<< revert-41-revert-29-fwalls-test
-			"EvinSaltern",
-=======
->>>>>>> master
 			// Evin-End
             "Dev",
             "TestTeg",
