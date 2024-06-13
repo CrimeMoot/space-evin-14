@@ -37,7 +37,7 @@
     - JetpackBlackFilled
 
 #Deathsquad Outfit
-- type: startingGear
+- type: startingGear #Evin
   id: DeathSquadGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitDeathSquad
