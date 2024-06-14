@@ -36,11 +36,21 @@
 
 - type: reaction
   id: Arithrazine
+  minTemp: 380
   reactants:
     Hyronalin:
       amount: 1
     Hydrogen:
       amount: 1
+# evin danger chemst
+  effects:
+  - !type:CreateGas
+    gas: Tritium
+  - !type:PopupMessage
+    visualType: LargeCaution
+    messages: [ "atithrazine-tririum-created" ]
+    type: Pvs
+# evin danger chemst
   products:
     Arithrazine: 2
 
@@ -115,6 +125,7 @@
 
 - type: reaction
   id: DexalinPlus
+  minTemp: 380
   reactants:
     Dexalin:
       amount: 1
@@ -122,6 +133,17 @@
       amount: 1
     Iron:
       amount: 1
+# evin danger chemst
+  effects:
+  - !type:CreateGas
+    gas: CarbonDioxide
+  - !type:CreateGas
+    gas: WaterVapor
+  - !type:PopupMessage
+    visualType: LargeCaution
+    messages: [ "dexaline-carbondioxide-created" ]
+    type: Pvs
+# evin danger chemst
   products:
     DexalinPlus: 3
 
@@ -225,6 +247,21 @@
       amount: 5
     Omnizine:
       amount: 5
+# evin danger chemst
+  effects:
+  - !type:CreateGas
+    gas: Ammonia
+  - !type:CreateGas
+    gas: Ammonia
+  - !type:CreateGas
+    gas: Ammonia
+  - !type:CreateGas
+    gas: Ammonia
+  - !type:PopupMessage
+    visualType: LargeCaution
+    messages: [ "ambuzol-ammonia-created" ]
+    type: Pvs
+# evin danger chemst
   products:
     AmbuzolPlus: 10
 
@@ -257,6 +294,17 @@
       amount: 1
     MindbreakerToxin:
       amount: 1
+# evin danger chemst
+  effects:
+  - !type:CreateGas
+    gas: CarbonDioxide
+  - !type:CreateGas
+    gas: WaterVapor
+  - !type:PopupMessage
+    visualType: LargeCaution
+    messages: [ "dexaline-carbondioxide-created" ]
+    type: Pvs
+# evin danger chemst
   products:
     HeartbreakerToxin: 2
 
@@ -554,6 +602,14 @@
       amount: 1
     Silicon:
       amount: 1
+# evin danger chemst
+  effects:
+    - !type:EmpReactionEffect
+      rangePerUnit: 0.2
+      maxRange: 2
+      energyConsumption: 50
+      duration: 10
+# evin danger chemst
   products:
     Insuzine: 3
 
@@ -561,7 +617,7 @@
   id: Opporozidone
   minTemp: 400 #Maybe if a method of reducing reagent temp exists one day, this could be -50
   reactants:
-    Cognizine: 
+    Cognizine:
       amount: 1
     Plasma:
       amount: 2

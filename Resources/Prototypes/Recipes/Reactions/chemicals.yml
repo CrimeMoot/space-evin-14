@@ -81,7 +81,7 @@
       amount: 1
     Sulfur:
       amount: 1
-    Oxygen: 
+    Oxygen:
       amount: 2
   products:
     SulfuricAcid: 3
@@ -347,6 +347,15 @@
       amount: 1
     Water:
       amount: 1
+# evin danger chemst
+  effects:
+  - !type:CreateGas
+    gas: NitrousOxide
+  - !type:PopupMessage
+    visualType: LargeCaution
+    messages: [ "chrolalhydrate-nitrousoxide-created" ]
+    type: Pvs
+# evin danger chemst
   products:
     ChloralHydrate: 1
 
