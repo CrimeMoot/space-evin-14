@@ -8,6 +8,7 @@
     - outerClothing
   - type: Sprite
     state: icon
+  - type: AllowSuitStorage #evin fix можно всё носить на спине
 
 - type: entity
   abstract: true
