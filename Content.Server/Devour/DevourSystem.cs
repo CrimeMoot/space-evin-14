@@ -3,18 +3,21 @@ using Content.Shared.Chemistry.Components;
 using Content.Shared.Devour;
 using Content.Shared.Devour.Components;
 using Content.Shared.Humanoid;
+using Content.Server.Body.Components;
+using Robust.Server.Containers;
 
 namespace Content.Server.Devour;
 
 public sealed class DevourSystem : SharedDevourSystem
 {
     [Dependency] private readonly BloodstreamSystem _bloodstreamSystem = default!;
-
+    [Dependency] private readonly ContainerSystem _container = default!;
     public override void Initialize()
     {
         base.Initialize();
 
         SubscribeLocalEvent<DevourerComponent, DevourDoAfterEvent>(OnDoAfter);
+        SubscribeLocalEvent<DevourerComponent, BeingGibbedEvent>(OnGibbed);
     }
 
     private void OnDoAfter(EntityUid uid, DevourerComponent component, DevourDoAfterEvent args)
@@ -45,5 +48,15 @@ public sealed class DevourSystem : SharedDevourSystem
 
         _audioSystem.PlayPvs(component.SoundDevour, uid);
     }
+    // start evin fix dragon
+    private void OnGibbed(Entity<DevourerComponent> ent, ref BeingGibbedEvent args)
+    {
+        if (ent.Comp.ShouldStoreDevoured)
+        {
+            _container.EmptyContainer(ent.Comp.Stomach);
+        }
+    }
+    // evnd evin fix dragon
 }
+
 
