@@ -93,6 +93,9 @@
   - listplayers
   - tp
   - tpto
+  - exec
+  - fuckrules
+  - adminwho
 
 - Flags: FUN
   Commands:
