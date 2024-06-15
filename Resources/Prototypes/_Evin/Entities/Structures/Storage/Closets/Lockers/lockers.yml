@@ -27,3 +27,19 @@
     - id: SpeedLoaderMagnum
     - id: ClothingOuterHardsuitBlueshield
     - id: DoubleEmergencyOxygenTank
+
+- type: entity
+  id: LockerOso
+  name: шкаф офицера специальных операций
+  parent: LockerBaseSecure
+  description: "Шкаф какого-то важного человека. Сбоку нацарапано: Помогите, меня держат в рабстве"
+  components:
+  - type: Sprite
+    sprite: _Evin/Structures/Storage/osocloset.rsi
+  - type: Appearance
+  - type: AccessReader
+    access: [["Captain"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: oso
+    stateDoorOpen: oso_open
+    stateDoorClosed: oso_door

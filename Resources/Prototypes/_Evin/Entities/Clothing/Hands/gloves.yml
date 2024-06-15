@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
+  id: ClothingHandsGlovesOso
+  name: перчатки офицера специальных операций
+  description: Универсальные перчатки для специальных офицеров.
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/Hands/Gloves/osogloves.rsi
+  - type: Clothing
+    sprite: _Evin/Clothing/Hands/Gloves/osogloves.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1400
+  - type: Insulated
