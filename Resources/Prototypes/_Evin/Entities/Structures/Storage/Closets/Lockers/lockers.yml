@@ -35,7 +35,7 @@
   description: "Шкаф какого-то важного человека. Сбоку нацарапано: Помогите, меня держат в рабстве"
   components:
   - type: Sprite
-    sprite: _Evin/Structures/Storage/osocloset.rsi
+    sprite: Structures/Storage/closet.rsi
   - type: Appearance
   - type: AccessReader
     access: [["Captain"]]
