@@ -28,3 +28,19 @@
     - id: ClothingOuterHardsuitBlueshield
     - id: DoubleEmergencyOxygenTankFilled
     - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  id: LockerOso
+  name: шкаф офицера специальных операций
+  parent: LockerBaseSecure
+  description: "Шкаф какого-то важного человека. Сбоку нацарапано: Помогите, меня держат в рабстве"
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/closet.rsi
+  - type: Appearance
+  - type: AccessReader
+    access: [["Captain"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: oso
+    stateDoorOpen: oso_open
+    stateDoorClosed: oso_door

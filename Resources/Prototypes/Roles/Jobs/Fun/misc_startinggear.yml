@@ -37,14 +37,14 @@
     - JetpackBlackFilled
 
 #Deathsquad Outfit
-- type: startingGear #Evin
+- type: startingGear
   id: DeathSquadGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitDeathSquad
     back: ClothingBackpackDeathSquadFilled
     mask: ClothingMaskGasDeathSquad
     eyes: ClothingEyesHudSecurity
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitDeathsquad
     suitstorage: AirTankFilled
