@@ -389,3 +389,11 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Blueshield
+
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconDeathsquad
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Deathsquad
