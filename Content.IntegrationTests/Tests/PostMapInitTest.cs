@@ -69,9 +69,10 @@ namespace Content.IntegrationTests.Tests
 	      	"EvinCore",
 	      	"EvinOmega",
 	      	"EvinOrigin",
-            "EvinAtlas",
+            "EvinAtlas", 
+            "EvinHonkSilly", 
+            "EvinMarathon", 
             "EvinHonkSilly",
-            "EvinMarathon",
       		// Evin-End
             "Dev",
             "TestTeg",
