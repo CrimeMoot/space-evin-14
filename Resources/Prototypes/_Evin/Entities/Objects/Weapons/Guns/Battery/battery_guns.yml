@@ -1,0 +1,39 @@
+- type: entity
+  name: тазер
+  parent: BaseWeaponBatterySmall
+  id: WeaponTaserWeak
+  suffix: Однозарядный
+  description: Однозарядный энергетический пистолет, снаряд которого нелетально собьет любого с ног.
+  components:
+  - type: Tag
+    tags:
+    - Taser
+    - Sidearm
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Item
+    heldPrefix: taser4
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - Belt
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/taser.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletTaserWeak
+    fireCost: 4999
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
