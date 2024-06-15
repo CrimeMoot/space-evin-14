@@ -29,8 +29,6 @@ chat-emote-msg-mew = мяв
 chat-emote-name-mew = Purrs
 chat-emote-msg-mew = мурчит!
 
-chat-emote-name-growls = Growls
-chat-emote-msg-growls = рычит!
 
 
 
