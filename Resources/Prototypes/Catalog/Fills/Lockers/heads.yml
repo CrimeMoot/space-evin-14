@@ -293,7 +293,7 @@
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
       - id: BookBusido # Corvax-Books
-      - id: WeaponTaserWeak
+      - id: WeaponLaserHos
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -320,7 +320,7 @@
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
-      - id: WeaponTaserWeak
+      - id: WeaponLaserHos
 
 - type: entity
   id: LockerFreezerVaultFilled

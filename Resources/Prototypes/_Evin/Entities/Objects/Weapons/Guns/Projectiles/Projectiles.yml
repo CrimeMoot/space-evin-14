@@ -1,21 +1,37 @@
 - type: entity
-  name : taser bolt
+  name: снаряд тазера
   id: BulletTaserWeak
-  parent: BulletDisabler
+  parent: BaseBullet
   noSpawn: true
-  color: green
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
-    - state: omnilaser
+    - state: omnilaser_greyscale
       shader: unshaded
+      color: yellow
   - type: StaminaDamageOnCollide
     damage: 101
   - type: Projectile
+    impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 10
-    soundHit:
-      collection: WeakHit
-    forceSound: true
+        Heat: 5
+
+- type: entity
+  name: снаряд лазера
+  id: BulletOmnilaserOrangered
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_greyscale
+      shader: unshaded
+      color: orangered
+  - type: Projectile
+    impactEffect: BulletImpactEffectOrangeDisabler
+    damage:
+      types:
+        Heat: 15
