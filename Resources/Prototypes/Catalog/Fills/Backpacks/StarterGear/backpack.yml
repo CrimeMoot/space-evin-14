@@ -388,6 +388,7 @@
         - id: WeaponSubMachineGunVector
         - id: MagazineMagnumSubMachineGunPiercing
           amount: 2
+        - id: DoorRemoteAll
 # Cargo
 
 - type: entity
