@@ -138,6 +138,8 @@
     tags:
     - CannotSuicide
     - DoorBumpOpener
+  - type: NightVision
+    isToggle: true
 
 - type: entity
   parent: BaseMobDragon

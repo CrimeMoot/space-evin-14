@@ -2,11 +2,11 @@
 - type: weightedRandom
   id: TraitorObjectiveGroups
   weights:
-    TraitorObjectiveGroupSteal: 1
-    TraitorObjectiveGroupKill: 1
-    TraitorObjectiveGroupState: 1 #As in, something about your character. Alive, dead, arrested, gained an ability...
-    TraitorObjectiveGroupSocial: 1 #Involves helping/harming others without killing them or stealing their stuff
-
+    TraitorObjectiveGroupStealSyndicateFactions: 1
+    TraitorObjectiveGroupKillSyndicateFactions: 1
+    TraitorObjectiveGroupStateSyndicateFactions: 1
+    TraitorObjectiveGroupSocialSyndicateFactions: 1
+    
 - type: weightedRandom
   id: TraitorObjectiveGroupSteal
   weights:
@@ -53,7 +53,7 @@
   id: ThiefBigObjectiveGroups
   weights:
     ThiefObjectiveGroupStructure: 0 #Temporarily disabled until obvious ways to steal structures are added
-    ThiefObjectiveGroupAnimal: 2
+#    ThiefObjectiveGroupAnimal: 2 # evin wtf wizard? Delete thief objective animals
 
 - type: weightedRandom
   id: ThiefObjectiveGroupCollection

@@ -35,6 +35,9 @@
   - Cargo
   - Medical
   - Blueshield
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: BlueshieldGear
