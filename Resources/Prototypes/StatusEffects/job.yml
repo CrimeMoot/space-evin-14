@@ -14,13 +14,6 @@
 
 - type: statusIcon
   parent: JobIcon
-  id: JobIconBlueshield #Evin
-  icon:
-    sprite: /Textures/Interface/Misc/job_icons.rsi
-    state: Blueshield
-
-- type: statusIcon
-  parent: JobIcon
   id: JobIconQuarterMaster
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
@@ -389,3 +382,17 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Admin
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconBlueshield
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Blueshield
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconDeathsquad
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Deathsquad

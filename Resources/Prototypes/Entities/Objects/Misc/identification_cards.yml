@@ -581,6 +581,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Centcom Agent
+    jobIcon: JobIconDeathsquad
 
 - type: entity
   name: passenger ID card
