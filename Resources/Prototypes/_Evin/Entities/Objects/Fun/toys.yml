@@ -1,7 +1,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieAvrelia
-  name: Аврелия Штрайхер
+  name: плюшевая Аврелия Штрайхер
   description: ЧСВ-шный анробаст у которой всегда что-то не так.
   suffix: Спонсор
   components:
@@ -12,21 +12,128 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLaura
-  name: Лаура Игнатова
+  name: плюшевая Лаура Игнатова
   description: Очень не любит кокгда её тискают.
   suffix: Спонсор
   components:
   - type: Sprite
     sprite: _Evin/Objects/Fun/toys.rsi
     state: sponsor_laura
+  - type: EmitSoundOnUse
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnActivate
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnCollide
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnLand
+    sound:
+      collection: ToyFall
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: FelinidMeows
 
 - type: entity
   parent: BasePlushie
   id: PlushieKraht
-  name: Крахт-Чанил
+  name: плюшевый Крахт-Чанил
   description: Никто не знает кто он, но он тут есть.
   suffix: Спонсор
   components:
   - type: Sprite
     sprite: _Evin/Objects/Fun/toys.rsi
     state: sponsor_kraht
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieSheyla
+  name: плюшевая Шейла Фдорова
+  description: 'Кз? Срп? Бумажная работа?! Не слышала. На ощупь мягкая.'
+  suffix: Спонсор
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Fun/toys.rsi
+    state: sponsor_sheyla
+  - type: EmitSoundOnUse
+    sound:
+      collection: FelinidMews
+  - type: EmitSoundOnActivate
+    sound:
+      collection: FelinidMews
+  - type: EmitSoundOnCollide
+    sound:
+      collection: FelinidMews
+  - type: EmitSoundOnLand
+    sound:
+      collection: ToyFall
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: FelinidMews
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieEsmira
+  name: плюшевая Эсмира Котова
+  description: Очень любит когда её тискают.
+  suffix: Спонсор
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Fun/toys.rsi
+    state: sponsor_esmira
+  - type: EmitSoundOnUse
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnActivate
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnCollide
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnLand
+    sound:
+      collection: ToyFall
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: FelinidMeows
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieFredik
+  name: плюшевая игрушка Эсмиры Котовой
+  description: Очень любит когда её тискают.
+  suffix: Спонсор
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Fun/toys.rsi
+    state: sponsor_fredik
+  - type: Item
+    heldPrefix: sponsor_fredik
+  - type: EmitSoundOnUse
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnActivate
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnCollide
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnLand
+    sound:
+      collection: ToyFall
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: FelinidMeows
