@@ -53,23 +53,23 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Gun
-    projectileSpeed: 25
+    projectileSpeed: 12
   - type: Item
     size: Normal
   - type: ProjectileBatteryAmmoProvider
     proto: BulletDisabler
-    fireCost: 200
+    fireCost: 300
   - type: BatteryWeaponFireModes
     fireModes:
     - proto: BulletOmnilaserOrangered
-      fireCost: 200
+      fireCost: 300
     - proto: BulletDisabler
-      fireCost: 200
+      fireCost: 300
     - proto: BulletTaserWeak
-      fireCost: 1000
+      fireCost: 5000
   - type: Battery
-    maxCharge: 3000
-    startingCharge: 3000
+    maxCharge: 6000
+    startingCharge: 6000
   - type: MagazineVisuals
     magState: mag
     steps: 5
