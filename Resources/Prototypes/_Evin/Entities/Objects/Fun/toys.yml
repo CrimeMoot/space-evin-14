@@ -137,3 +137,26 @@
   - type: EmitSoundOnTrigger
     sound:
       collection: FelinidMeows
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieSakka
+  name: плюшевый Сакка Дигита
+  description: Однажды молодого унатха утащили и закрыли в вирусологии. Читать далее...
+  suffix: Спонсор
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Fun/toys.rsi
+    state: sponsor_sakka
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/lizard_happy.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Items/Toys/weh.ogg
