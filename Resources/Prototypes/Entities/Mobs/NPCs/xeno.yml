@@ -124,17 +124,6 @@
     molsPerSecondPerUnitMass: 0.0005
   - type: Speech
     speechVerb: LargeMob
-<<<<<<< HEAD
-=======
-  - type: PotentialPsionic
-    chance: -2
-  - type: Psionic
-    removable: false
-  - type: NightVision
-    isToggle: true
-    color: "#808080"
-    playSoundOn: false
->>>>>>> 0d76827790 (fix PNV)
 
 - type: entity
   name: Praetorian

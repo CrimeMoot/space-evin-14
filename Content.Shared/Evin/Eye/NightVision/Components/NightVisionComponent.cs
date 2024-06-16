@@ -1,10 +1,5 @@
 using Content.Shared.Actions;
-<<<<<<< HEAD:Content.Shared/Evin/Eye/NightVision/Components/NightVisionComponent.cs
 using Content.Shared.Evin.Eye.NightVision.Systems;
-=======
-using Content.Shared.Backmen.Eye.NightVision.Systems;
-using Robust.Shared.Audio;
->>>>>>> 0d76827790 (fix PNV):Content.Shared/Backmen/Eye/NightVision/Components/NightVisionComponent.cs
 using Robust.Shared.GameStates;
 
 namespace Content.Shared.Evin.Eye.NightVision.Components;
@@ -30,10 +25,6 @@ public sealed partial class NightVisionComponent : Component
 
     [Access(Other = AccessPermissions.ReadWriteExecute)]
     public bool GraceFrame = false;
-
-    [DataField("playSoundOn")]
-    public bool PlaySoundOn = true;
-    public SoundSpecifier OnOffSound = new SoundPathSpecifier("/Audio/Backmen/Misc/night-vision-sound-effect_E_minor.ogg");
 }
 
 public sealed partial class NVInstantActionEvent : InstantActionEvent { }
