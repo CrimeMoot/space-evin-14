@@ -28,6 +28,9 @@
       - id: PlushieMoth
       - id: PlushieArachind
       - id: PlushiePenguin
+      - id: PlushieAvrelia
+      - id: PlushieLaura
+      - id: PlushieKraht
 
 - type: entity
   id: CrateFunLizardPlushieBulk
