@@ -2254,6 +2254,13 @@
     tags:
     - DoorBumpOpener
     - FootstepSound
+<<<<<<< HEAD
+=======
+  - type: NightVision
+    playSoundOn: false
+    isToggle: true
+    color: "#808080"
+>>>>>>> 0d76827790 (fix PNV)
   - type: Tool # Open door from xeno.yml.
     speed: 1.5
     qualities:

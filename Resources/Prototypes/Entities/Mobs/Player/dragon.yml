@@ -140,6 +140,12 @@
     - DoorBumpOpener
   - type: NightVision
     isToggle: true
+<<<<<<< HEAD
+=======
+    color: "#808080"
+    playSoundOn: false
+
+>>>>>>> 0d76827790 (fix PNV)
 
 - type: entity
   parent: BaseMobDragon
