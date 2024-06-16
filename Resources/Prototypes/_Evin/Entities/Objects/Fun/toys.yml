@@ -1,0 +1,32 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieAvrelia
+  name: Аврелия Штрайхер
+  description: ЧСВ-шный анробаст у которой всегда что-то не так.
+  suiifx: Спонсор
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Fun/toys.rsi
+    state: sponsor_avrelia
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieLaura
+  name: Лаура Игнатова
+  description: Очень не любит кокгда её тискают.
+  suffix: Спонсор
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Fun/toys.rsi
+    state: sponsor_laura
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieKraht
+  name: Крахт-Чанил
+  description: Никто не знает кто он, но он тут есть.
+  suffix: Спонсор
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Fun/toys.rsi
+    state: sponsor_kraht
