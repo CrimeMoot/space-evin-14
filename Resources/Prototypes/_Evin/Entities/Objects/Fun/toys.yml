@@ -3,7 +3,7 @@
   id: PlushieAvrelia
   name: Аврелия Штрайхер
   description: ЧСВ-шный анробаст у которой всегда что-то не так.
-  suiifx: Спонсор
+  suffix: Спонсор
   components:
   - type: Sprite
     sprite: _Evin/Objects/Fun/toys.rsi
