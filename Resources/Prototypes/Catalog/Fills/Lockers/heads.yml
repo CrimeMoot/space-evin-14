@@ -239,6 +239,14 @@
       - id: ClothingBeltUtilityFilled
       - id: RubberStampRd
       - id: BoxEncryptionKeyScience
+<<<<<<< HEAD
+=======
+      - id: AntiPsychicKnife # backmen
+      - id: ClothingHeadCage # backmen
+      - id: FlatpackOracle # backmen
+      - id: FlatpackSophie # backmen
+      - id: PonderingOrbTelepathic # backmen
+>>>>>>> bf1307ddf3 (fix local and replace present to flatpack (#650))
       - id: ClothingHeadsetAltScience
       - id: EncryptionKeyBinary
 
@@ -257,6 +265,14 @@
       - id: ClothingBeltUtilityFilled
       - id: RubberStampRd
       - id: BoxEncryptionKeyScience
+<<<<<<< HEAD
+=======
+      - id: AntiPsychicKnife # backmen
+      - id: ClothingHeadCage # backmen
+      - id: FlatpackOracle # backmen
+      - id: FlatpackSophie # backmen
+      - id: PonderingOrbTelepathic # backmen
+>>>>>>> bf1307ddf3 (fix local and replace present to flatpack (#650))
       - id: ClothingHeadsetAltScience
       - id: EncryptionKeyBinary
 
