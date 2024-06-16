@@ -859,7 +859,7 @@
   - type: TemperatureProtection
     coefficient: 0.001
   - type: ExplosionResistance
-    damageCoefficient: 0.1
+    damageCoefficient: 0.2
   - type: Armor
     modifiers:
       coefficients:
@@ -870,12 +870,8 @@
         Radiation: 0.1
         Caustic: 0.1
   - type: ClothingSpeedModifier
-    walkModifier: 1.125
-    sprintModifier: 1.125
-  - type: Reflect
-    reflectProb: 0.05
-    innate: true
-    spread: 1
+    walkModifier: 1.0
+    sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDeathsquad

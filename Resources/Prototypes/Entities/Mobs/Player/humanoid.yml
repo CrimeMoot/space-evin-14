@@ -31,17 +31,13 @@
     - type: RandomHumanoidSpawner
       settings: DeathSquad
     - type: InitialInfectedExempt
-    - type: Stamina
-      critThreshold: 300
 
-- type: randomHumanoidSettings #Evin
+- type: randomHumanoidSettings
   id: DeathSquad
   parent: EventHumanoidMindShielded
   randomizeName: false
   speciesBlacklist: # Corvax-MRP
     - Diona
-    - Vulpkanin
-    - Felinid
   components:
     - type: GhostRole
       name: ghost-role-information-Death-Squad-name

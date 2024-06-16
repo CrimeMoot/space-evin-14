@@ -1,0 +1,22 @@
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: ClothingOuterArmorOsoCarapace1
+  name: панцирь офицера специальных операций
+  description: специально-универсальный панцирь для специально-универсальных офицеров.
+  components:
+    - type: Sprite
+      sprite: _Evin/Clothing/OuterClothing/Armor/osoarmor.rsi
+    - type: Clothing
+      sprite: _Evin/Clothing/OuterClothing/Armor/osoarmor.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.4
+          Slash: 0.4
+          Piercing: 0.5
+          Heat: 0.4
+    - type: ExplosionResistance
+      damageCoefficient: 0.55
+    - type: ClothingSpeedModifier
+      walkModifier: 1.0
+      sprintModifier: 1.0

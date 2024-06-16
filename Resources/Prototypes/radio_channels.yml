@@ -95,3 +95,11 @@
   color: "#f6ce64"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
   longRange: true
+
+- type: radioChannel
+  id: DSO
+  name: ДСО
+  keycode: 'б' # я не придумал варианта лучше
+  frequency: 6942
+  color: "#f6ce64"
+  longRange: true

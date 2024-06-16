@@ -4,6 +4,8 @@
   parent: BaseItem
   description: Прибор ночного видения. Обеспечивает изображение местности в условиях низкой освещенности.
   components:
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
   - type: Item
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
@@ -15,6 +17,26 @@
   - type: UseDelay
     delay: 4
   - type: PNV
+  - type: ChameleonClothing
+    slot: [eyes]
+    default: ClothingEyesGlassesSunglasses
+  - type: UserInterface
+    interfaces:
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface
+  - type: HiddenDescription
+    entries:
+    - label: corvax-hidden-desc-Chameleon-syndicate
+      whitelistMind:
+        components:
+          - TraitorRole
+          - NukeOperative
+    - label: corvax-hidden-desc-Chameleon-research
+      jobRequired:
+        - ResearchAssistant
+        - ResearchDirector
+        - Scientist
+        - Borg
 
 - type: entity
   parent: [ClothingEyesVision,ShowSecurityIcons]

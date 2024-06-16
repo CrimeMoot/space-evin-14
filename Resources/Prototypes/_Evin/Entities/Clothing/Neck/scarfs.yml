@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckScarfOso
+  name: шарф офицера специальных операций
+  description: Шарф покрашенный в чёрный и украшен золотыми полосами.
+  components:
+    - type: Sprite
+      sprite: _Evin/Clothing/Neck/Scarfs/ososcarf.rsi
+    - type: Clothing
+      sprite: _Evin/Clothing/Neck/Scarfs/ososcarf.rsi

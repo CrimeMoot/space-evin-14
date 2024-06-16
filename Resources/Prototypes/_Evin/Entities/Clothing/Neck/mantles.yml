@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleOSO
+  name: мантия офицера специальных операций
+  description: Мантия, сделано специально для особых офицеров. На мантии присутствуют кусочки золота.
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/Neck/mantles/osomantle.rsi
+  - type: Clothing
+    sprite: _Evin/Clothing/Neck/mantles/osomantle.rsi
