@@ -28,6 +28,13 @@
       - id: PlushieMoth
       - id: PlushieArachind
       - id: PlushiePenguin
+      - id: PlushieAvrelia #Evin
+      - id: PlushieLaura
+      - id: PlushieKraht
+      - id: PlushieSheyla
+      - id: PlushieEsmira
+      - id: PlushieFredik
+      - id: PlushieSakka
 
 - type: entity
   id: CrateFunLizardPlushieBulk
