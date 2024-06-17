@@ -4,8 +4,6 @@
   parent: BaseItem
   description: Прибор ночного видения. Обеспечивает изображение местности в условиях низкой освещенности.
   components:
-  - type: Tag
-    tags: [] # ignore "WhitelistChameleon" tag
   - type: Item
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
@@ -17,6 +15,16 @@
   - type: UseDelay
     delay: 4
   - type: PNV
+
+- type: entity
+  parent: [ClothingEyesVision,ShowSecurityIcons]
+  id: ClothingEyesVisionNuki
+  suffix: nuke
+  components:
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+  - type: Item
+  - type: ShowSyndicateIcons
   - type: ChameleonClothing
     slot: [eyes]
     default: ClothingEyesGlassesSunglasses
@@ -37,13 +45,6 @@
         - ResearchDirector
         - Scientist
         - Borg
-
-- type: entity
-  parent: [ClothingEyesVision,ShowSecurityIcons]
-  id: ClothingEyesVisionNuki
-  suffix: nuke
-  components:
-  - type: ShowSyndicateIcons
 
 - type: entity
   id: NVToggleAction
