@@ -1,0 +1,31 @@
+- type: job
+  id: Borging
+  name: Киборг инженер
+  description: job-description-borg
+  playTimeTracker: JobBorging
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 72000 #60 hrs
+  canBeAntag: false
+  icon: JobIconBorg
+  supervisors: job-supervisors-rd
+  jobEntity: PlayerBorgEngineer
+
+- type: playTimeTracker
+  id: JobBorging
+
+- type: job
+  id: Borgmed
+  name: Киборг врач
+  description: job-description-borg
+  playTimeTracker: JobBorgmed
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 72000 #60 hrs
+  canBeAntag: false
+  icon: JobIconBorg
+  supervisors: job-supervisors-rd
+  jobEntity: PlayerBorgMedical
+
+- type: playTimeTracker
+  id: JobBorgmed

@@ -59,6 +59,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  - Borging
 
 - type: department
   id: Medical
@@ -71,6 +72,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  - Borgmed
 
 - type: department
   id: Security

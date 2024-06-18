@@ -1,0 +1,27 @@
+- type: startingGear
+  id: ERTLeaderGearGammaDSO
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltDSO
+
+- type: startingGear
+  id: ERTengenerGearGammaDSO
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTEngineer
+    id: ERTEngineerPDA
+    ears: ClothingHeadsetAltDSO
+
+- type: startingGear
+  id: ERTmedGearGammaDSO
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTMedic
+    id: ERTMedicPDA
+    ears: ClothingHeadsetAltDSO
+
+- type: startingGear
+  id: ERTsecGearGammaDSO
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTSecurity
+    id: ERTSecurityPDA
+    ears: ClothingHeadsetAltDSO
