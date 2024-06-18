@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitERTLeaderGamma
-  name: Скафандр Лидера ОБР кода Гамма
+  name: скафандр Лидера ОБР кода Гамма
   description: Новейших скаф разработанный NanoTrasen. Дает хорошую защиту и не замедляет.
   components:
   - type: Sprite
@@ -24,7 +24,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieCommander
   id: ClothingHeadHelmetHardsuitERTLeaderGamma
-  name: Шлем Лидера ОБР Кода Гамма
+  name: шлем Лидера ОБР Кода Гамма
   description: М?
   components:
   - type: Sprite
@@ -45,7 +45,7 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitERTMedicalGamma
-  name: Скафанд медика ОБР кода гамма
+  name: скафанд медика ОБР кода гамма
   description: Лечить мое призвание.
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieElite
   id: ClothingHeadHelmetHardsuitERTMedicalGamma
-  name: Шлем Медика ОБР кода гамма
+  name: шлем Медика ОБР кода гамма
   description: В нем ты видишь наверное больше
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitERTEngineerGamma
-  name: Скафандр Инженера ОБР кода гамма.
+  name: скафандр Инженера ОБР кода гамма.
   description: Боб строитель!
   components:
   - type: Sprite
@@ -105,7 +105,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieElite
   id: ClothingHeadHelmetHardsuitERTEngineerGamma
-  name: Шлем Инженера ОБР кода гамма.
+  name: шлем Инженера ОБР кода гамма.
   description: Шлем
   components:
   - type: Sprite
@@ -126,7 +126,7 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitERTSecurityGamma
-  name: Скафандр ОБР кода Гамма
+  name: скафандр ОБР кода Гамма
   description: Скаф используемый отрядом ОБР кода гамма.
   components:
   - type: Sprite
@@ -149,7 +149,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTSecurityGamma
-  name: Шлем Обр Кода гамма.
+  name: шлем Обр Кода гамма.
   description: Шлем
   components:
   - type: Sprite

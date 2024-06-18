@@ -1,6 +1,6 @@
 - type: job
-  id: Borging
-  name: Киборг инженер
+  id: Borgeng
+  name: киборг инженер
   description: job-description-borg
   playTimeTracker: JobBorging
   requirements:
@@ -16,7 +16,7 @@
 
 - type: job
   id: Borgmed
-  name: Киборг врач
+  name: киборг врач
   description: job-description-borg
   playTimeTracker: JobBorgmed
   requirements:
