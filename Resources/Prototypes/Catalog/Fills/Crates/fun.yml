@@ -34,7 +34,7 @@
       - id: PlushieSheyla
       - id: PlushieEsmira
       - id: PlushieSakka
-      - id: PlushieGrapel
+      #- id: PlushieGrapel # Ne sponsor
 
 - type: entity
   id: CrateFunLizardPlushieBulk
