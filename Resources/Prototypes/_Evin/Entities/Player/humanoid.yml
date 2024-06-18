@@ -1,6 +1,6 @@
 - type: entity
   id: RandomHumanoidSpawnerERTLeaderGamma
-  name: Гамма обр лидер
+  name: гамма обр лидер
   suffix: ДСО, без снаряжения
   components:
     - type: Sprite
@@ -35,7 +35,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTEngineerGamma
   parent: RandomHumanoidSpawnerERTLeader
-  name: Гамма обр инженер
+  name: гамма обр инженер
   suffix: ДСО, без снаряжения
   components:
     - type: Sprite
@@ -67,7 +67,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurityGamma
   parent: RandomHumanoidSpawnerERTLeader
-  name: Гамма обр офицер
+  name: гамма обр офицер
   suffix: ДСО, без снаряжения
   components:
     - type: Sprite
@@ -101,7 +101,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTMedicalgamma
   parent: RandomHumanoidSpawnerERTLeader
-  name: Гамма обр медик
+  name: гамма обр медик
   suffix: ДСО, без снаряжения
   components:
     - type: Sprite
