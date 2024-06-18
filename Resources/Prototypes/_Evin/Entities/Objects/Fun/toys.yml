@@ -13,7 +13,7 @@
   parent: BasePlushie
   id: PlushieLaura
   name: плюшевая Лаура Игнатова
-  description: Очень не любит кокгда её тискают.
+  description: Очень не любит когда её тискают.
   suffix: Спонсор
   components:
   - type: Sprite
