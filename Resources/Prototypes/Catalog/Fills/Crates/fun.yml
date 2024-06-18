@@ -34,6 +34,7 @@
       - id: PlushieSheyla
       - id: PlushieEsmira
       - id: PlushieSakka
+      - id: PlushieGrapel
 
 - type: entity
   id: CrateFunLizardPlushieBulk
