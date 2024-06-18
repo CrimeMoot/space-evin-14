@@ -13,7 +13,7 @@
   parent: BasePlushie
   id: PlushieLaura
   name: плюшевая Лаура Игнатова
-  description: Очень не любит кокгда её тискают.
+  description: Очень не любит когда её тискают.
   suffix: Спонсор
   components:
   - type: Sprite
@@ -160,3 +160,14 @@
   - type: EmitSoundOnTrigger
     sound:
       path: /Audio/Items/Toys/weh.ogg
+
+- type: entity
+  parent: PlushieMoth #Drugoy parent
+  id: PlushieGrapel
+  name: плюшевый Забытый Исследователь
+  description:  Один из Ниан, точнее его плюшевая версия. Довольно пыльная, но всё так же в хорошем качестве.
+  suffix: Спонсор
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Fun/toys.rsi
+    state: sponsor_grapel
