@@ -1,0 +1,30 @@
+- type: job
+  id: Brigmedic
+  name: бригмедик
+  description: следит за здоровьем офицеров
+  playTimeTracker: JobBrigmedic
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 12000
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 18000 
+  startingGear: BrigmedicGear
+  icon: "JobIconBrigmedic"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  - Medical
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: playTimeTracker
+  id: JobBrigmedic

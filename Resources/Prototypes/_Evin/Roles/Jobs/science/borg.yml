@@ -14,6 +14,21 @@
 - type: playTimeTracker
   id: JobBorging
 
+- type: entity
+  id: SpawnPointBorgeng
+  parent: SpawnPointJobBase
+  name: киборг инженер
+  components:
+  - type: SpawnPoint
+    job_id: Borgeng
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot_e
+
 - type: job
   id: Borgmed
   name: киборг врач
@@ -29,3 +44,18 @@
 
 - type: playTimeTracker
   id: JobBorgmed
+
+- type: entity
+  id: SpawnPointBorgmed
+  parent: SpawnPointJobBase
+  name: киборг врач
+  components:
+  - type: SpawnPoint
+    job_id: Borgmed
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot_e
