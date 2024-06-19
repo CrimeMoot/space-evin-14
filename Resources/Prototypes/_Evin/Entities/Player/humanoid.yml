@@ -1,0 +1,131 @@
+- type: entity
+  id: RandomHumanoidSpawnerERTLeaderGamma
+  name: гамма обр лидер
+  suffix: ДСО, без снаряжения
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertleader
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitaryLeader
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTLeadergamma
+    - type: InitialInfectedExempt
+    - type: Loadout
+
+- type: randomHumanoidSettings
+  id: ERTLeadergamma
+  parent: EventHumanoidMindShielded
+  randomizeName: false
+  components:
+    - type: GhostRole
+      name: ghost-role-information-ert-leader-name
+      description: ghost-role-information-ert-leader-description
+      raffle:
+        settings: short
+    - type: Loadout
+      prototypes: [ ERTLeaderGearGammaDSO ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitaryLeader
+      - NamesLastMilitary
+
+- type: entity
+  id: RandomHumanoidSpawnerERTEngineerGamma
+  parent: RandomHumanoidSpawnerERTLeader
+  name: гамма обр инженер
+  suffix: ДСО, без снаряжения
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertengineer
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTEngineergamma
+
+- type: randomHumanoidSettings
+  id: ERTEngineergamma
+  parent: ERTLeader
+  components:
+    - type: GhostRole
+      name: ghost-role-information-ert-engineer-name
+      description: ghost-role-information-ert-engineer-description
+      raffle:
+        settings: short
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: Loadout
+      prototypes: [ ERTengenerGearGammaDSO ]
+
+- type: entity
+  id: RandomHumanoidSpawnerERTSecurityGamma
+  parent: RandomHumanoidSpawnerERTLeader
+  name: гамма обр офицер
+  suffix: ДСО, без снаряжения
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertsecurity
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTSecuritygamma
+
+- type: randomHumanoidSettings
+  id: ERTSecuritygamma
+  speciesBlacklist: # Corvax-MRP
+    - Diona
+  parent: ERTLeader
+  components:
+    - type: GhostRole
+      name: ghost-role-information-ert-security-name
+      description: ghost-role-information-ert-security-description
+      raffle:
+        settings: short
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: Loadout
+      prototypes: [ ERTsecGearGammaDSO ]
+
+- type: entity
+  id: RandomHumanoidSpawnerERTMedicalgamma
+  parent: RandomHumanoidSpawnerERTLeader
+  name: гамма обр медик
+  suffix: ДСО, без снаряжения
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertmedical
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: ERTMedicalgamma
+
+- type: randomHumanoidSettings
+  id: ERTMedicalgamma
+  parent: ERTLeader
+  components:
+    - type: GhostRole
+      name: ghost-role-information-ert-medical-name
+      description: ghost-role-information-ert-medical-description
+      raffle:
+        settings: short
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: Loadout
+      prototypes: [ ERTmedGearGammaDSO ]
