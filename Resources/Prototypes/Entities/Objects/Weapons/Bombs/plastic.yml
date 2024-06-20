@@ -104,3 +104,4 @@
     intensitySlope: 2
     maxIntensity: 30
     canCreateVacuum: false
+  - type: ExplodeOnTrigger
