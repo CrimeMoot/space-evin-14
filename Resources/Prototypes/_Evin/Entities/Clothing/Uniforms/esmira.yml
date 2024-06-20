@@ -30,9 +30,6 @@
     sprite: _Evin/Clothing/Uniforms/Esmira/vve.rsi
   - type: Clothing
     sprite: _Evin/Clothing/Uniforms/Esmira/vve.rsi
-  - type: Construction
-    graph: hairflower
-    node: hairflower
 
 - type: entity
   parent: ClothingNeckBase
