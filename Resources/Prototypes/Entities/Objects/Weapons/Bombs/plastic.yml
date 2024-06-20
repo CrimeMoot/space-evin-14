@@ -95,7 +95,6 @@
         volume: -6
     startOnStick: false
     canToggleStartOnStick: true
-  - type: TriggerOnSignal
   - type: DeviceLinkSink
     ports:
     - Trigger
@@ -105,4 +104,3 @@
     intensitySlope: 2
     maxIntensity: 30
     canCreateVacuum: false
-  - type: ExplodeOnTrigger

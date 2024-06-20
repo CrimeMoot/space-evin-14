@@ -172,6 +172,7 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Clown
+    statgge: Clown
 
 - type: statusIcon
   parent: JobIcon

@@ -1,0 +1,74 @@
+﻿- type: entity
+  id: LockerDSOLeader
+  name: шкафчик лидера обр
+  parent: LockerCaptain
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitERTLeaderGamma
+      - id: ClothingBackpackERTLeaderFilled
+      - id: ClothingShoesBootsMagAdv
+      - id: ClothingBeltSecurityWebbingFilled
+      - id: PinpointerNuclear
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingMaskGasERT
+      - id: WeaponPulsePistol
+      - id: WeaponPulseCarbine
+      - id: Whistle
+
+- type: entity
+  id: LockerDSOsec
+  name: шкафчик офицера обр
+  parent: LockerCaptain
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitERTSecurityGamma
+      - id: ClothingBackpackERTSecurityFilled
+      - id: ClothingShoesBootsMagAdv
+      - id: ClothingBeltSecurityWebbingFilled
+      - id: PinpointerNuclear
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingMaskGasERT
+      - id: WeaponPulsePistol
+      - id: WeaponPulseCarbine
+
+- type: entity
+  id: LockerDSOeng
+  name: шкафчик инженера обр
+  parent: LockerCaptain
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitERTEngineerGamma
+      - id: ClothingBackpackERTEngineerFilled
+      - id: ClothingShoesBootsMagAdv
+      - id: ClothingBeltChiefEngineerFilled
+      - id: PinpointerNuclear
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingMaskGasERT
+      - id: WeaponPulsePistol
+      - id: WeaponPulseCarbine
+      - id: ClothingEyesGlassesMeson
+
+- type: entity
+  id: LockerDSOmedical
+  name: шкафчик медика обр
+  parent: LockerCaptain
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitERTMedicalGamma
+      - id: ClothingBackpackERTMedicalFilled
+      - id: ClothingShoesBootsMagAdv
+      - id: ClothingBeltMedicalFilled
+      - id: PinpointerNuclear
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingMaskGasERT
+      - id: WeaponPulsePistol
+      - id: WeaponPulseCarbine
+      - id: ClothingEyesHudMedical

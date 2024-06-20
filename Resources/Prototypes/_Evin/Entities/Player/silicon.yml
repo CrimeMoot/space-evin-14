@@ -1,0 +1,41 @@
+- type: entity
+  id: PlayerBorgMedical
+  name: медицинский киборг
+  parent: BorgChassisMedical
+  suffix: Модули
+  components:
+  - type: ContainerFill
+    containers:
+      borg_brain:
+        - PositronicBrain
+      borg_module:
+        - BorgModuleAdvancedTreatment
+        - BorgModuleDefibrillator
+        - BorgModuleDiagnosis
+        - BorgModuleTreatment
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellHyper
+
+- type: entity
+  id: PlayerBorgEngineer
+  parent: BorgChassisEngineer
+  name: инженерный киборг
+  suffix: Модули
+  components:
+  - type: ContainerFill
+    containers:
+      borg_brain:
+        - PositronicBrain
+      borg_module:
+        - BorgModuleCable
+        - BorgModuleRCD
+        - BorgModuleConstruction
+        - BorgModuleAdvancedTool
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellHyper
