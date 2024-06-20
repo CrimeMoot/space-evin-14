@@ -39,5 +39,3 @@
   components:
   - type: Sprite
     sprite: _Evin/Clothing/Uniforms/Esmira/toy.rsi
-  - type: StealTarget
-    stealGroup: HeadCloak
