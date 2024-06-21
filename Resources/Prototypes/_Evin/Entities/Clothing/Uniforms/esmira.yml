@@ -2,6 +2,7 @@
   parent: ClothingShoesBase
   id: ClothingUnderSocksCoderBlue
   name: голубые носки Эсмиры
+  suffix: Эсмира
   description: Раньше это были розовые носки, но Эсмира пролила на них голубую краску. Теперь это голубые носки.
   components:
   - type: Sprite
@@ -13,6 +14,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtEsmira
   name: юбка-Комбинезон Эсмиры
+  suffix: Эсмира
   description: юбка которую носит Эсмира. Мне страшно думать от куда вы его взяли...
   components:
   - type: Sprite
@@ -24,6 +26,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHairflowerEsmira
   name: Головной убор Эсмиры
+  suffix: Эсмира
   description: Обычный цветок с головным убором
   components:
   - type: Sprite
@@ -34,6 +37,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEsmira
+  suffix: Эсмира
   name: Плащ с игрушкой Эсмиры
   description: Мы ведь друзья... так ведь?...
   components:
