@@ -55,25 +55,6 @@
 
 - type: entity
   parent: BaseCartridge
-  id: TheBigBoombaBulletCasing12755
-  name: пуля (12.7x55) цельнометалическая
-  components:
-  - type: Tag
-    tags:
-    - Cartridge
-    - CartridgeSHAK12
-  - type: CartridgeAmmo
-    proto: TheBigBoombaBullet
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-  - type: Appearance
-  - type: SpentAmmoVisuals
-
-- type: entity
-  parent: BaseCartridge
   id: TheBigBoombaBulletCasingArmor12755
   name: пуля (12.7x55) бронебойная
   components:
@@ -249,7 +230,7 @@
     chambers: [ True, True, True, True, True]
     ammoSlots: [ null, null, null, null, null]
     soundEject:
-      path: /Audio/Weapons/Guns/MagIn/shotgun_eject.ogg
+      path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
   - type: StaticPrice
