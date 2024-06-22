@@ -694,6 +694,14 @@ namespace Content.Server.Database
         /// Intended use is for users with shared connections. This should not be used as an alternative to <see cref="Datacenter"/>.
         /// </remarks>
         IP = 1 << 1,
+
+        /// <summary>
+        /// Ban is an IP range that is only applied for first time joins.
+        /// </summary>
+        /// <remarks>
+        /// Intended for use with residential IP ranges that are often used maliciously.
+        /// </remarks>
+        BlacklistedRange = 1 << 2,
         // @formatter:on
     }
 
@@ -890,6 +898,10 @@ namespace Content.Server.Database
         Whitelist = 1,
         Full = 2,
         Panic = 3,
+        /*
+         * TODO: Remove baby jail code once a more mature gateway process is established. This code is only being issued as a stopgap to help with potential tiding in the immediate future.
+         */
+        BabyJail = 4,
     }
 
     public class ServerBanHit

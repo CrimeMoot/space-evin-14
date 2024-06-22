@@ -8,9 +8,6 @@
     Ishimura:
       stationProto: StandardNanotrasenStation
       components:
-        - type: StationRandomTransform
-          enableStationRotation: false
-          maxStationOffset: null
         - type: StationNameSetup
           mapNameTemplate: '{0} USG Ishimura {1}'
           nameGenerator:
@@ -19,8 +16,6 @@
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency_omega.yml
         - type: StationJobs
-          overflowJobs:
-            - Passenger
           availableJobs:
             # service
             HeadOfPersonnel: [ 1, 1 ]

@@ -255,11 +255,11 @@ AirlockGlassShuttleEasyPryLocked: AirlockExternalGlassShuttleLocked
 AirlockShuttleEasyPryLocked: AirlockExternalShuttleLocked
 
 # 2024-03-10
-ClothingBackpackFilledDetective: ClothingBackpackSecurityFilledDetective
-ClothingBackpackDuffelFilledDetective: ClothingBackpackDuffelSecurityFilledDetective
-ClothingBackpackSatchelFilledDetective: ClothingBackpackSatchelSecurityFilledDetective
 FoodChili: FoodChiliPepper
 FoodChilly: FoodChillyPepper
+# ClothingBackpackFilledDetective: ClothingBackpackSecurityFilledDetective
+# ClothingBackpackDuffelFilledDetective: ClothingBackpackDuffelSecurityFilledDetective
+# ClothingBackpackSatchelFilledDetective: ClothingBackpackSatchelSecurityFilledDetective
 
 # 2024-03-11
 ImprovisedExplosive: FireBomb
@@ -353,3 +353,9 @@ DoorRemoteFirefight: null
 # 2024-06-04
 BaseSecretDoorAssembly: null
 SolidSecretDoor: SolidFalseWall
+
+# 2024-06-03
+AirlockServiceCaptainLocked: AirlockCaptainLocked
+
+# 2024-06-15
+ClothingOuterCoatInspector: ClothingOuterCoatDetectiveLoadout
