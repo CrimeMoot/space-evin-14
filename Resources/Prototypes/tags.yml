@@ -545,6 +545,9 @@
   id: DrinkSpaceGlue
 
 - type: Tag
+  id: DroneUsable
+
+- type: Tag
   id: Duck
 
 - type: Tag

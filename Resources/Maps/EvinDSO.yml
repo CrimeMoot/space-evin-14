@@ -44885,6 +44885,7 @@ entities:
       parent: 1
     - type: Tag
       tags:
+      - DroneUsable
       - WhitelistChameleon
     - type: SolutionContainerManager
       solutions: null
@@ -44903,6 +44904,7 @@ entities:
       parent: 1
     - type: Tag
       tags:
+      - DroneUsable
       - WhitelistChameleon
     - type: SolutionContainerManager
       solutions: null
