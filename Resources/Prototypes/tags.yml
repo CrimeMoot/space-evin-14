@@ -325,6 +325,9 @@
   id: Cartridge
 
 - type: Tag
+  id: CartridgeSHAK12  # icheburek Evin
+
+- type: Tag
   id: CartridgeAntiMateriel
 
 - type: Tag
@@ -1159,6 +1162,9 @@
 
 - type: Tag
   id: SpeedLoaderMagnum
+
+- type: Tag
+  id: SpeedLoaderSHAK # icheburek Evin
 
 - type: Tag
   id: SpeedLoaderPistol
