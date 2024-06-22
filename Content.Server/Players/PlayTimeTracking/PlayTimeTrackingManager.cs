@@ -81,8 +81,6 @@ public sealed class PlayTimeTrackingManager : ISharedPlaytimeManager, IPostInjec
 
     public event CalcPlayTimeTrackersCallback? CalcTrackers;
 
-    public event Action<ICommonSession>? SessionPlayTimeUpdated;
-
     public void Initialize()
     {
         _sawmill = Logger.GetSawmill("play_time");
@@ -219,7 +217,6 @@ public sealed class PlayTimeTrackingManager : ISharedPlaytimeManager, IPostInjec
         };
 
         _net.ServerSendMessage(msg, pSession.Channel);
-        SessionPlayTimeUpdated?.Invoke(pSession);
     }
 
     /// <summary>
@@ -370,19 +367,6 @@ public sealed class PlayTimeTrackingManager : ISharedPlaytimeManager, IPostInjec
         }
 
         time = data.TrackerTimes;
-        return true;
-    }
-
-    public bool TryGetTrackerTime(ICommonSession id, string tracker, [NotNullWhen(true)] out TimeSpan? time)
-    {
-        time = null;
-        if (!TryGetTrackerTimes(id, out var times))
-            return false;
-
-        if (!times.TryGetValue(tracker, out var t))
-            return false;
-
-        time = t;
         return true;
     }
 

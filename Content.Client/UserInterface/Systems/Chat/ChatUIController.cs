@@ -16,8 +16,9 @@ using Content.Client.UserInterface.Systems.Gameplay;
 using Content.Shared.Administration;
 using Content.Shared.CCVar;
 using Content.Shared.Chat;
-using Content.Shared.Damage.ForceSay;
 using Content.Shared.Decals;
+using Content.Shared.Damage.ForceSay;
+using Content.Shared.Examine;
 using Content.Shared.Input;
 using Content.Shared.Radio;
 using Robust.Client.GameObjects;
@@ -625,7 +626,7 @@ public sealed class ChatUIController : UIController
         var predicate = static (EntityUid uid, (EntityUid compOwner, EntityUid? attachedEntity) data)
             => uid == data.compOwner || uid == data.attachedEntity;
         var playerPos = player != null
-            ? _eye.CurrentEye.Position
+            ? _transform?.GetMapCoordinates(player.Value) ?? MapCoordinates.Nullspace
             : MapCoordinates.Nullspace;
 
         var occluded = player != null && _examine.IsOccluded(player.Value);

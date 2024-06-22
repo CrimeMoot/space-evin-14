@@ -134,7 +134,7 @@ public sealed partial class RoboticsConsoleWindow : FancyWindow
         BorgInfo.SetMessage(text);
 
         // how the turntables
-        DisableButton.Disabled = !(data.HasBrain && data.CanDisable);
+        DisableButton.Disabled = !data.HasBrain;
         DestroyButton.Disabled = _timing.CurTime < _console.Comp1.NextDestroy;
     }
 

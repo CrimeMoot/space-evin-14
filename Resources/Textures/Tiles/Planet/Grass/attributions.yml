@@ -1,4 +1,7 @@
-- files: ["grass.png", "triple_edge.png", "double_edge.png", "single_edge.png"]
+- files:
+  - grass.png
+  - double_edge.png
+  - single_edge.png
   license: "CC-BY-SA-3.0"
-  copyright: "Created by Ko4erga (discord)"
-  source: "https://github.com/space-wizards/space-station-14/pull/29134"
+  copyright: "https://github.com/discordia-space/CEV-Eris/commit/026ee3250ac1de938b503e3eb46ad73dd9c3ca82"
+  source: "https://github.com/discordia-space/CEV-Eris/commit/026ee3250ac1de938b503e3eb46ad73dd9c3ca82"

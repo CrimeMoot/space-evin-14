@@ -1,5 +1,4 @@
 using System.Linq;
-using Content.Client.Guidebook;
 using Content.Client.Corvax.TTS;
 using Content.Client.Humanoid;
 using Content.Client.Inventory;
@@ -43,7 +42,6 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     [UISystemDependency] private readonly HumanoidAppearanceSystem _humanoid = default!;
     [UISystemDependency] private readonly ClientInventorySystem _inventory = default!;
     [UISystemDependency] private readonly StationSpawningSystem _spawn = default!;
-    [UISystemDependency] private readonly GuidebookSystem _guide = default!;
 
     private CharacterSetupGui? _characterSetup;
     private HumanoidProfileEditor? _profileEditor;
@@ -235,8 +233,6 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
             _requirements,
             _markings);
 
-        _profileEditor.OnOpenGuidebook += _guide.OpenHelp;
-
         _characterSetup = new CharacterSetupGui(EntityManager, _prototypeManager, _resourceCache, _preferencesManager, _profileEditor);
 
         _characterSetup.CloseButton.OnPressed += _ =>
@@ -295,7 +291,7 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
 
         if (_prototypeManager.HasIndex<RoleLoadoutPrototype>(LoadoutSystem.GetJobPrototype(job.ID)))
         {
-            var loadout = profile.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), _playerManager.LocalSession, profile.Species, EntityManager, _prototypeManager);
+            var loadout = profile.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), profile.Species, EntityManager, _prototypeManager);
             GiveDummyLoadout(dummy, loadout);
         }
     }
@@ -307,7 +303,7 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     {
         var highPriorityJob = profile.JobPriorities.FirstOrDefault(p => p.Value == JobPriority.High).Key;
         // ReSharper disable once NullCoalescingConditionIsAlwaysNotNullAccordingToAPIContract (what is resharper smoking?)
-        return _prototypeManager.Index<JobPrototype>(highPriorityJob.Id ?? SharedGameTicker.FallbackOverflowJob);
+        return _prototypeManager.Index<JobPrototype>(highPriorityJob ?? SharedGameTicker.FallbackOverflowJob);
     }
 
     public void GiveDummyLoadout(EntityUid uid, RoleLoadout? roleLoadout)
@@ -415,7 +411,7 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
 
             if (_prototypeManager.HasIndex<RoleLoadoutPrototype>(LoadoutSystem.GetJobPrototype(job.ID)))
             {
-                var loadout = humanoid.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), _playerManager.LocalSession, humanoid.Species, EntityManager, _prototypeManager);
+                var loadout = humanoid.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), humanoid.Species, EntityManager, _prototypeManager);
                 GiveDummyLoadout(dummyEnt, loadout);
             }
         }

@@ -1,13 +1,11 @@
 using System.Linq;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Components;
-using Content.Shared.Mobs;
 using Content.Shared.Stacks;
 using Content.Shared.Whitelist;
 using JetBrains.Annotations;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
-using Robust.Shared.Utility;
 
 namespace Content.Shared.Materials;
 
@@ -168,14 +166,8 @@ public abstract class SharedMaterialStorageSystem : EntitySystem
             return false;
         if (!CanChangeMaterialAmount(uid, materialId, volume, component))
             return false;
-
-        var existing = component.Storage.GetOrNew(materialId);
-        existing += volume;
-
-        if (existing == 0)
-            component.Storage.Remove(materialId);
-        else
-            component.Storage[materialId] = existing;
+        component.Storage.TryAdd(materialId, 0);
+        component.Storage[materialId] += volume;
 
         var ev = new MaterialAmountChangedEvent();
         RaiseLocalEvent(uid, ref ev);

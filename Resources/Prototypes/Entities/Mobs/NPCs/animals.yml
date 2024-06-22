@@ -181,9 +181,6 @@
         - MobMask
         layer:
         - MobLayer
-  - type: Speech
-    speechVerb: SmallMob
-    speechSounds: Cluck
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -421,7 +418,6 @@
     allowMovement: true
     name: ghost-role-information-mothroach-name
     description: ghost-role-information-mothroach-description
-    rules: ghost-role-information-freeagent-rules
   - type: Fixtures
     fixtures:
       fix1:
@@ -1105,7 +1101,6 @@
     prob: 0.25
     name: ghost-role-information-kangaroo-name
     description: ghost-role-information-kangaroo-description
-    rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: Vocal
     sounds:
@@ -1280,7 +1275,6 @@
     makeSentient: true
     name: ghost-role-information-monkey-name
     description: ghost-role-information-monkey-description
-    rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: Clumsy
     clumsyDamage:
@@ -1315,7 +1309,6 @@
     makeSentient: true
     name: ghost-role-information-monkey-name
     description: ghost-role-information-monkey-description
-    rules: ghost-role-information-syndicate-monkey-reinforcement-rules
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
@@ -1447,7 +1440,6 @@
     makeSentient: true
     name: ghost-role-information-kobold-name
     description: ghost-role-information-kobold-description
-    rules: ghost-role-information-nonantagonist-rules
 
 - type: entity
   name: kobold
@@ -1521,7 +1513,6 @@
     allowMovement: true
     name: ghost-role-information-mouse-name
     description: ghost-role-information-mouse-description
-    rules: ghost-role-information-freeagent-rules
   - type: GhostTakeoverAvailable
   - type: Speech
     speechSounds: Squeak
@@ -1542,7 +1533,6 @@
         state: mouse-0
   - type: Item
     size: Tiny
-    heldPrefix: 0
   - type: Clothing
     quickEquip: false
     sprite: Mobs/Animals/mouse.rsi
@@ -1630,7 +1620,6 @@
     tags:
     - Trash
     - VimPilot
-    - ChefPilot
     - Mouse
     - Meat
   - type: Respirator
@@ -1717,9 +1706,6 @@
         Base: dead-1
       Dead:
         Base: splat-1
-  - type: Item
-    size: Tiny
-    heldPrefix: 1
 
 - type: entity
   parent: MobMouse
@@ -1746,9 +1732,6 @@
         Base: dead-2
       Dead:
         Base: splat-2
-  - type: Item
-    size: Tiny
-    heldPrefix: 2
 
 - type: entity
   name: cancer mouse
@@ -2236,7 +2219,7 @@
     solution: melee
     generated:
       reagents:
-      - ReagentId: Mechanotoxin
+      - ReagentId: Toxin
         Quantity: 1
   - type: MeleeChemicalInjector
     transferAmount: 0.75
@@ -2271,10 +2254,17 @@
     tags:
     - DoorBumpOpener
     - FootstepSound
-  - type: Prying # Open door from xeno.yml.
-    pryPowered: true
-    force: true
-    speedModifier: 1.5
+  - type: Tool # Open door from xeno.yml.
+    speed: 1.5
+    qualities:
+      - Prying
+    useSound:
+      path: /Audio/Items/crowbar.ogg
+  - type: Prying
+    pryPowered: !type:Bool
+        true
+    force: !type:Bool
+      true
     useSound:
       path: /Audio/Items/crowbar.ogg
   - type: PassiveDamage # Slight passive regen. Assuming one damage type, comes out to about 4 damage a minute from base.yml.
@@ -2306,7 +2296,6 @@
       makeSentient: true
       name: ghost-role-information-giant-spider-name
       description: ghost-role-information-giant-spider-description
-      rules: ghost-role-information-giant-spider-rules
       raffle:
         settings: short
     - type: GhostTakeoverAvailable
@@ -3086,7 +3075,6 @@
     allowMovement: true
     name: ghost-role-information-hamster-name
     description: ghost-role-information-hamster-description
-    rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: Speech
     speechVerb: SmallMob
@@ -3178,7 +3166,6 @@
   - type: Tag
     tags:
     - VimPilot
-    - ChefPilot
     - Trash
     - Hamster
     - Meat

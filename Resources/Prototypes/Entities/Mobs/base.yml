@@ -45,8 +45,7 @@
   - type: StatusIcon
   - type: TTS # Corvax-TTS
   - type: NightVision
-  - type: RequireProjectileTarget
-    active: False
+ 
 
 # Used for mobs that have health and can take damage.
 - type: entity

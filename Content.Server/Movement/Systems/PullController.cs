@@ -18,7 +18,6 @@ using Robust.Shared.Physics.Controllers;
 using Robust.Shared.Physics.Dynamics.Joints;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
-using Robust.Shared.Utility;
 
 namespace Content.Server.Movement.Systems;
 
@@ -92,7 +91,7 @@ public sealed class PullController : VirtualController
 
         UpdatesAfter.Add(typeof(MoverController));
         SubscribeLocalEvent<PullMovingComponent, PullStoppedMessage>(OnPullStop);
-        SubscribeLocalEvent<ActivePullerComponent, MoveEvent>(OnPullerMove);
+        SubscribeLocalEvent<PullMoverComponent, MoveEvent>(OnPullerMove);
 
         base.Initialize();
     }
@@ -127,6 +126,10 @@ public sealed class PullController : VirtualController
         if (_container.IsEntityInContainer(player))
             return false;
 
+        // Cooldown buddy
+        if (_timing.CurTime < pullerComp.NextThrow)
+            return false;
+
         pullerComp.NextThrow = _timing.CurTime + pullerComp.ThrowCooldown;
 
         // Cap the distance
@@ -152,22 +155,19 @@ public sealed class PullController : VirtualController
             coords = fromUserCoords.WithEntityId(coords.EntityId);
         }
 
+        EnsureComp<PullMoverComponent>(player);
         var moving = EnsureComp<PullMovingComponent>(pulled!.Value);
         moving.MovingTo = coords;
         return false;
     }
 
-    private void OnPullerMove(EntityUid uid, ActivePullerComponent component, ref MoveEvent args)
+    private void OnPullerMove(EntityUid uid, PullMoverComponent component, ref MoveEvent args)
     {
         if (!_pullerQuery.TryComp(uid, out var puller))
             return;
 
         if (puller.Pulling is not { } pullable)
-        {
-            DebugTools.Assert($"Failed to clean up puller: {ToPrettyString(uid)}");
-            RemCompDeferred(uid, component);
             return;
-        }
 
         UpdatePulledRotation(uid, pullable);
 
@@ -182,7 +182,13 @@ public sealed class PullController : VirtualController
         if (_physicsQuery.TryComp(uid, out var physics))
             PhysicsSystem.WakeBody(uid, body: physics);
 
-        RemCompDeferred<PullMovingComponent>(pullable);
+        StopMove(uid, pullable);
+    }
+
+    private void StopMove(Entity<PullMoverComponent?> mover, Entity<PullMovingComponent?> moving)
+    {
+        RemCompDeferred<PullMoverComponent>(mover.Owner);
+        RemCompDeferred<PullMovingComponent>(moving.Owner);
     }
 
     private void UpdatePulledRotation(EntityUid puller, EntityUid pulled)
@@ -294,6 +300,18 @@ public sealed class PullController : VirtualController
             {
                 PhysicsSystem.WakeBody(puller);
                 PhysicsSystem.ApplyLinearImpulse(puller, -impulse);
+            }
+        }
+
+        // Cleanup PullMover
+        var moverQuery = EntityQueryEnumerator<PullMoverComponent, PullerComponent>();
+
+        while (moverQuery.MoveNext(out var uid, out _, out var puller))
+        {
+            if (!HasComp<PullMovingComponent>(puller.Pulling))
+            {
+                RemCompDeferred<PullMoverComponent>(uid);
+                continue;
             }
         }
     }

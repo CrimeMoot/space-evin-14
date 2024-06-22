@@ -79,7 +79,7 @@ public sealed partial class AnchorableSystem : EntitySystem
             return;
 
         // If the used entity doesn't have a tool, return early.
-        if (!TryComp(args.Used, out ToolComponent? usedTool) || !_tool.HasQuality(args.Used, anchorable.Tool, usedTool))
+        if (!TryComp(args.Used, out ToolComponent? usedTool) || !usedTool.Qualities.Contains(anchorable.Tool))
             return;
 
         args.Handled = true;

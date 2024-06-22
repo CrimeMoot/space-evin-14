@@ -48,12 +48,6 @@ public partial record struct SolutionOverflowEvent(Entity<SolutionComponent> Sol
     public bool Handled = false;
 }
 
-[ByRefEvent]
-public partial record struct SolutionAccessAttemptEvent(string SolutionName)
-{
-    public bool Cancelled;
-}
-
 /// <summary>
 /// Part of Chemistry system deal with SolutionContainers
 /// </summary>
@@ -162,6 +156,12 @@ public abstract partial class SharedSolutionContainerSystem : EntitySystem
         [NotNullWhen(true)] out Entity<SolutionComponent>? entity,
         bool errorOnMissing = false)
     {
+        if (TryComp(container, out BlockSolutionAccessComponent? blocker))
+        {
+            entity = null;
+            return false;
+        }
+
         EntityUid uid;
         if (name is null)
             uid = container;
@@ -170,18 +170,7 @@ public abstract partial class SharedSolutionContainerSystem : EntitySystem
             solutionContainer is ContainerSlot solutionSlot &&
             solutionSlot.ContainedEntity is { } containedSolution
         )
-        {
-            var attemptEv = new SolutionAccessAttemptEvent(name);
-            RaiseLocalEvent(container, ref attemptEv);
-
-            if (attemptEv.Cancelled)
-            {
-                entity = null;
-                return false;
-            }
-
             uid = containedSolution;
-        }
         else
         {
             entity = null;
@@ -229,14 +218,11 @@ public abstract partial class SharedSolutionContainerSystem : EntitySystem
         if (!Resolve(container, ref container.Comp, logMissing: false))
             yield break;
 
+        if (HasComp<BlockSolutionAccessComponent>(container))
+            yield break;
+
         foreach (var name in container.Comp.Containers)
         {
-            var attemptEv = new SolutionAccessAttemptEvent(name);
-            RaiseLocalEvent(container, ref attemptEv);
-
-            if (attemptEv.Cancelled)
-                continue;
-
             if (ContainerSystem.GetContainer(container, $"solution@{name}") is ContainerSlot slot && slot.ContainedEntity is { } solutionId)
                 yield return (name, (solutionId, Comp<SolutionComponent>(solutionId)));
         }

@@ -21,7 +21,7 @@ public sealed class PryingSystem : EntitySystem
     [Dependency] private readonly ISharedAdminLogManager _adminLog = default!;
     [Dependency] private readonly SharedDoAfterSystem _doAfterSystem = default!;
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
-    [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private readonly SharedPopupSystem Popup = default!;
 
     public override void Initialize()
     {
@@ -46,7 +46,7 @@ public sealed class PryingSystem : EntitySystem
         if (!args.CanInteract || !args.CanAccess)
             return;
 
-        if (!TryComp<PryingComponent>(args.User, out _))
+        if (!TryComp<PryingComponent>(args.User, out var tool))
             return;
 
         args.Verbs.Add(new AlternativeVerb()
@@ -74,7 +74,7 @@ public sealed class PryingSystem : EntitySystem
         if (!CanPry(target, user, out var message, comp))
         {
             if (!string.IsNullOrWhiteSpace(message))
-                _popup.PopupClient(Loc.GetString(message), target, user);
+                Popup.PopupClient(Loc.GetString(message), target, user);
             // If we have reached this point we want the event that caused this
             // to be marked as handled.
             return true;
@@ -138,10 +138,9 @@ public sealed class PryingSystem : EntitySystem
         {
             BreakOnDamage = true,
             BreakOnMove = true,
-            NeedHand = tool != user,
         };
 
-        if (tool != user && tool != null)
+        if (tool != null)
         {
             _adminLog.Add(LogType.Action, LogImpact.Low, $"{ToPrettyString(user)} is using {ToPrettyString(tool.Value)} to pry {ToPrettyString(target)}");
         }
@@ -164,7 +163,7 @@ public sealed class PryingSystem : EntitySystem
         if (!CanPry(uid, args.User, out var message, comp))
         {
             if (!string.IsNullOrWhiteSpace(message))
-                _popup.PopupClient(Loc.GetString(message), uid, args.User);
+                Popup.PopupClient(Loc.GetString(message), uid, args.User);
             return;
         }
 
@@ -179,4 +178,6 @@ public sealed class PryingSystem : EntitySystem
 }
 
 [Serializable, NetSerializable]
-public sealed partial class DoorPryDoAfterEvent : SimpleDoAfterEvent;
+public sealed partial class DoorPryDoAfterEvent : SimpleDoAfterEvent
+{
+}
