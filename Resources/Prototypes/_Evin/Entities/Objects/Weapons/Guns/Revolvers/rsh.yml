@@ -386,7 +386,7 @@
   - UplinkAmmo
 
 - type: listing
-  id: UplinkPistolRSH-12-SpeedLoader-Meat
+  id: UplinkPistolRSH-12-SpeedLoader-BB
   name: Спидлоадер РШ-12 (бронебойные)
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
   description: Содедержит бронебойный тип боеприпаса, в количестве 5 штук.
