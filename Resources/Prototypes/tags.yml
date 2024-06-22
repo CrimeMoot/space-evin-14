@@ -1,12 +1,6 @@
 # PUT YOUR TAGS IN ALPHABETICAL ORDER
 
 - type: Tag
-  id: CartridgeSHAK12  # icheburek Evin
-
-- type: Tag
-  id: SpeedLoaderSHAK # icheburek Evin
-
-- type: Tag
   id: AirAlarm
 
 - type: Tag
@@ -329,6 +323,9 @@
 
 - type: Tag
   id: Cartridge
+
+- type: Tag
+  id: CartridgeSHAK12  # icheburek Evin
 
 - type: Tag
   id: CartridgeAntiMateriel
@@ -1165,6 +1162,9 @@
 
 - type: Tag
   id: SpeedLoaderMagnum
+
+- type: Tag
+  id: SpeedLoaderSHAK # icheburek Evin
 
 - type: Tag
   id: SpeedLoaderPistol
