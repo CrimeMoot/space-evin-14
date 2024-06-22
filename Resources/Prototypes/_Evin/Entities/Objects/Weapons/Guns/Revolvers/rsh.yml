@@ -237,7 +237,7 @@
     
 - type: entity
   id: BaseSpeedLoaderSHAK
-  name: Bruh
+  name: спидлоадер 12.7x55
   description: Да в нём 5 снарядов, вопросы?
   parent: BaseItem
   abstract: true
@@ -327,7 +327,7 @@
   name: Подарок
   description: Там ТОЧНО нету КРУПНОКАЛИБЕРНЫХ патронов!
   parent: [PresentBase, BaseItem]
-  suffix: 12755
+  suffix: Лутбокс...
   components:
   - type: SpawnItemsOnUse
     items:
