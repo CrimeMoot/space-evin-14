@@ -96,6 +96,7 @@
   - exec
   - fuckrules
   - adminwho
+  - dumpentities
 
 - Flags: FUN
   Commands:

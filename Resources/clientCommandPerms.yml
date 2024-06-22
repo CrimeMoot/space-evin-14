@@ -19,7 +19,6 @@
     - net_watchent
     - devwindow
     - fill
-    - dumpentities
     - ">"
     - gcf
     - gc
