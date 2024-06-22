@@ -172,6 +172,7 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Clown
+    statgge: Clown
 
 - type: statusIcon
   parent: JobIcon
@@ -382,3 +383,18 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Admin
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconBlueshield
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Blueshield
+
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconDeathsquad
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Deathsquad

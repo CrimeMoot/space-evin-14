@@ -11,6 +11,12 @@
     path: /Audio/Jukebox/title3.ogg
 
 - type: jukebox
+  id: Rainy
+  name: The Fire Is Gone
+  path:
+    path: /Audio/Jukebox/Rainy-evening.ogg
+
+- type: jukebox
   id: Thunderdome
   name: MashedByMachines - Sector 11
   path:
@@ -39,3 +45,4 @@
   name: PigeonBeans - Sunset
   path:
     path: /Audio/Jukebox/sunset.ogg
+

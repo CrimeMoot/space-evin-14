@@ -4,6 +4,7 @@
   levels:
     green:
       announcement: alert-level-green-announcement
+      sound: /Audio/Misc/green.ogg
       color: Green
       emergencyLightColor: LawnGreen
       shuttleTime: 600

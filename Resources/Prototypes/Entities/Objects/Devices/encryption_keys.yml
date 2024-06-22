@@ -243,3 +243,18 @@
       layers:
         - state: crypt_rusted
         - state: pirate_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyDSO
+  name: ключ шифрования департамента спец. операций
+  description: An encryption key used by captain's bosses.
+  components:
+  - type: EncryptionKey
+    channels:
+    - DSO
+    defaultChannel: DSO
+  - type: Sprite
+    layers:
+    - state: crypt_blue
+    - state: nano_label

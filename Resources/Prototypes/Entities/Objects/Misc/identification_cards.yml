@@ -442,6 +442,8 @@
     layers:
     - state: default
     - state: idbrigmedic
+  - type: PresetIdCard
+    job: Brigmedic
 
 - type: entity
   parent: IDCardStandard
@@ -581,6 +583,7 @@
     heldPrefix: blue
   - type: IdCard
     jobTitle: Centcom Agent
+    jobIcon: JobIconDeathsquad
 
 - type: entity
   name: passenger ID card
@@ -647,6 +650,7 @@
     - JobIconSecurityCadet
     - JobIconZookeeper
     - JobIconVisitor
+    - JobIconBlueshield #Evin
   - type: ActivatableUI
     key: enum.AgentIDCardUiKey.Key
     inHandsOnly: true
@@ -882,3 +886,15 @@
     - CentralCommand
     - NuclearOperative
     - SyndicateAgent
+
+- type: entity
+  parent: PassengerIDCard
+  id: BlueshieldIDCard
+  name: Blueshields ID card
+  components:
+  - type: PresetIdCard
+    job: Blueshield
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idblueshield

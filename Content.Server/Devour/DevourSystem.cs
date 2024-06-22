@@ -4,13 +4,15 @@ using Content.Shared.Chemistry.Components;
 using Content.Shared.Devour;
 using Content.Shared.Devour.Components;
 using Content.Shared.Humanoid;
+using Content.Server.Body.Components;
+using Robust.Server.Containers;
 
 namespace Content.Server.Devour;
 
 public sealed class DevourSystem : SharedDevourSystem
 {
     [Dependency] private readonly BloodstreamSystem _bloodstreamSystem = default!;
-
+    [Dependency] private readonly ContainerSystem _container = default!;
     public override void Initialize()
     {
         base.Initialize();
@@ -58,4 +60,5 @@ public sealed class DevourSystem : SharedDevourSystem
         ContainerSystem.EmptyContainer(component.Stomach);
     }
 }
+
 

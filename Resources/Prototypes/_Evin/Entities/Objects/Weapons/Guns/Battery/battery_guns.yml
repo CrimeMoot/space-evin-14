@@ -1,0 +1,82 @@
+- type: entity
+  name: тазер
+  parent: BaseWeaponBatterySmall
+  id: WeaponTaserWeak
+  suffix: Однозарядный
+  description: Однозарядный энергетический пистолет, снаряд которого нелетально собьет любого с ног.
+  components:
+  - type: Tag
+    tags:
+    - Taser
+    - Sidearm
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Item
+    heldPrefix: taser4
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - Belt
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/taser.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletTaserWeak
+    fireCost: 4999
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: X-01 мультифазовый энергетический пистолет #by hiucko
+  parent: BaseWeaponBatterySmall
+  id: WeaponLaserHos
+  description: Энергетический пистолет с несколькими режимами стрельбы.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Battery/laser_hos.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    projectileSpeed: 12
+  - type: Item
+    size: Normal
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisabler
+    fireCost: 300
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: BulletOmnilaserOrangered
+      fireCost: 300
+    - proto: BulletDisabler
+      fireCost: 300
+    - proto: BulletTaserWeak
+      fireCost: 5000
+  - type: Battery
+    maxCharge: 6000
+    startingCharge: 6000
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: Tag
+    tags:
+    - HighRiskItem
+  - type: StaticPrice
+    price: 7500

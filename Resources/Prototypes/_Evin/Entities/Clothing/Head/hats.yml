@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretOso
+  name: берет офицера специальных операций
+  description: Берет с золотым значком. А вы чего ожидали?
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/Head/Hats/osoberet.rsi
+  - type: Clothing
+    sprite: _Evin/Clothing/Head/Hats/osoberet.rsi

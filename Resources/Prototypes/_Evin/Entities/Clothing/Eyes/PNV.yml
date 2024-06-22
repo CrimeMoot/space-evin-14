@@ -1,0 +1,72 @@
+- type: entity
+  name: ПНВ
+  id: ClothingEyesVision
+  parent: BaseItem
+  description: Прибор ночного видения. Обеспечивает изображение местности в условиях низкой освещенности.
+  components:
+  - type: Item
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+    quickEquip: true
+    slots: [ Eyes ]
+  - type: UseDelay
+    delay: 4
+  - type: PNV
+
+- type: entity
+  parent: [ClothingEyesVision,ShowSecurityIcons]
+  id: ClothingEyesVisionNuki
+  suffix: nuke
+  components:
+  - type: ShowSyndicateIcons
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+  - type: ChameleonClothing
+    slot: [eyes]
+    default: ClothingEyesGlassesSunglasses
+  - type: UserInterface
+    interfaces:
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface
+  - type: HiddenDescription
+    entries:
+    - label: corvax-hidden-desc-Chameleon-syndicate
+      whitelistMind:
+        components:
+          - TraitorRole
+          - NukeOperative
+    - label: corvax-hidden-desc-Chameleon-research
+      jobRequired:
+        - ResearchAssistant
+        - ResearchDirector
+        - Scientist
+        - Borg
+
+- type: entity
+  id: NVToggleAction
+  name: Переключение ПНВ
+  description: Переключает ваше ПНВ
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 2.5
+    icon:
+      sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+      state: icon
+    event: !type:NVInstantActionEvent
+
+- type: entity
+  id: SwitchNightVision
+  name: Переключение ночного зрения
+  description: Переключает ночное зрение
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 2.5
+    icon:
+      sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+      state: icon
+    event: !type:NVInstantActionEvent

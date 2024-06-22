@@ -35,6 +35,12 @@
     - BaseStation
     - BaseStationAlertLevels
     - BaseStationNanotrasen
+    - BaseStationCargo #evin
+    - BaseStationJobsSpawning #evin
+    - BaseStationRecords #evin
+    - BaseStationShuttles #evin
+    - BaseStationExpeditions #evin
+    - BaseStationMagnet #evin
   noSpawn: true
   components:
     - type: Transform

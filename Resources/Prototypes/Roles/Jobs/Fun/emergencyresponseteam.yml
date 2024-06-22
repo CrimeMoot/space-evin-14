@@ -25,9 +25,9 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolN1984
+    pocket1: WeaponLaserHos
     pocket2: FlashlightSeclite
   storage:
     back:
@@ -51,9 +51,9 @@
     outerClothing: ClothingOuterHardsuitERTLeader
     suitstorage: AirTankFilled
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolN1984
+    pocket1: WeaponLaserHos
     pocket2: FlashlightSeclite
   storage:
     back:
@@ -77,7 +77,7 @@
     outerClothing: ClothingOuterHardsuitERTLeader
     suitstorage: WeaponRifleLecter
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltSecurityFilled
     pocket1: MagazineRifle
     pocket2: MagazineRifle
@@ -125,7 +125,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTEngineerPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltStorageWaistbag
     pocket1: Flare
     pocket2: DrinkWaterBottleFull
@@ -158,7 +158,7 @@
     outerClothing: ClothingOuterHardsuitERTChaplain
     suitstorage: AirTankFilled
     id: ERTChaplainPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltStorageWaistbag
     pocket1: Flare
     pocket2: DrinkWaterBottleFull
@@ -205,7 +205,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTEngineerPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltChiefEngineerFilled
     pocket1: Flare
     pocket2: GasAnalyzer
@@ -235,7 +235,7 @@
     outerClothing: ClothingOuterHardsuitERTEngineer
     suitstorage: AirTankFilled
     id: ERTEngineerPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltChiefEngineerFilled
     pocket1: Flare
     pocket2: GasAnalyzer
@@ -280,7 +280,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTSecurityPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58
     pocket2: FlashlightSeclite
@@ -306,7 +306,7 @@
     outerClothing: ClothingOuterHardsuitERTSecurity
     suitstorage: AirTankFilled
     id: ERTSecurityPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58
     pocket2: FlashlightSeclite
@@ -332,7 +332,7 @@
     outerClothing: ClothingOuterHardsuitERTSecurity
     suitstorage: WeaponRifleLecter
     id: ERTSecurityPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltSecurityFilled
     pocket1: MagazineRifle
     pocket2: MagazineRifle
@@ -375,7 +375,7 @@
     gloves: ClothingHandsGlovesNitrile
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTMedicPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltMedicalFilled
     pocket1: Flare
   storage:
@@ -400,7 +400,7 @@
     outerClothing: ClothingOuterHardsuitERTMedical
     suitstorage: AirTankFilled
     id: ERTMedicPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltMedicalFilled
     pocket1: Flare
   storage:
@@ -439,7 +439,7 @@
     gloves: ClothingHandsGlovesColorPurple
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTJanitorPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltJanitorFilled
     pocket1: Flare
   storage:
@@ -463,7 +463,7 @@
     outerClothing: ClothingOuterHardsuitERTJanitor
     suitstorage: AirTankFilled
     id: ERTJanitorPDA
-    ears: ClothingHeadsetAltCentCom
+    ears: ClothingHeadsetAltDSO
     belt: ClothingBeltJanitorFilled
     pocket1: Flare
   storage:

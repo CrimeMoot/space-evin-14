@@ -44,6 +44,7 @@
   - type: Polymorphable
   - type: StatusIcon
   - type: TTS # Corvax-TTS
+  - type: NightVision
   - type: RequireProjectileTarget
     active: False
 

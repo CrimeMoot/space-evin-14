@@ -370,6 +370,7 @@
       - SpeedLoaderMagnumUranium
       - TelescopicShield
       - Truncheon
+      - ClothingEyesVision
       - WeaponAdvancedLaser
       - WeaponLaserCannon
       - WeaponLaserCarbine
@@ -794,6 +795,7 @@
       - Truncheon
       - VoiceTrigger
       - WeaponAdvancedLaser
+      - ClothingEyesVision
       - WeaponDisabler
       - WeaponDisablerSMG
       - WeaponLaserCannon

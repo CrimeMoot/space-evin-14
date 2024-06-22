@@ -28,6 +28,13 @@
       - id: PlushieMoth
       - id: PlushieArachind
       - id: PlushiePenguin
+      - id: PlushieAvrelia #Evin
+      - id: PlushieLaura
+      - id: PlushieKraht
+      - id: PlushieSheyla
+      - id: PlushieEsmira
+      - id: PlushieSakka
+      #- id: PlushieGrapel # Ne sponsor
 
 - type: entity
   id: CrateFunLizardPlushieBulk

@@ -93,6 +93,11 @@
   - listplayers
   - tp
   - tpto
+  - exec
+  - fuckrules
+  - adminwho
+  - dumpentities
+  - net_watchent
 
 - Flags: FUN
   Commands:

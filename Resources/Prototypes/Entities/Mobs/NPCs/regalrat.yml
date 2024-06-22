@@ -198,6 +198,8 @@
     - map: [ "enum.DamageStateVisualLayers.BaseUnshaded"]
       state: eyes
       shader: unshaded
+    - type: Bloodstream
+    bloodMaxVolume: 40 #Evin debuff blood
 
   - type: SpriteMovement
     movementLayers:

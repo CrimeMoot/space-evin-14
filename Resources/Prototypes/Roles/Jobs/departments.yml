@@ -38,6 +38,7 @@
   color: "#334E6D"
   roles:
   - Captain
+  - Blueshield #Evin
   - IAA # Corvax-IAA
   - CentralCommandOfficial
   - ChiefEngineer
@@ -58,6 +59,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  - Borgeng
 
 - type: department
   id: Medical
@@ -70,6 +72,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  - Borgmed
 
 - type: department
   id: Security
@@ -80,9 +83,10 @@
   - HeadOfSecurity
   - SecurityCadet
   - SecurityOfficer
-  - Pilot # Corvax-Pilot
+  - Pilot
   - Detective
   - Warden
+  - Brigmedic
 
 - type: department
   id: Science

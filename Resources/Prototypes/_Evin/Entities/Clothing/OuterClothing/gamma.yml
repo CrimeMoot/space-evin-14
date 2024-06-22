@@ -1,0 +1,168 @@
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTLeaderGamma
+  name: скафандр Лидера ОБР кода Гамма
+  description: Новейших скаф разработанный NanoTrasen. Дает хорошую защиту и не замедляет.
+  components:
+  - type: Sprite
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/leaderser.rsi
+  - type: Clothing
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/leaderser.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTLeaderGamma
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.5
+        Radiation: 0.25
+        Caustic: 0.4
+        Stun: 0.5
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTLeaderGamma
+  name: шлем Лидера ОБР Кода Гамма
+  description: М?
+  components:
+  - type: Sprite
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/halmerleaderert.rsi
+  - type: Clothing
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/halmerleaderert.rsi
+  - type: PointLight
+    color: cyan
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: PNV
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTMedicalGamma
+  name: скафанд медика ОБР кода гамма
+  description: Лечить мое призвание.
+  components:
+  - type: Sprite
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/medser.rsi
+  - type: Clothing
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/medser.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTMedicalGamma
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.6
+        Heat: 0.6
+        Radiation: 0.25
+        Caustic: 0.4
+        Stun: 0.6
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTMedicalGamma
+  name: шлем Медика ОБР кода гамма
+  description: В нем ты видишь наверное больше
+  components:
+  - type: Sprite
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/halmermedert.rsi
+  - type: Clothing
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/halmermedert.rsi
+  - type: PointLight
+    color: "#adffec"
+  - type: PNV
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTEngineerGamma
+  name: скафандр Инженера ОБР кода гамма.
+  description: Боб строитель!
+  components:
+  - type: Sprite
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/ingerer.rsi
+  - type: Clothing
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/ingerer.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTEngineerGamma
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.7
+        Piercing: 0.6
+        Heat: 0.5
+        Radiation: 0.25
+        Caustic: 0.4
+        Stun: 0.5
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTEngineerGamma
+  name: шлем Инженера ОБР кода гамма.
+  description: Шлем
+  components:
+  - type: Sprite
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/halmerengenerert.rsi
+  - type: Clothing
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/halmerengenerert.rsi
+  - type: PointLight
+    color: "#f4ffad"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: PNV
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTSecurityGamma
+  name: скафандр ОБР кода Гамма
+  description: Скаф используемый отрядом ОБР кода гамма.
+  components:
+  - type: Sprite
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/osiserser.rsi
+  - type: Clothing
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/osiserser.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSecurityGamma
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.4
+        Stun: 0.5
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTSecurityGamma
+  name: шлем Обр Кода гамма.
+  description: Шлем
+  components:
+  - type: Sprite
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/halmerosiserert.rsi
+  - type: Clothing
+    sprite: /Textures/_Evin/Clothing/OuterClothing/Gamma/halmerosiserert.rsi
+  - type: PointLight
+    color: "#ffadc6"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: PNV

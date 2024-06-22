@@ -1,0 +1,61 @@
+- type: job
+  id: Borgeng
+  name: киборг инженер
+  description: job-description-borg
+  playTimeTracker: JobBorging
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 72000 #60 hrs
+  canBeAntag: false
+  icon: JobIconBorg
+  supervisors: job-supervisors-rd
+  jobEntity: PlayerBorgEngineer
+
+- type: playTimeTracker
+  id: JobBorging
+
+- type: entity
+  id: SpawnPointBorgeng
+  parent: SpawnPointJobBase
+  name: киборг инженер
+  components:
+  - type: SpawnPoint
+    job_id: Borgeng
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot_e
+
+- type: job
+  id: Borgmed
+  name: киборг врач
+  description: job-description-borg
+  playTimeTracker: JobBorgmed
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 72000 #60 hrs
+  canBeAntag: false
+  icon: JobIconBorg
+  supervisors: job-supervisors-rd
+  jobEntity: PlayerBorgMedical
+
+- type: playTimeTracker
+  id: JobBorgmed
+
+- type: entity
+  id: SpawnPointBorgmed
+  parent: SpawnPointJobBase
+  name: киборг врач
+  components:
+  - type: SpawnPoint
+    job_id: Borgmed
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot
+    - sprite: Mobs/Silicon/chassis.rsi
+      state: robot_e

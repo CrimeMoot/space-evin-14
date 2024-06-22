@@ -292,6 +292,7 @@
   - type: PressureProtection
     highPressureMultiplier: 0.60
     lowPressureMultiplier: 1000
+  - type: PNV
 
 #Head of Security's hardsuit
 - type: entity
@@ -552,6 +553,7 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  - type: PNV
 
 #ERT Chaplain Hardsuit
 - type: entity
@@ -566,6 +568,7 @@
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
   - type: PointLight
     color: "#ffffff"
+  - type: PNV
 
 #ERT Engineer Hardsuit
 - type: entity
@@ -587,6 +590,7 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  - type: PNV
 
 #ERT Medical Hardsuit
 - type: entity
@@ -601,6 +605,7 @@
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
   - type: PointLight
     color: "#adffec"
+  - type: PNV
 
 #ERT Security Hardsuit
 - type: entity
@@ -622,6 +627,7 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  - type: PNV
 
 #ERT Janitor Hardsuit
 - type: entity
@@ -636,6 +642,7 @@
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertjanitor.rsi
   - type: PointLight
     color: "#cbadff"
+  - type: PNV
 
 #CBURN Hardsuit
 - type: entity
@@ -701,6 +708,7 @@
         Heat: 0.80
         Radiation: 0.80
         Caustic: 0.95
+  - type: PNV
 
 #MISC. HARDSUITS
 #Clown Hardsuit

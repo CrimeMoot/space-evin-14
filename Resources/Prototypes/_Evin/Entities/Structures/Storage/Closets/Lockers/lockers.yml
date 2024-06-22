@@ -1,0 +1,46 @@
+- type: entity
+  id: LockerBlueshield
+  parent: LockerBaseSecure
+  name: blueshield locker
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: Structures/Storage/closet.rsi
+    state: blueshield
+  - type: EntityStorageVisuals
+    stateBaseClosed: blueshield
+    stateDoorOpen: blueshield_open
+    stateDoorClosed: blueshield_door
+  - type: AccessReader
+    access: [ [ "Blueshield" ] ]
+
+- type: entity
+  id: LockerBlueshieldFilled
+  suffix: Filled
+  parent: LockerBlueshield
+  components:
+  - type: StorageFill
+    contents:
+    - id: BoxZiptie
+    - id: WeaponDisabler
+    - id: MedkitAdvancedFilled
+    - id: SpeedLoaderMagnum
+    - id: ClothingOuterHardsuitBlueshield
+    - id: DoubleEmergencyOxygenTankFilled
+    - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  id: LockerOso
+  name: шкаф офицера специальных операций
+  parent: LockerBaseSecure
+  description: "Шкаф какого-то важного человека. Сбоку нацарапано: Помогите, меня держат в рабстве"
+  components:
+  - type: Sprite
+    sprite: Structures/Storage/closet.rsi
+  - type: Appearance
+  - type: AccessReader
+    access: [["Captain"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: oso
+    stateDoorOpen: oso_open
+    stateDoorClosed: oso_door
