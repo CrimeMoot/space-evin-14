@@ -130,3 +130,8 @@
   license: "CC0-1.0"
   copyright: "Created by ps3moira (github) for space-station-14."
   source: "https://github.com/space-wizards/space-station-14/"
+
+- files: ["black.png", "whited.png", "transparent.png"]
+  license: "CC0-1.0"
+  copyright: null
+  source: "https://github.com/space-wizards/space-station-14/"
