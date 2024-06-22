@@ -7,7 +7,6 @@
   description: survival-description
   rules:
     - RampingStationEventScheduler
-    - GameRuleMeteorScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -21,7 +20,6 @@
     - Revolutionary
     - Zombie
     - RampingStationEventScheduler
-    - GameRuleMeteorScheduler
 
 - type: gamePreset
   id: Extended
@@ -33,7 +31,6 @@
   description: extended-description
   rules:
   - BasicStationEventScheduler
-  - GameRuleMeteorScheduler
   - BasicRoundstartVariation
 
 - type: gamePreset
@@ -46,7 +43,6 @@
   description: greenshift-description
   rules:
   - BasicRoundstartVariation
-  - GameRuleMeteorScheduler
 
 - type: gamePreset
   id: Secret
@@ -68,7 +64,6 @@
   description: secret-description
   rules:
     - BasicStationEventScheduler
-    - GameRuleMeteorScheduler
 
 - type: gamePreset
   id: SecretGreenshift #For Admin Use: Runs Greenshift but shows "Secret" in lobby.
@@ -100,7 +95,6 @@
     - Traitor
     - SubGamemodesRule
     - BasicStationEventScheduler
-    - GameRuleMeteorScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -127,7 +121,6 @@
     - Nukeops
     - SubGamemodesRule
     - BasicStationEventScheduler
-    - GameRuleMeteorScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -143,7 +136,6 @@
     - Revolutionary
     - SubGamemodesRule
     - BasicStationEventScheduler
-    - GameRuleMeteorScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset
@@ -160,5 +152,4 @@
   rules:
   - Zombie
   - BasicStationEventScheduler
-  - GameRuleMeteorScheduler
   - BasicRoundstartVariation

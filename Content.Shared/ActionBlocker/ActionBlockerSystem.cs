@@ -1,9 +1,13 @@
+using Content.Shared.Bed.Sleep;
 using Content.Shared.Body.Events;
+using Content.Shared.DragDrop;
 using Content.Shared.Emoting;
 using Content.Shared.Hands;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Item;
+using Content.Shared.Mobs;
+using Content.Shared.Mobs.Components;
 using Content.Shared.Movement.Components;
 using Content.Shared.Movement.Events;
 using Content.Shared.Speech;
@@ -70,7 +74,7 @@ namespace Content.Shared.ActionBlocker
                 return false;
 
             var ev = new InteractionAttemptEvent(user, target);
-            RaiseLocalEvent(user, ref ev);
+            RaiseLocalEvent(user, ev);
 
             if (ev.Cancelled)
                 return false;
@@ -79,7 +83,7 @@ namespace Content.Shared.ActionBlocker
                 return true;
 
             var targetEv = new GettingInteractedWithAttemptEvent(user, target);
-            RaiseLocalEvent(target.Value, ref targetEv);
+            RaiseLocalEvent(target.Value, targetEv);
 
             return !targetEv.Cancelled;
         }
@@ -110,7 +114,7 @@ namespace Content.Shared.ActionBlocker
         public bool CanConsciouslyPerformAction(EntityUid user)
         {
             var ev = new ConsciousAttemptEvent(user);
-            RaiseLocalEvent(user, ref ev);
+            RaiseLocalEvent(user, ev);
 
             return !ev.Cancelled;
         }
@@ -190,7 +194,7 @@ namespace Content.Shared.ActionBlocker
             if (target == null)
                 return true;
 
-            var tev = new GettingAttackedAttemptEvent(uid, weapon, disarm);
+            var tev = new GettingAttackedAttemptEvent();
             RaiseLocalEvent(target.Value, ref tev);
             return !tev.Cancelled;
         }

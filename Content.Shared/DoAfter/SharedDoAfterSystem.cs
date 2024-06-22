@@ -310,7 +310,7 @@ public abstract partial class SharedDoAfterSystem : EntitySystem
         }
 
         if ((conditions & DuplicateConditions.SameEvent) != 0
-            && !args.Event.IsDuplicate(otherArgs.Event))
+            && args.Event.GetType() != otherArgs.Event.GetType())
         {
             return false;
         }

@@ -58,7 +58,7 @@ public sealed partial class ClimbSystem : VirtualController
         SubscribeLocalEvent<ClimbingComponent, EntParentChangedMessage>(OnParentChange);
         SubscribeLocalEvent<ClimbingComponent, ClimbDoAfterEvent>(OnDoAfter);
         SubscribeLocalEvent<ClimbingComponent, EndCollideEvent>(OnClimbEndCollide);
-        SubscribeLocalEvent<ClimbingComponent, BuckledEvent>(OnBuckled);
+        SubscribeLocalEvent<ClimbingComponent, BuckleChangeEvent>(OnBuckleChange);
 
         SubscribeLocalEvent<ClimbableComponent, CanDropTargetEvent>(OnCanDragDropOn);
         SubscribeLocalEvent<ClimbableComponent, GetVerbsEvent<AlternativeVerb>>(AddClimbableVerb);
@@ -468,8 +468,10 @@ public sealed partial class ClimbSystem : VirtualController
         Climb(uid, uid, climbable, true, component);
     }
 
-    private void OnBuckled(EntityUid uid, ClimbingComponent component, ref BuckledEvent args)
+    private void OnBuckleChange(EntityUid uid, ClimbingComponent component, ref BuckleChangeEvent args)
     {
+        if (!args.Buckling)
+            return;
         StopClimb(uid, component);
     }
 

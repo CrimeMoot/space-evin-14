@@ -1,4 +1,4 @@
-[net]
+﻿[net]
 tickrate = 30
 
 [netres]
@@ -19,7 +19,7 @@ lobbyduration = 360
 secret_weight_prototype = "CorvaxSecretDefault"
 
 [server]
-rules_file = "CorvaxRuleset"
+rules_header = "ui-rules-header-corvax"
 
 [discord]
 rich_main_icon_id = "corvax"

@@ -3,10 +3,7 @@ thief-backpack-window-title = thief toolbox
 thief-backpack-window-description =
     This toolbox is filled with unspecified contents.
     Now you need to remember what you put in it.
-    Choose {$maxCount} different {$maxCount ->
-        [1] set
-        *[other] sets
-    } from the list.
+    Choose 2 different sets from the list.
 
 thief-backpack-window-selected = Kits selected: ({$selectedCount}/{$maxCount})
 

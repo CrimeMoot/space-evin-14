@@ -6,7 +6,6 @@
   - Forensics
   - Defusal
   - CriminalRecords
-  # - SpaceLaw # TODO вернуть когда закон будет адаптирован под корвакс
 
 - type: guideEntry
   id: Forensics

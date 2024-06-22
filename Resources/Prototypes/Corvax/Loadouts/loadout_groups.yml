@@ -6,9 +6,10 @@
   loadouts: []
 
 - type: loadoutGroup
-  id: ChiefEngineerBackpack
-  name: loadout-group-chief-engineer-backpack
+  id: PsychologistBackpack
+  name: loadout-group-psychologist-backpack
   loadouts:
-  - ChiefEngineerBackpack
-  - ChiefEngineerSatchel
-  - ChiefEngineerDuffel
+  - PsychologistBackpack
+  - PsychologistSatchel
+  - PsychologistDuffel
+

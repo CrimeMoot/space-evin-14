@@ -223,7 +223,9 @@ namespace Content.Server.Zombies
             _faction.AddFaction(target, "Zombie");
 
             //gives it the funny "Zombie ___" name.
-            _nameMod.RefreshNameModifiers(target);
+            var meta = MetaData(target);
+            zombiecomp.BeforeZombifiedEntityName = meta.EntityName;
+            _metaData.SetEntityName(target, Loc.GetString("zombie-name-prefix", ("target", meta.EntityName)), meta);
 
             _identity.QueueIdentityUpdate(target);
 

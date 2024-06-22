@@ -14,7 +14,12 @@
             prefixCreator: 'TG'
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency_corvaxdelta.yml
+        - type: StationRandomTransform
+          enableStationRotation: false
+          maxStationOffset: null
         - type: StationJobs
+          overflowJobs:
+            - Passenger
           availableJobs:
             Borg: [ 2, 3 ]
             Boxer: [ 2, 2 ]

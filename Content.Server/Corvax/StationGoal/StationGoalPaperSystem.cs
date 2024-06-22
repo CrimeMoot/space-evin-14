@@ -3,7 +3,6 @@ using Content.Server.Fax;
 using Content.Shared.Fax.Components;
 using Content.Shared.GameTicking;
 using Content.Shared.Paper;
-using Robust.Server.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
@@ -17,7 +16,6 @@ namespace Content.Server.Corvax.StationGoal
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
         [Dependency] private readonly IRobustRandom _random = default!;
         [Dependency] private readonly FaxSystem _faxSystem = default!;
-        [Dependency] private readonly IPlayerManager _playerManager = default!;
 
         public override void Initialize()
         {
@@ -33,18 +31,7 @@ namespace Content.Server.Corvax.StationGoal
         public bool SendRandomGoal()
         {
             var availableGoals = _prototypeManager.EnumeratePrototypes<StationGoalPrototype>().ToList();
-            var playerCount = _playerManager.PlayerCount;
-
-            var validGoals = availableGoals.Where(goal =>
-                    (!goal.MinPlayers.HasValue || playerCount >= goal.MinPlayers.Value) &&
-                    (!goal.MaxPlayers.HasValue || playerCount <= goal.MaxPlayers.Value)).ToList();
-
-            if (!validGoals.Any())
-            {
-                return false;
-            }
-
-            var goal = _random.Pick(validGoals);
+            var goal = _random.Pick(availableGoals);
             return SendStationGoal(goal);
         }
 

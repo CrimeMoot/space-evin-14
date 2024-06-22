@@ -1,6 +1,4 @@
 using System.Diagnostics.CodeAnalysis;
-using Content.Server.Players;
-using Content.Server.Players.RateLimiting;
 using Content.Shared.Administration;
 using Content.Shared.Chat;
 using Robust.Shared.Network;
@@ -52,6 +50,6 @@ namespace Content.Server.Chat.Managers
         /// </summary>
         /// <param name="player">The player sending a chat message.</param>
         /// <returns>False if the player has violated rate limits and should be blocked from sending further messages.</returns>
-        RateLimitStatus HandleRateLimit(ICommonSession player);
+        bool HandleRateLimit(ICommonSession player);
     }
 }

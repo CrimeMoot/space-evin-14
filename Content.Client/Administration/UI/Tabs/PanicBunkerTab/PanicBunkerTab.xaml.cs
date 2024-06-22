@@ -13,7 +13,7 @@ public sealed partial class PanicBunkerTab : Control
     [Dependency] private readonly IConsoleHost _console = default!;
 
     private string _minAccountAge;
-    private string _minOverallMinutes;
+    private string _minOverallHours;
 
     public PanicBunkerTab()
     {
@@ -26,9 +26,9 @@ public sealed partial class PanicBunkerTab : Control
         MinAccountAge.OnFocusExit += args => SendMinAccountAge(args.Text);
         _minAccountAge = MinAccountAge.Text;
 
-        MinOverallMinutes.OnTextEntered += args => SendMinOverallMinutes(args.Text);
-        MinOverallMinutes.OnFocusExit += args => SendMinOverallMinutes(args.Text);
-        _minOverallMinutes = MinOverallMinutes.Text;
+        MinOverallHours.OnTextEntered += args => SendMinOverallHours(args.Text);
+        MinOverallHours.OnFocusExit += args => SendMinOverallHours(args.Text);
+        _minOverallHours = MinOverallHours.Text;
         // Corvax-VPNGuard-Start
         var haveSecrets = IoCManager.Instance!.TryResolveType<ISharedSponsorsManager>(out _); // TODO: Probably need better way to detect Secrets module
         if (haveSecrets)
@@ -51,16 +51,16 @@ public sealed partial class PanicBunkerTab : Control
         _console.ExecuteCommand($"panicbunker_min_account_age {minutes}");
     }
 
-    private void SendMinOverallMinutes(string text)
+    private void SendMinOverallHours(string text)
     {
         if (string.IsNullOrWhiteSpace(text) ||
-            text == _minOverallMinutes ||
-            !int.TryParse(text, out var minutes))
+            text == _minOverallHours ||
+            !int.TryParse(text, out var hours))
         {
             return;
         }
 
-        _console.ExecuteCommand($"panicbunker_min_overall_minutes {minutes}");
+        _console.ExecuteCommand($"panicbunker_min_overall_hours {hours}");
     }
 
     // Corvax-VPNGuard-Start
@@ -84,11 +84,11 @@ public sealed partial class PanicBunkerTab : Control
         CountDeadminnedButton.Pressed = status.CountDeadminnedAdmins;
         ShowReasonButton.Pressed = status.ShowReason;
 
-        MinAccountAge.Text = status.MinAccountAgeMinutes.ToString();
+        MinAccountAge.Text = status.MinAccountAgeHours.ToString();
         _minAccountAge = MinAccountAge.Text;
 
-        MinOverallMinutes.Text = status.MinOverallMinutes.ToString();
-        _minOverallMinutes = MinOverallMinutes.Text;
+        MinOverallHours.Text = status.MinOverallHours.ToString();
+        _minOverallHours = MinOverallHours.Text;
         DenyVPN.Pressed = status.DenyVpn; // Corvax-VPNGuard
     }
 }

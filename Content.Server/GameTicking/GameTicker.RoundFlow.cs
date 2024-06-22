@@ -160,12 +160,6 @@ namespace Content.Server.GameTicking
             // whereas the command can also be used on an existing map.
             var loadOpts = loadOptions ?? new MapLoadOptions();
 
-            if (map.MaxRandomOffset != 0f)
-                loadOpts.Offset = _robustRandom.NextVector2(map.MaxRandomOffset);
-
-            if (map.RandomRotation)
-                loadOpts.Rotation = _robustRandom.NextAngle();
-
             var ev = new PreGameMapLoad(targetMapId, map, loadOpts);
             RaiseLocalEvent(ev);
 
@@ -245,7 +239,7 @@ namespace Content.Server.GameTicking
                 HumanoidCharacterProfile profile;
                 if (_prefsManager.TryGetCachedPreferences(userId, out var preferences))
                 {
-                    profile = (HumanoidCharacterProfile) preferences.SelectedCharacter;
+                    profile = (HumanoidCharacterProfile) preferences.GetProfile(preferences.SelectedCharacterIndex);
                 }
                 else
                 {
@@ -365,7 +359,6 @@ namespace Content.Server.GameTicking
             var listOfPlayerInfo = new List<RoundEndMessageEvent.RoundEndPlayerInfo>();
             // Grab the great big book of all the Minds, we'll need them for this.
             var allMinds = EntityQueryEnumerator<MindComponent>();
-            var pvsOverride = _configurationManager.GetCVar(CCVars.RoundEndPVSOverrides);
             while (allMinds.MoveNext(out var mindId, out var mind))
             {
                 // TODO don't list redundant observer roles?
@@ -396,7 +389,7 @@ namespace Content.Server.GameTicking
                 else if (mind.CurrentEntity != null && TryName(mind.CurrentEntity.Value, out var icName))
                     playerIcName = icName;
 
-                if (TryGetEntity(mind.OriginalOwnedEntity, out var entity) && pvsOverride)
+                if (TryGetEntity(mind.OriginalOwnedEntity, out var entity))
                 {
                     _pvsOverride.AddGlobalOverride(GetNetEntity(entity.Value), recursive: true);
                 }

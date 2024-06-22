@@ -7,8 +7,6 @@
   components:
   - type: HumanoidAppearance
     species: Moth
-    hideLayersOnEquip:
-    - HeadTop
   - type: Hunger
   - type: Thirst
   - type: Icon
