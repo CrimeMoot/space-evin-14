@@ -1,7 +1,6 @@
 # Прототип РШ-12
 # делал i1cheburek
-# помогать делал Mathemat1ka
-# Кидаться помоями разрешаю
+# Кидаться помоями - разрешаю
 
 # Пули ==========================================
 
@@ -14,11 +13,11 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 14
-        Slash: 18
+        Piercing: 15
+        Slash: 20
         Structural: 15
   - type: StaminaDamageOnCollide
-    damage: 13
+    damage: 27
 
 - type: entity
   id: TheBigBoombaBulletArmor
@@ -29,12 +28,12 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 27
-        Slash: 5
+        Piercing: 25
+        Slash: 10
         Structural: 20
     ignoreResistances: true
   - type: StaminaDamageOnCollide
-    damage: 7
+    damage: 23
 
 - type: entity
   id: TheBigBoombaBulletMeat
@@ -45,25 +44,26 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 3
-        Slash: 27
+        Piercing: 4
+        Slash: 31
         Structural: 10
   - type: StaminaDamageOnCollide
-    damage: 20
+    damage: 35
 
 # Патроны ==========================================
 
 - type: entity
+  id: CartridgeSHAK12Base
+  name: cartridge 12577
   parent: BaseCartridge
-  id: TheBigBoombaBulletCasingArmor12755
-  name: пуля (12.7x55) бронебойная
+  abstract: true
   components:
   - type: Tag
     tags:
-    - Cartridge
-    - CartridgeSHAK12
+      - Cartridge
+      - CartridgeSHAK12
   - type: CartridgeAmmo
-    proto: TheBigBoombaBulletArmor
+    proto: TheBigBoombaBullet
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
     layers:
@@ -73,45 +73,28 @@
   - type: SpentAmmoVisuals
 
 - type: entity
-  parent: BaseCartridge
-  id: TheBigBoombaBulletCasingMeat12755
-  name: пуля (12.7x55) алюминиевая
+  id: CartridgeSHAK12
+  name: пуля (12.7x55) цельнометалическая
+  parent: CartridgeSHAK12Base
   components:
-  - type: Tag
-    tags:
-    - Cartridge
-    - CartridgeSHAK12
+  - type: CartridgeAmmo
+    proto: TheBigBoombaBullet
+    
+- type: entity
+  id: CartridgeSHAK12Armor
+  name: пуля (12.7x55) бронебойная
+  parent: CartridgeSHAK12Base
+  components:
+  - type: CartridgeAmmo
+    proto: TheBigBoombaBulletArmor
+ 
+- type: entity
+  id: CartridgeSHAK12Meat
+  name: пуля (12.7x55) алюминиевая
+  parent: CartridgeSHAK12Base
+  components:
   - type: CartridgeAmmo
     proto: TheBigBoombaBulletMeat
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-  - type: Appearance
-  - type: SpentAmmoVisuals
-  
-# не работает
-- type: entity
-  id: TheBigBoombaBulletCasingDuplex12755
-  name: пуля (12.7x55) дуплексная
-  parent: BaseShellShotgun
-  components:
-  - type: Tag
-    tags:
-    - Cartridge
-    - CartridgeSHAK12
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-  - type: CartridgeAmmo
-    proto: PelletShotgunSlug
-    count: 2
-    spread: 35
-  - type: Appearance
-  - type: SpentAmmoVisuals
 
 # Коробки патронов ===============================================
 
@@ -126,7 +109,7 @@
     whitelist:
       tags:
         - CartridgeSHAK12
-    proto: TheBigBoombaBulletCasing12755
+    proto: CartigeSHAK12
     capacity: 20
   - type: Item
     size: Small
@@ -147,7 +130,7 @@
   name: Коробка патронов "цельнометалические" (12.7x55)
   components:
   - type: BallisticAmmoProvider
-    proto: TheBigBoombaBulletCasing12755
+    proto: CartridgeSHAK12
   - type: Sprite
     layers:
     - state: base
@@ -161,7 +144,7 @@
   name: Коробка патронов "бронебойные" (12.7x55)
   components:
   - type: BallisticAmmoProvider
-    proto: TheBigBoombaBulletCasingArmor12755
+    proto: CartridgeSHAK12Armor
   - type: Sprite
     layers:
     - state: base
@@ -175,7 +158,7 @@
   name: Коробка патронов "алюминиевые" (12.7x55)
   components:
   - type: BallisticAmmoProvider
-    proto: TheBigBoombaBulletCasingMeat12755
+    proto: CartridgeSHAK12Meat
   - type: Sprite
     layers:
     - state: base
@@ -225,12 +208,13 @@
     whitelist:
       tags:
         - CartridgeSHAK12
-    proto: TheBigBoombaBulletCasing12755
+        - SpeedLoaderSHAK
+    proto: CartridgeSHAK12
     capacity: 5
     chambers: [ True, True, True, True, True]
     ammoSlots: [ null, null, null, null, null]
     soundEject:
-      path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
+      path: /Audio/Weapons/Guns/MagIn/shotgun_eject.ogg
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
   - type: StaticPrice
@@ -250,7 +234,92 @@
     capacity: 5
     chambers: [ True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null ]
+    
+- type: entity
+  id: BaseSpeedLoaderSHAK
+  name: Bruh
+  description: Да в нём 5 снарядов, вопросы?
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - SpeedLoaderSHAK
+  - type: SpeedLoader
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeSHAK12
+    capacity: 5
+  - type: Sprite
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
 
+- type: entity
+  id: SpeedLoaderSHAK
+  name: спидлоадер 12.7x55 (цельнометалические)
+  suffix: Большой урон, Аплинк
+  parent: BaseSpeedLoaderSHAK
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSHAK12
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-6
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: SpeedLoaderSHAKarmor
+  name: спидлоадер 12.7x55 (бронебойные)
+  suffix: Большой урон
+  parent: BaseSpeedLoaderSHAK
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSHAK12Armor
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-6
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+  
+- type: entity
+  id: SpeedLoaderSHAKmeat
+  name: спидлоадер 12.7x55 (алюминиевые)
+  suffix: Большой урон
+  parent: BaseSpeedLoaderSHAK
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSHAK12Meat
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-6
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+  
 # Аплинковая херня и все подобное =======================================
 
 - type: entity
@@ -263,10 +332,10 @@
   - type: SpawnItemsOnUse
     items:
       - id: MagazineBoxBigBoombaArmor
-        prob: .01
+        prob: .02
         orGroup: GiftPool
       - id: MagazineBoxBigBoombaMeat
-        prob: .04
+        prob: .05
         orGroup: GiftPool
       - id: MagazineBoxBigBoomba
         prob: .1
@@ -277,173 +346,52 @@
 - type: listing
   id: UplinkPistolRSH-12
   name: РШ-12
-  description: Оружие используемое для борьбы с террористами, как я понимаю теперь все наоборот? Стреляет (12.7x55)
+  description: Оружие используемое для борьбы с террористами. Как я понимаю теперь все наоборот? Стреляет (12.7x55)
   productEntity: WeaponRevolverRSH12
   cost:
-    Telecrystal: 12
+    Telecrystal: 10
   categories:
   - UplinkWeaponry
 
 - type: listing
   id: UplinkPistol12755Box
   name: Коробка патронов (12.7x55)
-  description: Содедержит случайный тип боеприпаса.
+  description: Содедержит случайный тип боеприпаса в количестве 20 штук.
   productEntity: PresentAmmoBox12755
   cost:
     Telecrystal: 4
   categories:
   - UplinkAmmo
 
+- type: listing
+  id: UplinkPistolRSH-12-SpeedLoader
+  name: Спидлоадер РШ-12 (цельнометалические)
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
+  description: Содедержит стандартный тип боеприпаса, в количестве 5 штук.
+  productEntity: SpeedLoaderSHAK
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkAmmo
 
+- type: listing
+  id: UplinkPistolRSH-12-SpeedLoader-Meat
+  name: Спидлоадер РШ-12 (алюминиевые)
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
+  description: Содедержит экспансивный тип боеприпаса, в количестве 5 штук.(колоссальный урон порезами)
+  productEntity: SpeedLoaderSHAKmeat
+  cost:
+    Telecrystal: 4
+  categories:
+  - UplinkAmmo
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# - type: entity
-  # name: РШ-12
-  # parent: BaseItem
-  # id: WeaponRevolver12
-  # description: A rooty tooty point and shooty.
-  # components:
-  # - type: Clothing
-    # sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
-    # size: Small
-    # shape:
-    # - 0,0,1,0
-    # - 0,1,0,1
-  # - type: Tag
-    # tags:
-    # - Sidearm
-  # - type: Clothing
-    # sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
-    # quickEquip: false
-    # slots:
-    # - suitStorage
-    # - Belt
-  # - type: AmmoCounter
-  # - type: Gun
-    # selectedMode: SemiAuto
-    # fireRate: 1.5
-    # availableModes:
-    # - SemiAuto
-    # soundGunshot:
-      # path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
-  # - type: UseDelay
-    # delay: 0.66
-  # - type: ContainerContainer
-    # containers:
-      # revolver-ammo: !type:Container
-  # - type: RevolverAmmoProvider
-    # whitelist:
-      # tags:
-        # - CartridgeSHAK12
-    # proto: TheBigBoombaBulletCasing12755
-    # capacity: 5
-    # chambers: [ True, True, True, True, True ]
-    # ammoSlots: [ null, null, null, null, null ]
-    # soundEject:
-      # path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
-    # soundInsert:
-      # path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
-  # - type: StaticPrice
-    # price: 500
-
-
-
-
-
-
-
-
-
-
-
-# - type: entity
-  # id: SHAK12mag
-  # name: магазин (12.7x55)
-  # parent: BaseItem
-  # abstract: true
-  # components:
-  # - type: Tag
-    # tags:
-      # - BigBoombaMag
-  # - type: BallisticAmmoProvider
-    # mayTransfer: true
-    # whitelist:
-      # tags:
-        # - CartridgeSHAK12
-    # capacity: 20
-  # - type: Item
-    # size: Small
-  # - type: ContainerContainer
-    # containers:
-      # ballistic-ammo: !type:Container
-  # - type: Sprite
-    # sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi
-    # layers:
-    # - state: base
-      # map: ["enum.GunVisualLayers.Base"]
-    # - state: mag-1
-      # map: ["enum.GunVisualLayers.Mag"]
-  # - type: MagazineVisuals
-    # magState: mag
-    # steps: 2
-    # zeroVisible: false
-  # - type: Appearance
-  
- # - type: entity
-  # name: АШ-12 (ШАК-12)
-  # parent: BaseWeaponRifle
-  # id: WeaponRifleSHAK-12
-  # description: Крупнокалиберный штурмовой автомат для зачистки помещений от террористов. Использует патроны (12.7x55)
-  # suffix: АДМЕМ
-  # components:
-  # - type: Sprite
-    # sprite: /Uploaded/Mathemat1k/Objects/Weapons/Rifles/ash9.rsi
-    # layers:
-      # - state: base
-        # map: ["enum.GunVisualLayers.Base"]
-      # - state: mag-0
-        # map: ["enum.GunVisualLayers.Mag"]
-  # - type: Clothing
-    # sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
-  # - type: ItemSlots
-    # slots:
-      # gun_magazine:
-        # name: Magazine
-        # startingItem: SHAK12mag
-        # insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
-        # ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
-        # priority: 2
-        # whitelist:
-          # tags:
-            # - SHAK12mag
-      # gun_chamber:
-        # name: Chamber
-        # startingItem: TheBigBoombaBulletCasing12755
-        # priority: 1
-        # whitelist:
-          # tags:
-            # - CartridgeSHAK12
-  # - type: ContainerContainer
-    # containers:
-      # gun_magazine: !type:ContainerSlot
-      # gun_chamber: !type:ContainerSlot
-  # - type: MagazineVisuals
-    # magState: mag
-    # steps: 1
-    # zeroVisible: true
-  # - type: Appearance
+- type: listing
+  id: UplinkPistolRSH-12-SpeedLoader-Meat
+  name: Спидлоадер РШ-12 (бронебойные)
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
+  description: Содедержит бронебойный тип боеприпаса, в количестве 5 штук.
+  productEntity: SpeedLoaderSHAKarmor
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkAmmo
