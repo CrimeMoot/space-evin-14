@@ -97,6 +97,7 @@
   - fuckrules
   - adminwho
   - dumpentities
+  - net_watchent
 
 - Flags: FUN
   Commands:

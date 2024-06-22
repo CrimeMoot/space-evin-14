@@ -16,7 +16,6 @@
     - setclipboard
     - getclipboard
     - net_graph
-    - net_watchent
     - devwindow
     - fill
     - ">"
