@@ -11,7 +11,7 @@
       shader: unshaded
       color: yellow
   - type: StaminaDamageOnCollide
-    damage: 101
+    damage: 111
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
