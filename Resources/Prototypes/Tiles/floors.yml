@@ -1936,8 +1936,8 @@
 
 #Evin
 - type: tile
-  id: FloorWhite
-  name: whited
+  id: FloorWhited
+  name: white
   sprite: /Textures/Tiles/whited.png
   baseTurf: Plating
   isSubfloor: true
