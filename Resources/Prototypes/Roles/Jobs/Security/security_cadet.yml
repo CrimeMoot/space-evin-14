@@ -8,7 +8,7 @@
       time: 800 #10 hrs # Corvax-RoleTime
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 0 #20 hrs # Corvax-RoleTime
+      time: 800 #20 hrs # Corvax-RoleTime
       inverted: false # stop playing intern if you're good at security!
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
