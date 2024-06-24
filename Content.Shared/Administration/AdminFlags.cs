@@ -125,6 +125,11 @@
         NameColor = 1 << 21,
 
         /// <summary>
+        ///     Evin-sponsors
+        /// </summary>
+        Sponsor = 1 << 22,
+
+        /// <summary>
         ///     Dangerous host permissions like scsi.
         /// </summary>
         Host = 1u << 31,
