@@ -13,9 +13,10 @@ namespace Content.Server.Solar.Components
     {
         /// <summary>
         /// Maximum supply output by this panel (coverage = 1)
+        /// buffed from 750 to 950, Evin-changes
         /// </summary>
         [DataField("maxSupply")]
-        public int MaxSupply = 750;
+        public int MaxSupply = 950;
 
         /// <summary>
         /// Current coverage of this panel (from 0 to 1).
