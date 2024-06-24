@@ -7,6 +7,7 @@ using Content.Server.Database;
 using Content.Server.Players;
 using Content.Shared.Administration;
 using Content.Shared.CCVar;
+using Content.Shared.Info;
 using Content.Shared.Players;
 using Robust.Server.Console;
 using Robust.Server.Player;
@@ -42,8 +43,8 @@ namespace Content.Server.Administration.Managers
         public event Action<AdminPermsChangedEventArgs>? OnPermsChanged;
 
         public IEnumerable<ICommonSession> ActiveAdmins => _admins
-            .Where(p => p.Value.Data.Active)
-            .Select(p => p.Key);
+        .Where(p => p.Value.Data.Active)
+        .Select(p => p.Key);
 
         public IEnumerable<ICommonSession> AllAdmins => _admins.Select(p => p.Key);
 
@@ -162,7 +163,7 @@ namespace Content.Server.Administration.Managers
             {
                 _chat.DispatchServerMessage(session, Loc.GetString("admin-manager-stealthed-message"));
                 _chat.SendAdminAnnouncement(Loc.GetString("admin-manager-self-re-admin-message",
-                    ("newAdminName", session.Name)), flagWhitelist: AdminFlags.Stealth);
+                                                          ("newAdminName", session.Name)), flagWhitelist: AdminFlags.Stealth);
             }
 
             SendPermsChangedEvent(session);
@@ -320,8 +321,8 @@ namespace Content.Server.Administration.Managers
                 msg.Admin = adminData.Data;
 
                 commands.AddRange(_commandPermissions.AdminCommands
-                    .Where(p => p.Value.Any(f => adminData.Data.HasFlag(f)))
-                    .Select(p => p.Key));
+                .Where(p => p.Value.Any(f => adminData.Data.HasFlag(f)))
+                .Select(p => p.Key));
             }
 
             msg.AvailableCommands = commands.ToArray();
@@ -347,13 +348,13 @@ namespace Content.Server.Administration.Managers
                     if (reg.Data.Stealth)
                     {
                         _chat.SendAdminAnnouncement(Loc.GetString("admin-manager-admin-logout-message",
-                            ("name", e.Session.Name)), flagWhitelist: AdminFlags.Stealth);
+                                                                  ("name", e.Session.Name)), flagWhitelist: AdminFlags.Stealth);
 
                     }
                     else
                     {
                         _chat.SendAdminAnnouncement(Loc.GetString("admin-manager-admin-logout-message",
-                            ("name", e.Session.Name)));
+                                                                  ("name", e.Session.Name)));
                     }
                 }
             }
@@ -391,12 +392,12 @@ namespace Content.Server.Administration.Managers
 
                         _chat.DispatchServerMessage(session, Loc.GetString("admin-manager-stealthed-message"));
                         _chat.SendAdminAnnouncement(Loc.GetString("admin-manager-admin-login-message",
-                            ("name", session.Name)), flagWhitelist: AdminFlags.Stealth);
+                                                                  ("name", session.Name)), flagWhitelist: AdminFlags.Stealth);
                     }
                     else
                     {
                         _chat.SendAdminAnnouncement(Loc.GetString("admin-manager-admin-login-message",
-                            ("name", session.Name)));
+                                                                  ("name", session.Name)));
                     }
                 }
 
@@ -409,8 +410,8 @@ namespace Content.Server.Administration.Managers
         private async Task<(AdminData dat, int? rankId, bool specialLogin)?> LoadAdminData(ICommonSession session)
         {
             var promoteHost = IsLocal(session) && _cfg.GetCVar(CCVars.ConsoleLoginLocal)
-                              || _promotedPlayers.Contains(session.UserId)
-                              || session.Name == _cfg.GetCVar(CCVars.ConsoleLoginHostUser);
+            || _promotedPlayers.Contains(session.UserId)
+            || session.Name == _cfg.GetCVar(CCVars.ConsoleLoginHostUser);
 
             if (promoteHost)
             {
@@ -594,9 +595,9 @@ namespace Content.Server.Administration.Managers
             }
 
             var attribs = type.GetCustomAttributes(typeof(AdminCommandAttribute))
-                .Cast<AdminCommandAttribute>()
-                .Select(p => p.Flags)
-                .ToArray();
+            .Cast<AdminCommandAttribute>()
+            .Select(p => p.Flags)
+            .ToArray();
 
             // If attribs.length == 0 then no access attribute is specified,
             // and this is a server-only command.

@@ -30,8 +30,10 @@ game-ticker-player-no-jobs-available-when-joining = При попытке при
 # Displayed in chat to admins when a player joins
 player-join-message = Игрок { $name } зашёл!
 player-first-join-message = Игрок { $name } зашёл на сервер впервые.
+sponsor-join-message = Спонсор { $name } зашёл!
 # Displayed in chat to admins when a player leaves
 player-leave-message = Игрок { $name } вышел!
+sponsor-leave-message = Спонсор { $name } вышел!
 latejoin-arrival-announcement =
     { $character } ({ $job }) { $gender ->
         [male] прибыл

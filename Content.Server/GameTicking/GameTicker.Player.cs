@@ -70,26 +70,30 @@ namespace Content.Server.GameTicking
 
                     var record = await _dbManager.GetPlayerRecordByUserId(args.Session.UserId);
                     var firstConnection = record != null &&
-                                          Math.Abs((record.FirstSeenTime - record.LastSeenTime).TotalMinutes) < 1;
+                    Math.Abs((record.FirstSeenTime - record.LastSeenTime).TotalMinutes) < 1;
 
                     _chatManager.SendAdminAnnouncement(firstConnection
-                        ? Loc.GetString("player-first-join-message", ("name", args.Session.Name))
-                        : Loc.GetString("player-join-message", ("name", args.Session.Name)));
+                    ? Loc.GetString("player-first-join-message", ("name", args.Session.Name))
+                    : Loc.GetString("player-join-message", ("name", args.Session.Name)));
 
-                    RaiseNetworkEvent(GetConnectionStatusMsg(), session.Channel);
-
-                    if (firstConnection && _configurationManager.GetCVar(CCVars.AdminNewPlayerJoinSound))
-                        _audioSystem.PlayGlobal(new SoundPathSpecifier("/Audio/Effects/newplayerping.ogg"),
-                            Filter.Empty().AddPlayers(_adminManager.ActiveAdmins), false,
-                            audioParams: new AudioParams { Volume = -5f });
-
-                    if (LobbyEnabled && _roundStartCountdownHasNotStartedYetDueToNoPlayers)
+                    if (_adminManager.HasAdminFlag(session, AdminFlags.Sponsor)) //Evin-sponsor
                     {
-                        _roundStartCountdownHasNotStartedYetDueToNoPlayers = false;
-                        _roundStartTime = _gameTiming.CurTime + LobbyDuration;
+                            _chatManager.SendAdminAnnouncementMessage(session, Loc.GetString("sponsor-join-message", ("name", args.Session.Name)));
                     }
 
-                    break;
+                    RaiseNetworkEvent(GetConnectionStatusMsg(), session.Channel);
+                    if (firstConnection && _configurationManager.GetCVar(CCVars.AdminNewPlayerJoinSound))
+                        _audioSystem.PlayGlobal(new SoundPathSpecifier("/Audio/Effects/newplayerping.ogg"),
+                                                Filter.Empty().AddPlayers(_adminManager.ActiveAdmins), false,
+                                                audioParams: new AudioParams { Volume = -5f });
+
+                        if (LobbyEnabled && _roundStartCountdownHasNotStartedYetDueToNoPlayers)
+                        {
+                            _roundStartCountdownHasNotStartedYetDueToNoPlayers = false;
+                            _roundStartTime = _gameTiming.CurTime + LobbyDuration;
+                        }
+
+                        break;
                 }
 
                 case SessionStatus.InGame:
@@ -134,6 +138,10 @@ namespace Content.Server.GameTicking
 
                 case SessionStatus.Disconnected:
                 {
+                    if (_adminManager.HasAdminFlag(AdminFlags.Sponsor)) //Evin-sponsors
+                    {
+                        _chatManager.SendAdminAnnouncement(Loc.GetString("sponsor-leave-message", ("name", args.Session.Name)));
+                    }
                     _chatManager.SendAdminAnnouncement(Loc.GetString("player-leave-message", ("name", args.Session.Name)));
                     if (mind != null)
                     {
@@ -141,8 +149,7 @@ namespace Content.Server.GameTicking
                         mind.Session = null;
                     }
 
-                    if (_playerGameStatuses.ContainsKey(args.Session.UserId)) // Corvax-Queue: Delete data only if player was in game
-                        _userDb.ClientDisconnected(session);
+                    _userDb.ClientDisconnected(session);
                     break;
                 }
             }
