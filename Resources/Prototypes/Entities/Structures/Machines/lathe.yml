@@ -326,6 +326,7 @@
       - FauxTileMowedAstroGrass
       - FauxTileJungleAstroGrass
       - FauxTileAstroIce
+      - ClothingEyesVision
       - FauxTileAstroSnow
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
@@ -366,7 +367,6 @@
       - SpeedLoaderMagnumUranium
       - TelescopicShield
       - Truncheon
-      - ClothingEyesVision
       - WeaponAdvancedLaser
       - WeaponLaserCannon
       - WeaponLaserCarbine
@@ -789,7 +789,7 @@
       - Truncheon
       - VoiceTrigger
       - WeaponAdvancedLaser
-      - ClothingEyesVision
+      - ClothingEyesVisionSec
       - WeaponDisabler
       - WeaponDisablerSMG
       - WeaponLaserCannon
@@ -918,6 +918,7 @@
       - ChemicalPayload
       - CryostasisBeaker
       - BluespaceBeaker
+      - ClothingEyesVisionMed
       - SyringeBluespace
       - SyringeCryostasis
   - type: Machine

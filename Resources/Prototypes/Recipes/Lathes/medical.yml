@@ -32,6 +32,16 @@
     Plastic: 100
 
 - type: latheRecipe
+  id: ClothingEyesVisionMed
+  result: ClothingEyesVisionMed
+  category: Weapons
+  completetime: 5
+  materials:
+    Steel: 740
+    Glass: 1500
+    Plastic: 200
+
+- type: latheRecipe
   id: Saw
   result: Saw
   category: Tools
