@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "https://github.com/tgstation/tgstation/commit/fa9e44d937026d5a2ba72615afccf2f18a87c485 | banner_syndicate sprited by mureixlol (Discord)| color banners repsrited by lzk228",
+  "copyright": "https://github.com/tgstation/tgstation/commit/fa9e44d937026d5a2ba72615afccf2f18a87c485 | banner_syndicate sprited by mureixlol (Discord)| color banners repsrited by lzk228 | banner_vamp, banner_colorful by hiucko",
   "size": {
     "x": 32,
     "y": 32
@@ -35,6 +35,9 @@
       "name": "banner_cargo"
     },
     {
+      "name": "banner_colorful"
+    },
+    {
       "name": "banner_security"
     },
     {
@@ -42,6 +45,9 @@
     },
     {
       "name": "banner_syndicate"
+    },
+    {
+      "name": "banner_vamp"
     }
   ]
 }

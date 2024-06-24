@@ -1,0 +1,19 @@
+- type: entity
+  id: BannerColorful
+  parent: BannerBase
+  name: colorful banner
+  description: A banner displaying the rainbow. It looks rather cheap.
+  components:
+  - type: Sprite
+    sprite: Structures/Decoration/banner.rsi
+    state: banner_colorful
+
+- type: entity
+  id: BannerVampire
+  parent: BannerBase
+  name: vampire banner
+  description: A banner displaying the vampires from transylvania flag. It looks rather cheap.
+  components:
+  - type: Sprite
+    sprite: Structures/Decoration/banner.rsi
+    state: banner_vamp
