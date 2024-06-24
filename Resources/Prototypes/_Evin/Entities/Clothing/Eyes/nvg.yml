@@ -44,7 +44,7 @@
   - type: SolutionScanner
   - type: ShowHealthIcons
     damageContainers: 
-    - Biologica
+    - Biological
   - type: ShowHealthBars
     damageContainers:
     - Biological
@@ -75,7 +75,7 @@
   - type: SolutionScanner
   - type: ShowHealthIcons
     damageContainers: 
-    - Biologica
+    - Biological
   - type: ShowHealthBars
     damageContainers:
     - Biological
