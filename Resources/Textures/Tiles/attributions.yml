@@ -133,5 +133,5 @@
 
 - files: ["black.png", "whited.png", "transparent.png"]
   license: "CC0-1.0"
-  copyright: null
+  copyright: "null"
   source: "https://github.com/space-wizards/space-station-14/"
