@@ -1,0 +1,59 @@
+- type: entity
+  name: унитаз
+  suffix: Бобр
+  parent: MobAdultSlimesYellow
+  id: MobSkibidist
+  components:
+    - type: Sprite
+      drawdepth: Mobs
+      sprite: _Evin/Mobs/Fun/skibidisti.rsi
+      layers:
+        - map: [ "enum.DamageStateVisualLayers.Base" ]
+          state: skibidist
+    - type: DamageStateVisuals
+      states:
+        Alive:
+          Base: skibidist
+        Dead:
+          Base: skibidist_dead
+    - type: NpcFactionMember
+      factions:
+        - Nanotrasen
+    - type: GhostRole
+      description: dop dop
+      raffle:
+        settings: short
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        50: Dead
+
+- type: entity
+  name: унитаз
+  suffix: Бобр, Броня
+  parent: MobAdultSlimesYellow
+  id: MobSkibidistArmor
+  components:
+    - type: Sprite
+      drawdepth: Mobs
+      sprite: _Evin/Mobs/Fun/skibidisti.rsi
+      layers:
+        - map: [ "enum.DamageStateVisualLayers.Base" ]
+          state: skibidist_armor
+    - type: DamageStateVisuals
+      states:
+        Alive:
+          Base: skibidist_armor
+        Dead:
+          Base: skibidist_armor_dead
+    - type: NpcFactionMember
+      factions:
+        - Nanotrasen
+    - type: GhostRole
+      description: dop dop
+      raffle:
+        settings: short
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        150: Dead
