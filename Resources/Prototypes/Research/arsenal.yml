@@ -133,13 +133,15 @@
   id: WeaponiPNVManipulation
   name: research-technology-weaponized-PNV-manipulation
   icon:
-    sprite: /Textures/Clothing/Eyes/Glasses/ninjavisor.rsi
+    sprite: _Evin/Clothing/Eyes/Glasses/nvgrnd.rsi
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 10000
+  cost: 15000
   recipeUnlocks:
   - ClothingEyesVision
+  - ClothingEyesVisionSec
+  - ClothingEyesVisionMed
   
 - type: technology
   id: WaveParticleHarnessing

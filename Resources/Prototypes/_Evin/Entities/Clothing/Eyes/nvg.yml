@@ -1,0 +1,132 @@
+- type: entity
+  name: базовые тактические очки
+  id: ClothingEyesVision
+  parent: ClothingEyesBase
+  description: Прибор ночного видения, обеспечивающий четкое изображение местности в условиях низкой освещенности. Оснащен встроенным анализатором для проверки состояния рабочих боргов и солнецезащитными отражателями для дополнительной защиты.
+  components:
+  - type: Item
+  - type: Sprite
+    sprite: _Evin/Clothing/Eyes/Glasses/nvgrnd.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/Eyes/Glasses/nvgrnd.rsi
+    quickEquip: true
+    slots: [ Eyes ]
+  - type: UseDelay
+    delay: 4
+  - type: PNV
+
+- type: entity
+  name: специлизированные тактические очки
+  id: ClothingEyesVisionSec
+  parent: [ClothingEyesVision,ShowSecurityIcons]
+  description: Очки ночного видения, предназначенные для сотрудников службы безопасности. Обеспечивают четкое изображение в условиях низкой освещенности. Встроенные функции включают отображение должностей, защиту от вспышек и ослепления.
+  components:
+  - type: Item
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Sprite
+    sprite: _Evin/Clothing/Eyes/Glasses/nvgsec.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/Eyes/Glasses/nvgsec.rsi
+    quickEquip: true
+    slots: [ Eyes ]
+
+- type: entity
+  name: медицинские тактические очки
+  id: ClothingEyesVisionMed
+  parent: [ClothingEyesVision,ShowMedicalIcons]
+  description: Медицинские очки ночного видения, предназначенные для медицинского персонала. Обеспечивают четкое изображение в условиях низкой освещенности. Встроенные функции включают отображение состояния здоровья людей и синтетиков, что позволяет оперативно оценивать состояние пациентов.
+  components:
+  - type: Item
+  - type: SolutionScanner
+  - type: ShowHealthIcons
+    damageContainers: 
+    - Biologica
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+  - type: Sprite
+    sprite: _Evin/Clothing/Eyes/Glasses/nvgmed.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/Eyes/Glasses/nvgmed.rsi
+    quickEquip: true
+    slots: [ Eyes ]
+
+- type: entity
+  parent: [ClothingEyesVision,ShowSecurityIcons,ClothingEyesHudDiagnostic]
+  name: оперативные тактические очки
+  id: ClothingEyesVisionNuki
+  description: Специальные очки ночного видения, предназначенные для ядерных оперативников. Обеспечивают превосходное изображение в условиях полной темноты. Встроенные функции включают отображение состояния здоровья и должностей союзников, а также здоровья синтетиков. Обеспечивают защиту от ослепления, что делает их незаменимыми в критических операциях.
+  suffix: nuke
+  components:
+  - type: Item
+  - type: Sprite
+    sprite: _Evin/Clothing/Eyes/Glasses/nvgnuke.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/Eyes/Glasses/nvgnuke.rsi
+    quickEquip: true
+    slots: [ Eyes ]
+  - type: ShowSyndicateIcons
+  - type: SolutionScanner
+  - type: ShowHealthIcons
+    damageContainers: 
+    - Biologica
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+  - type: ChameleonClothing
+    slot: [eyes]
+    default: ClothingEyesVisionNuki
+  - type: UserInterface
+    interfaces:
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface
+  - type: HiddenDescription
+    entries:
+    - label: corvax-hidden-desc-Chameleon-syndicate
+      whitelistMind:
+        components:
+          - TraitorRole
+          - NukeOperative
+    - label: corvax-hidden-desc-Chameleon-research
+      jobRequired:
+        - ResearchAssistant
+        - ResearchDirector
+        - Scientist
+        - Borg
+
+- type: entity
+  id: NVToggleAction
+  name: переключение тактических очков
+  description: Переключает ваши очки 
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 2.5
+    icon:
+      sprite: _Evin/Action/nvg.rsi
+      state: icon
+    event: !type:NVInstantActionEvent
+
+- type: entity
+  id: SwitchNightVision
+  name: переключает тактические очки
+  description: Переключает ваши очки
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 2.5
+    icon:
+      sprite: _Evin/Action/nvg.rsi
+      state: icon
+    event: !type:NVInstantActionEvent

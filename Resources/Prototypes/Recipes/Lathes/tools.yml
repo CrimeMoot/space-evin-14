@@ -143,6 +143,16 @@
     Glass: 300
 
 - type: latheRecipe
+  id: ClothingEyesVision
+  result: ClothingEyesVision
+  category: Weapons
+  completetime: 5
+  materials:
+    Steel: 740
+    Glass: 1500
+    Plastic: 200
+
+- type: latheRecipe
   id: HandheldGPSBasic
   result: HandheldGPSBasic
   category: Tools
