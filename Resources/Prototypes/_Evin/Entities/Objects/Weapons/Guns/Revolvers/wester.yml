@@ -1,0 +1,14 @@
+- type: entity
+  name: Вестерн
+  parent: BaseWeaponRevolver
+  id: WeaponRevolverWestern
+  description: Этот старинный револьвер, покрытый следами времени, переносит дух Дикого Запада в космическую станцию.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Revolvers/western.rsi
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Revolvers/western.rsi
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg

@@ -1,0 +1,14 @@
+- type: entity
+  name: "Бери и властвуй"
+  parent: BaseWeaponRevolver
+  id: WeaponRevolverCapitan
+  description: Револьвер капитана, украшенный золотом, поражает своей изысканностью и величием. Золотые узоры на рукояти и позолоченный ствол придают ему особый блеск, подчёркивая статус и авторитет владельца
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Revolvers/ciptainrevolver.rsi
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Revolvers/ciptainrevolver.rsi
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mateba.ogg

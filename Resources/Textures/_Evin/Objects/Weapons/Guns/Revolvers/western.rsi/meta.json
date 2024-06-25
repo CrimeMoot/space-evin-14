@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Aurora.3 at https://github.com/Aurorastation/Aurora.3/blob/14ee223eb3b83c2c2abc27741a5fc659efc51a9e/icons/obj/guns/revolver.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "equipped-SUITSTORAGE"
+    },
+    {
+      "name": "equipped-BELT"
+    }
+  ]
+}

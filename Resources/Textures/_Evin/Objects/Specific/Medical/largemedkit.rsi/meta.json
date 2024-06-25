@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Aurora.3 at https://github.com/Aurorastation/Aurora.3/blob/7276aedde88ff2b51797406b8e0670a9b57423f3/icons/obj/storage/firstaid.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "firstaid"
+    },
+    {
+      "name": "brutekit"
+    },
+    {
+      "name": "burnkit"
+    },
+    {
+      "name": "o2kit"
+    },
+    {
+      "name": "toxinkit"
+    },
+    {
+      "name": "radkit"
+    },
+    {
+      "name": "purplekit"
+    },
+    {
+      "name": "blackkit"
+    },
+    {
+      "name": "advkit"
+    },
+    {
+      "name": "toxinkit-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "toxinkit-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "brutekit-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "brutekit-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "burnkit-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "burnkit-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "o2kit-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "o2kit-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "radkit-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "radkit-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "blackkit-inhand-roght",
+      "directions": 4
+    },
+    {
+      "name": "blackkit-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "advkit-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "advkit-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "firstaid-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "firstaid-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "purplekit-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "purplekit-inhand-left",
+      "directions": 4
+    }
+  ]
+}
