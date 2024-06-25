@@ -1,0 +1,101 @@
+- type: entity
+  name: большая аптечка первой помощи
+  description: Это аптечка неотложной медицинской помощи для тех, у кого серьезные проблемы.
+  parent: BaseStorageItem
+  id: LargeMedkit
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Specific/Medical/largemedkit.rsi
+    state: firstaid
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,4,2
+  - type: Item
+    size: Large
+    sprite: _Evin/Objects/Specific/Medical/largemedkit.rsi
+    heldPrefix: firstaid
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 150
+  - type: Tag
+    tags:
+    - Medkit
+
+- type: entity
+  name: большой набор для лечения ожогов
+  description: Специализированный медицинский набор на случай, если лаборатория токсинов самопроизвольно сгорит дотла.
+  parent: LargeMedkit
+  id: LargeMedkitBurn
+  components:
+  - type: Sprite
+    state: burnkit
+  - type: Item
+    heldPrefix: burnkit
+
+- type: entity
+  name: большой набор для лечения токсинов
+  description: Используется для лечения токсического содержимого крови.
+  parent: LargeMedkit
+  id: LargeMedkitToxin
+  components:
+  - type: Sprite
+    state: toxinkit
+  - type: Item
+    heldPrefix: toxinkit
+
+- type: entity
+  name: большой набор для лечения кислородного голодания
+  description: Коробка, полная кислородных вкусняшек.
+  parent: LargeMedkit
+  id: LargeMedkitO2
+  components:
+  - type: Sprite
+    state: o2kit
+  - type: Item
+    heldPrefix: o2kit
+
+- type: entity
+  name: большой набор для лечения грубых травм
+  description: Аптечка первой помощи на случай, если тебе понадобятся инструменты
+  parent: LargeMedkit
+  id: LargeMedkitBrute
+  components:
+  - type: Sprite
+    state: brutekit
+  - type: Item
+    heldPrefix: brutekit
+
+- type: entity
+  name: большая усовершенствованная аптечка первой помощи
+  description: Усовершенствованный набор, который поможет справиться с серьезными ранами.
+  parent: LargeMedkit
+  id: LargeMedkitAdvanced
+  components:
+  - type: Sprite
+    state: advkit
+  - type: Item
+    heldPrefix: advkit
+
+- type: entity
+  name: большой набор для лучевой терапии
+  description: Если бы ты взял свой Rad-X, тебе бы это не понадобилось.
+  parent: LargeMedkit
+  id: LargeMedkitRadiation
+  components:
+  - type: Sprite
+    state: radkit
+  - type: Item
+    heldPrefix: radkit
+
+- type: entity
+  name: большая боевая аптечка
+  description: За то, что у нас есть мощное оружие.
+  parent: LargeMedkit
+  id: LargeMedkitCombat
+  components:
+  - type: Sprite
+    state: blackkit
+  - type: Item
+    heldPrefix: blackkit
+    size: Normal

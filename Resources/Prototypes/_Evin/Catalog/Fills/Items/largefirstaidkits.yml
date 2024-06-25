@@ -1,0 +1,135 @@
+- type: entity
+  id: LargeMedkitFilled
+  suffix: Filled
+  parent: LargeMedkit
+  components:
+  - type: StorageFill
+    contents:
+      - id: Brutepack
+        amount: 2
+      - id: Ointment
+        amount: 2
+      - id: Gauze
+      - id: PillCanisterTricordrazine
+      - id: PillCanisterTricordrazine
+      - id: EpinephrineChemistryBottle
+      - id: EmergencyMedipen
+        amount: 2
+
+- type: entity
+  id: LargeMedkitBurnFilled
+  suffix: Filled
+  parent: LargeMedkitBurn
+  components:
+  - type: StorageFill
+    contents:
+      - id: Ointment
+        amount: 4
+      - id: PillCanisterKelotane
+      - id: PillCanisterDermaline
+
+- type: entity
+  id: LargeMedkitBruteFilled
+  suffix: Filled
+  parent: LargeMedkitBrute
+  components:
+  - type: StorageFill
+    contents:
+      - id: Brutepack
+        amount: 5
+      - id: Gauze
+      - id: PillCanisterIron
+      - id: PillCanisterCopper
+      - id: EmergencyMedipen
+
+- type: entity
+  id: LargeMedkitToxinFilled
+  suffix: Filled
+  parent: LargeMedkitToxin
+  components:
+  - type: StorageFill
+    contents:
+      - id: SyringeIpecac
+        amount: 2
+      - id: SyringeEthylredoxrazine
+        amount: 2
+      - id: AntiPoisonMedipen
+        amount: 2
+      - id: PillCanisterDylovene
+        amount: 2
+      - id: PillCanisterCharcoal
+
+- type: entity
+  id: LargeMedkitOxygenFilled
+  suffix: Filled
+  parent: LargeMedkitO2
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingMaskBreathMedical
+        amount: 2
+      - id: EmergencyOxygenTankFilled
+      - id: EmergencyMedipen
+        amount: 4
+      - id: SyringeInaprovaline
+        amount: 2
+      - id: PillCanisterDexalin
+      - id: EmergencyNitrogenTankFilled
+      - id: EmergencyOxygenTankFilled
+
+- type: entity
+  id: LargeMedkitRadiationFilled
+  suffix: Filled
+  parent: LargeMedkitRadiation
+  components:
+  - type: StorageFill
+    contents:
+      - id: SyringePhalanximine
+        amount: 2
+      - id: RadAutoInjector
+        amount: 3
+      - id: EmergencyMedipen
+        amount: 3
+      - id: PillCanisterHyronalin
+
+- type: entity
+  id: LargeMedkitAdvancedFilled
+  suffix: Filled
+  parent: LargeMedkitAdvanced
+  components:
+  - type: StorageFill
+    contents:
+      - id: MedicatedSuture
+        amount: 2
+      - id: RegenerativeMesh
+        amount: 3
+      - id: Bloodpack
+        amount: 2
+      - id: EmergencyMedipen
+
+- type: entity
+  id: LargeMedkitCombatFilled
+  suffix: Filled
+  parent: LargeMedkitCombat
+  components:
+  - type: StorageFill
+    contents:
+      - id: MedicatedSuture
+        amount: 2
+      - id: RegenerativeMesh
+        amount: 3
+      - id: SyringeEphedrine
+      - id: BruteAutoInjector
+        amount: 2
+      - id: BurnAutoInjector
+        amount: 2
+
+- type: entity
+  id: LargeStimkitFilled
+  suffix: Stimkit, Filled
+  parent: LargeMedkit
+  components:
+  - type: StorageFill
+    contents:
+      - id: StimpackMini
+        amount: 12
