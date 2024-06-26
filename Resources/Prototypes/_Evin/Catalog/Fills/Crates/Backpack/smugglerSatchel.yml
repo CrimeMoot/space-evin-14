@@ -11,74 +11,52 @@
 
       - id: null
         prob: 0.7
-        orGroup: gloves
       - id: ClothingHandsGlovesColorYellow
         prob: 0.29
-        orGroup: gloves
       - id: ClothingHandsGlovesCombat
         prob: 0.01
-        orGroup: gloves
 
       - id: null
         prob: 0.5
-        orGroup: gasMask
       - id: ClothingMaskGasExplorer
         prob: 0.2
-        orGroup: gasMask
       - id: ClothingMaskGasAtmos
         prob: 0.2
-        orGroup: gasMask
       - id: ClothingMaskGasSyndicate
         prob: 0.1
-        orGroup: gasMask
 
       - id: null
         prob: 0.2
-        onGroup: tools
       - id: PowerCellHigh
         prob: 0.5
-        onGroup: tools
       - id: JawsOfLife
         prob: 0.1
-        onGroup: tools
       - id: PowerDrill
         prob: 0.1
-        onGroup: tools
       - id: WelderExperimental
         prob: 0.1
-        onGroup: tools
 
       - id: null
         prob: 0.6
-        onGroup: material
       - id: SheetUranium
         prob: 0.1
-        onGroup: material
       - id: IngotGold
         prob: 0.1
-        onGroup: material
       - id: IngotSilver
         prob: 0.1
-        onGroup: material
       - id: MaterialBananium        # use a geigercounter to find the satchel
         prob: 0.1
-        onGroup: material
 
       - id: MedkitCombatFilled
         prob: 0.1
-        onGroup: Medecine
       - id: PillAmbuzol             # cant change the round in a meaningfull way
         prob: 0.1
-        onGroup: Medecine
       - id: CognizineChemistryBottle
         prob: 0.1
-        onGroup: Medecine
       - id: CigPackSyndicate
         prob: 0.1
-        onGroup: Medecine
       - id: StimpackMini
         prob: 0.1
-        onGroup: Medecine
 
       - id: ClothingShoesGaloshes
         prob: 0.1
