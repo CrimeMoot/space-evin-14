@@ -74,7 +74,6 @@
       - id: SyringeInaprovaline
         amount: 2
       - id: PillCanisterDexalin
-        amount: 2
       - id: EmergencyNitrogenTankFilled
       - id: EmergencyOxygenTankFilled
 
