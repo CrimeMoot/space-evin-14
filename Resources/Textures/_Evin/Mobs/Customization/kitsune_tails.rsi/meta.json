@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from VOREStation at https://github.com/VOREStation/VOREStation/blob/965387bdfb208cc6819cf2c6089d9fc2dc624493/icons/mob/vore/tails_vr.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "doublekitsunealt",
+      "directions": 4
+    },
+    {
+      "name": "doublekitsunealt-tips",
+      "directions": 4
+    },
+    {
+      "name": "sevenkitsune",
+      "directions": 4
+    },
+    {
+      "name": "sevenkitsune-tips",
+      "directions": 4
+    }
+  ]
+}

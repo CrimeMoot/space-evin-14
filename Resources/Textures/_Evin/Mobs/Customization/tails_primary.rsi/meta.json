@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Bubberstation at https://github.com/Bubberstation/Bubberstation/blob/f3f71c0e6f2d9d40edac1e87c50bb640c305ce21/modular_skyrat/master_files/icons/mob/sprite_accessory/tails.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "m_waggingtail_sabresune_behind_primary",
+      "directions": 4
+    },
+    {
+      "name": "m_waggingtail_sabresune_behind_secondary",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+- type: stealTargetGroup
+  id: SupermatterSliver
+  name: осколок сверхматерии
+  sprite:
+    sprite: _Evin/Supermatter/supermatter_sliver.rsi
+    state: icon
