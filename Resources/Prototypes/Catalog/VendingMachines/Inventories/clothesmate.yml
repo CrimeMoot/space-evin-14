@@ -92,5 +92,6 @@
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1
+    ClothingBackpackSatchelSmuggler: 1 # evin - adding smuggler's satchel to contraband inventory
     ClothingUniformJumpskirtTacticool: 1
   # DO NOT ADD MORE, USE UNIFORM DYING
