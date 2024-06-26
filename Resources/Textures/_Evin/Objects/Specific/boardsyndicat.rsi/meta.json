@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from NSV13 at https://github.com/BeeStation/NSV13/blob/e835678a483ce05cf6fa8f51def406a055c12def/icons/obj/modular_tablet.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "screen-syndicate",
+      "delays": [
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "uplink-syndicate"
+    }
+  ]
+}
