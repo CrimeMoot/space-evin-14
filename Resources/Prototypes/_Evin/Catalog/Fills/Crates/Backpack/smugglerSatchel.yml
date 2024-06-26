@@ -8,14 +8,12 @@
   components:
   - type: StorageFill
     contents:
-
       - id: null
         prob: 0.7
       - id: ClothingHandsGlovesColorYellow
         prob: 0.29
       - id: ClothingHandsGlovesCombat
         prob: 0.01
-
       - id: null
         prob: 0.5
       - id: ClothingMaskGasExplorer
@@ -24,9 +22,6 @@
         prob: 0.2
       - id: ClothingMaskGasSyndicate
         prob: 0.1
-
-      - id: null
-        prob: 0.2
       - id: PowerCellHigh
         prob: 0.5
       - id: JawsOfLife
@@ -35,7 +30,6 @@
         prob: 0.1
       - id: WelderExperimental
         prob: 0.1
-
       - id: null
         prob: 0.6
       - id: SheetUranium
@@ -46,7 +40,6 @@
         prob: 0.1
       - id: MaterialBananium        # use a geigercounter to find the satchel
         prob: 0.1
-
       - id: MedkitCombatFilled
         prob: 0.1
       - id: PillAmbuzol             # cant change the round in a meaningfull way
@@ -57,7 +50,6 @@
         prob: 0.1
       - id: StimpackMini
         prob: 0.1
-
       - id: ClothingShoesGaloshes
         prob: 0.1
       - id: ClothingMaskClown
@@ -82,9 +74,6 @@
         prob: 0.1
       - id: SoapOmega
         prob: 0.1
-
-        #Dangerus items
-
       - id: SmokeGrenade            # can be made by chemist. thief item
         prob: 0.1
       - id: Telecrystal1            # can be found in salvage
@@ -99,5 +88,3 @@
         prob: 0.1
       - id: DehydratedSpaceCarp     # can be found by salvage
         prob: 0.01
-
-
