@@ -73,9 +73,11 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Devices/communication.rsi
+    sprite: _Evin/Objects/Specific/boardsyndicat.rsi
     layers:
-    - state: old-radio
+     - state: uplink-syndicate
+     - state: screen-syndicate
+       shader: unshaded
   - type: Item
     sprite: Objects/Devices/communication.rsi
     heldPrefix: old-radio
