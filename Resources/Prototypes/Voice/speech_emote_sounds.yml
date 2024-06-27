@@ -100,6 +100,10 @@
       collection: MaleGasp
     DefaultDeathgasp:
       collection: DeathGasp
+    Growl: #Evin
+      collection: GrowlReptilian
+    Hiss: #Evin
+      collection: HissReptilian
 
 - type: emoteSounds
   id: FemaleReptilian
@@ -118,6 +122,10 @@
       collection: FemaleCry
     Weh:
       collection: Weh
+    Growl: #Evin
+      collection: GrowlLizard
+    Hiss: #Evin
+      collection: HissReptilian
 
 - type: emoteSounds
   id: MaleSlime

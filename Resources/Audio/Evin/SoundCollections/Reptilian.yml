@@ -1,0 +1,13 @@
+- type: soundCollection
+  id: GrowlReptilian
+  files:
+  - /Audio/Evin/Voice/Reptilian/hiss2.ogg
+  - /Audio/Evin/Voice/Reptilian/hiss3.ogg
+  - /Audio/Evin/Voice/Reptilian/hiss4.ogg
+  - /Audio/Evin/Voice/Reptilian/LizardBelow.ogg
+
+- type: soundCollection
+  id: HissReptilian
+  files:
+  - /Audio/Evin/Voice/Reptilian/hiss1.ogg
+  - /Audio/Evin/Voice/Reptilian/sound_voice_lizard.ogg
