@@ -1,0 +1,26 @@
+- type: entity
+  id: TrackingImplanterDSO
+  name: имплантер
+  suffix: трекер, ДСО
+  parent: BaseImplantOnlyImplanter
+  components:
+    - type: Implanter
+      implant: TrackingImplantDSO
+    - type: HiddenDescription #Corvax MRP Hidden Description
+      entries:
+      - label: corvax-hidden-desc-LegalImplants-medical
+        jobRequired:
+          - Paramedic
+          - MedicalDoctor
+          - ChiefMedicalOfficer
+      - label: corvax-hidden-desc-TrackingImplanter-research
+        jobRequired:
+          - ResearchAssistant
+          - ResearchDirector
+          - Scientist
+          - Borg
+      - label: corvax-hidden-desc-TrackingImplanter-syndicate
+        whitelistMind:
+          components:
+            - TraitorRole
+            - NukeOperative

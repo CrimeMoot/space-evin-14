@@ -1,0 +1,83 @@
+﻿- type: entity
+  id: ERTSpawnerLeaderDSO
+  name: одноразовый маркер спавна ОБР по сигналу
+  parent: BaseERTSpawner
+  suffix: лидер гамма обр
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Markers/jobs.rsi
+        state: ertleader
+  - type: SpawnOnTrigger
+    proto: RandomHumanoidSpawnerERTLeaderGamma
+
+- type: entity
+  id: ERTSpawnerEngineerDSO
+  name: одноразовый маркер спавна ОБР по сигналу
+  parent: BaseERTSpawner
+  suffix: инженер гамма обр
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Markers/jobs.rsi
+        state: ertleader
+  - type: SpawnOnTrigger
+    proto: RandomHumanoidSpawnerERTEngineerGamma
+
+- type: entity
+  id: ERTSpawnerSecurityDSO
+  name: одноразовый маркер спавна ОБР по сигналу
+  parent: BaseERTSpawner
+  suffix: офицер гамма обр
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Markers/jobs.rsi
+        state: ertleader
+  - type: SpawnOnTrigger
+    proto: RandomHumanoidSpawnerERTSecurityGamma
+
+- type: entity
+  id: ERTSpawnerMedicalDSO
+  name: одноразовый маркер спавна ОБР по сигналу
+  parent: BaseERTSpawner
+  suffix: медик гамма обр
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Markers/jobs.rsi
+        state: ertleader
+  - type: SpawnOnTrigger
+    proto: RandomHumanoidSpawnerERTMedicalgamma
+
+- type: entity
+  id: CBURNSpawnerlDSO
+  name: одноразовый маркер спавна РХБЗЗ по сигналу
+  parent: BaseERTSpawner
+  suffix: РХБЗЗ спавн
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Markers/jobs.rsi
+        state: ertleader
+  - type: SpawnOnTrigger
+    proto: RandomHumanoidSpawnerCBURNUnitDSO
+
+- type: entity
+  id: DeathsquadSpawnerlDSO
+  name: одноразовый маркер спавна эскадрона смерти по сигналу
+  parent: BaseERTSpawner
+  suffix: эскадрон спавн
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Markers/jobs.rsi
+        state: ertleader
+  - type: SpawnOnTrigger
+    proto: RandomHumanoidSpawnerDeathsquad
