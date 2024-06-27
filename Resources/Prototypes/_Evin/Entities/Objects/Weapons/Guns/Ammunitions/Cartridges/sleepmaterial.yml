@@ -1,0 +1,53 @@
+- type: entity
+  parent: BaseCartridge
+  id: CartridgeTranclAntiMateriel
+  name: транквилизатный патрон (.60 транквил)
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeAntiMateriel
+  - type: CartridgeAmmo
+    proto: BulletTranksMateriel
+    count: 1
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Ammunitions/Casings/large_tranks.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: ChemicalAmmo
+  - type: SolutionContainerManager
+    solutions:
+      ammo:
+        reagents:
+        - ReagentId: ChloralHydrate
+          Quantity: 22
+  - type: SolutionTransfer
+    maxTransferAmount: 22
+
+
+- type: entity
+  noSpawn: true
+  parent: BaseBullet
+  id: BulletTranksMateriel
+  name: bullet (.60 anti-materiel)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 1
+  - type: SolutionContainerManager
+    solutions:
+      ammo:
+        maxVol: 22
+  - type: RefillableSolution
+    solution: ammo
+  - type: DrainableSolution
+    solution: ammo
+  - type: SolutionInjectOnProjectileHit
+    transferAmount: 22
+    solution: ammo
+  - type: InjectableSolution
+    solution: ammo  

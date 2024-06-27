@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Taken from austation at https://github.com/austation/austation/blob/ab2f0d3066980825d53180bba68b0cea3053da41/icons/obj/ammo.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "base"
+    },
+    {
+      "name": "base-spent"
+    }
+  ]
+}
