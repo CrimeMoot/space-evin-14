@@ -2,8 +2,6 @@
   id: CorvaxPilgrim
   mapName: 'Pilgrim'
   mapPath: /Maps/corvax_pilgrim.yml
-  maxRandomOffset: 0
-  randomRotation: false
   minPlayers: 40
   stations:
     Pilgrim:
