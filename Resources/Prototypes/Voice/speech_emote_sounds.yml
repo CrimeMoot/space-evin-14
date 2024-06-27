@@ -100,7 +100,7 @@
       collection: MaleGasp
     DefaultDeathgasp:
       collection: DeathGasp
-    Growl: #Evin
+    Growls: #Evin
       collection: GrowlReptilian
     Hiss: #Evin
       collection: HissReptilian
@@ -122,8 +122,8 @@
       collection: FemaleCry
     Weh:
       collection: Weh
-    Growl: #Evin
-      collection: GrowlLizard
+    Growls: #Evin
+      collection: GrowlReptilian
     Hiss: #Evin
       collection: HissReptilian
 
