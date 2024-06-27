@@ -72,4 +72,3 @@ ent-JugPlantBGone = { ent-Jug }
 ent-JugWeldingFuel = { ent-Jug }
     .desc = { ent-Jug.desc }
     .suffix = сварочное топливо
->>>>>>> Upstream
