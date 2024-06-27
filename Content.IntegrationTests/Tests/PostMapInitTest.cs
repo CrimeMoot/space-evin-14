@@ -51,7 +51,6 @@ namespace Content.IntegrationTests.Tests
             "CorvaxOutpost",
             "CorvaxAstra",
             "CorvaxGelta",
-	     	"CorvaxMaus",
 	     	"CorvaxIshimura",
 	      	"CorvaxPaper",
             "CorvaxPilgrim",
