@@ -1,0 +1,113 @@
+- type: marking
+  id: DemonTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _Evin/Mobs/Customization/demon_parts.rsi
+    state: d_tail
+
+- type: marking
+  id: DemonBigArrowTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _Evin/Mobs/Customization/demon_parts.rsi
+    state: d_tail_big_arrow
+
+- type: marking
+  id: DemonHorns
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _Evin/Mobs/Customization/demon_parts.rsi
+    state: horns_standart
+
+- type: marking
+  id: DemonHornsBig
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _Evin/Mobs/Customization/demon_parts.rsi
+    state: horns_big
+
+- type: marking
+  id: DemonHornsBuffalo
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _Evin/Mobs/Customization/demon_parts.rsi
+    state: horns_buffalo
+
+- type: marking
+  id: DemonHornsSpiral
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Human, Felinid]
+  sponsorOnly: false
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _Evin/Mobs/Customization/demon_parts.rsi
+    state: horns_spiral

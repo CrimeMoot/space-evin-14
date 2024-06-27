@@ -1,0 +1,4 @@
+- files: [hiss1.ogg, hiss2.ogg, hiss3.ogg, hiss4.ogg, LizardBellow.ogg, sound_voice_lizard.ogg]
+  copyright: 'all taken from https://github.com/ChaoticOnyx/OnyxBay/tree/dev/sound/voice, sound_voice_lizard modified by leonno_ 1248944778482155550 (discord)'
+  license: "agpl3"
+  source: https://github.com/ChaoticOnyx/OnyxBay/tree/dev/sound/voice
