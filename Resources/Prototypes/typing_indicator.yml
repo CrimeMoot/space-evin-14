@@ -4,6 +4,11 @@
   idleState: default3 # Corvax-TypingIndicator
 
 - type: typingIndicator
+  id: heart
+  typingState: heart0
+  idleState: heart3 # Evin-TypingIndicator
+
+- type: typingIndicator
   id: robot
   typingState: robot0
   idleState: robot3 # Corvax-TypingIndicator

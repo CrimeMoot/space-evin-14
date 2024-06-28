@@ -52,6 +52,8 @@
       Male: MaleFelinid
       Female: FemaleFelinid
       Unsexed: MaleFelinid
+  - type: TypingIndicator
+    proto: heart
   - type: Respirator
     damage:
       types:

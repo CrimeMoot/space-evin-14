@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/blob/cc800323da3057a0228c1743c7b6ffe9dba8b1ad/icons/obj/devices/remote.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "remote"
+    },
+    {
+      "name": "remote_security_open"
+    },
+    {
+      "name": "remote_engi_open"
+    },
+    {
+      "name": "remote_med_open"
+    },
+    {
+      "name": "remote_cargo_open"
+    },
+    {
+      "name": "remote_civilian_open"
+    },
+    {
+      "name": "remote_command_open"
+    },
+    {
+      "name": "remote_sci_open"
+    },
+    {
+      "name": "remote_omni_open"
+    }
+  ]
+}
