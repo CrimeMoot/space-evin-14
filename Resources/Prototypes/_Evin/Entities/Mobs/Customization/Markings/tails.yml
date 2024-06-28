@@ -30,6 +30,9 @@
 - type: marking
   id: LabTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_lab_primary
@@ -43,6 +46,9 @@
 - type: marking
   id: WaggingFennecTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_fennec_behind_primary
@@ -56,6 +62,9 @@
 - type: marking
   id: FennecTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_fennec_behind_primary
@@ -69,6 +78,9 @@
 - type: marking
   id: WaggingMuridTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_murid_wagging_behind_primary
@@ -78,6 +90,9 @@
 - type: marking
   id: MuridTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_murid_behind_primary
@@ -87,6 +102,9 @@
 - type: marking
   id: WaggingMuridTwoTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_murid_two_behind_primary
@@ -96,6 +114,9 @@
 - type: marking
   id: MuridTwoTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_murid_two_behind_primary
@@ -105,6 +126,9 @@
 - type: marking
   id: WaggingRacoonTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_raccoon_behind_primary
@@ -116,6 +140,9 @@
 - type: marking
   id: RacoonTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_raccoon_behind_primary
@@ -127,19 +154,11 @@
     state: m_tail_raccoon_front_secondary
 
 - type: marking
-  id: WaggingRacoonTail
-  parent: AkulaTail
-  sprites:
-  - sprite: _Evin/Mobs/Customization/tails.rsi
-    state: m_waggingtail_raccoon_behind_primary
-  - sprite: _Evin/Mobs/Customization/tails.rsi
-    state: m_waggingtail_raccoon_behind_secondary
-  - sprite: _Evin/Mobs/Customization/tails.rsi
-    state: m_waggingtail_raccoon_front_secondary
-
-- type: marking
   id: WaggingSharkTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_shark_behind_primary
@@ -149,6 +168,9 @@
 - type: marking
   id: SharkTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_shark_front_primary
@@ -158,6 +180,9 @@
 - type: marking
   id: WaggingDatasharkTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_datashark_behind_primary
@@ -173,6 +198,9 @@
 - type: marking
   id: DatasharkTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_datashark_behind_primary
@@ -188,6 +216,9 @@
 - type: marking
   id: HawkTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_hawk_behind_primary
@@ -201,6 +232,9 @@
 - type: marking
   id: WaggingHawkTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_hawk_behind_primary
@@ -214,6 +248,9 @@
 - type: marking
   id: WaggingOtieTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_otie_behind_primary
@@ -223,6 +260,9 @@
 - type: marking
   id: WaggingAustralianshepherdTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_australianshepherd_behind_primary
@@ -232,11 +272,13 @@
     state: m_waggingtail_australianshepherd_front_primary
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_australianshepherd_front_secondary
-  - sprite: _Evin/Mobs/Customization/tails.rsi
 
 - type: marking
   id: AustralianShepherdTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_australianshepherd_behind_primary
@@ -250,6 +292,9 @@
 - type: marking
   id: WaggingShepherdTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_shepherd_behind_secondary
@@ -263,6 +308,9 @@
 - type: marking
   id: WaggingWahTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_wah_behind_primary
@@ -276,6 +324,9 @@
 - type: marking
   id: WahTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_wah_behind_primary
@@ -289,6 +340,9 @@
 - type: marking
   id: WaggingGuilmonTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_guilmon_behind_primary
@@ -298,6 +352,9 @@
 - type: marking
   id: GuilmonTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_guilmon_behind_primary
@@ -307,6 +364,9 @@
 - type: marking
   id: WaggingRabbitTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_waggingtail_rabbit_behind_primary
@@ -316,6 +376,9 @@
 - type: marking
   id: RabbitTail
   parent: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_rabbit_behind_primary
