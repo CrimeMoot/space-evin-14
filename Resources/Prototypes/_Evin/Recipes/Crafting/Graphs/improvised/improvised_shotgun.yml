@@ -1,6 +1,6 @@
 - type: constructionGraph
   id: ImprovisedHooKGraph
-  start: HooK
+  start: start
   graph:
     - node: HooK
       edges:
