@@ -2,7 +2,7 @@
   id: ImprovisedHooKGraph
   start: start
   graph:
-    - node: HooK
+    - node: start
       edges:
         - to: cannon
           steps:
