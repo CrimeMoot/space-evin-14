@@ -218,9 +218,9 @@
 # Evin crafted
 - type: construction
   name: HooK
-  id: ImprovisedHooK  # Исправлено здесь
+  id: ImprovisedHooK
   graph: ImprovisedHooKGraph
-  startNode: HooK
+  startNode: start
   targetNode: cannon
   category: construction-category-weapons
   objectType: Item
