@@ -220,7 +220,7 @@
   name: HooK
   id: ImprovisedHooK  # Исправлено здесь
   graph: ImprovisedHooKGraph
-  startNode: start
+  startNode: HooK
   targetNode: cannon
   category: construction-category-weapons
   objectType: Item
