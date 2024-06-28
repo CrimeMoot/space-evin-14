@@ -1,0 +1,24 @@
+- type: entity
+  name: тихий сумрак
+  parent: [BaseWeaponSniper, BaseGunWieldable]
+  id: WeaponSilentSniper
+  description: Cнайперская винтовка, чьи пули просочиваются во тьму ночи, накладывая на цель усыпляющий эффект. Её выстрелы тихи и неуловимы, как сама смерть, заставляя цель замедляться и наконец уснуть в бесконечный сон.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Snipers/trancks.rsi
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Snipers/trancks.rsi
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeAntiMateriel
+    capacity: 6
+    proto: CartridgeTranclAntiMateriel
+  - type: Gun
+    fireRate: 1
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
+      params:
+        volume: -6
+    availableModes:
+    - SemiAuto

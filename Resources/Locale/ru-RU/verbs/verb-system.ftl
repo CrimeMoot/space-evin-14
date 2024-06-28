@@ -20,6 +20,7 @@ verb-categories-split = Разделить
 verb-categories-instrument-style = Стиль инструмента
 verb-categories-channel-select = Каналы
 verb-categories-set-sensor = Датчики
+verb-categories-polymorph = Полиморф
 verb-categories-timer = Установить задержку
 verb-categories-lever = Рычаг
 verb-categories-select-type = Выбрать тип

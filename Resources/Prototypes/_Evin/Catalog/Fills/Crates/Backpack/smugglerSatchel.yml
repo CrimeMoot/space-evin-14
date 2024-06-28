@@ -10,81 +10,130 @@
     contents:
       - id: null
         prob: 0.7
+        orGroup: present
       - id: ClothingHandsGlovesColorYellow
         prob: 0.29
+        orGroup: present
       - id: ClothingHandsGlovesCombat
         prob: 0.01
+        orGroup: present
+
+
       - id: null
         prob: 0.5
+        orGroup: rodProto
       - id: ClothingMaskGasExplorer
         prob: 0.2
+        orGroup: rodProto
       - id: ClothingMaskGasAtmos
         prob: 0.2
+        orGroup: rodProto
       - id: ClothingMaskGasSyndicate
         prob: 0.1
+        orGroup: rodProto
       - id: PowerCellHigh
         prob: 0.5
+        orGroup: rodProto
       - id: JawsOfLife
         prob: 0.1
+        orGroup: rodProto
       - id: PowerDrill
         prob: 0.1
+        orGroup: rodProto
       - id: WelderExperimental
         prob: 0.1
+        orGroup: rodProto
+
+
       - id: null
         prob: 0.6
+        orGroup: loot
       - id: SheetUranium
         prob: 0.1
+        orGroup: loot
       - id: IngotGold
         prob: 0.1
+        orGroup: loot
       - id: IngotSilver
         prob: 0.1
+        orGroup: loot
       - id: MaterialBananium        # use a geigercounter to find the satchel
         prob: 0.1
+        orGroup: loot
       - id: MedkitCombatFilled
         prob: 0.1
+        orGroup: MobCat
+
+
       - id: PillAmbuzol             # cant change the round in a meaningfull way
         prob: 0.1
+        orGroup: MobCat
       - id: CognizineChemistryBottle
         prob: 0.1
+        orGroup: MobCat
       - id: CigPackSyndicate
         prob: 0.1
+        orGroup: MobCat
       - id: StimpackMini
         prob: 0.1
+        orGroup: MobCat
       - id: ClothingShoesGaloshes
         prob: 0.1
+        orGroup: MobCat
       - id: ClothingMaskClown
         prob: 0.3
+        orGroup: MobCat
       - id: ClothingHeadPyjamaSyndicateBlack
         prob: 0.3
+        orGroup: MobCat
       - id: CyberPen
         prob: 0.1
+        orGroup: MobCat
+
+
       - id: NukeDiskFake
         prob: 0.1
+        orGroup: syndiemaintloot
       - id: SoapSyndie
         prob: 0.1
+        orGroup: syndiemaintloot
       - id: HappyHonkNukieSnacks
         prob: 0.1
+        orGroup: syndiemaintloot
       - id: RevolverCapGun
         prob: 0.3
+        orGroup: syndiemaintloot
       - id: ClothingHeadHatCatEars
         prob: 0.01
+        orGroup: syndiemaintloot
       - id: ResearchDisk10000
         prob: 0.1
+        orGroup: syndiemaintloot
       - id: CrewMonitoringComputerCircuitboard
         prob: 0.1
+        orGroup: syndiemaintloot
       - id: SoapOmega
         prob: 0.1
+        orGroup: syndiemaintloot
+
+
       - id: SmokeGrenade            # can be made by chemist. thief item
         prob: 0.1
+        orGroup: Clothes
       - id: Telecrystal1            # can be found in salvage
         prob: 0.1
+        orGroup: Clothes
       - id: Telecrystal10           # can be found in salvage
         prob: 0.01
+        orGroup: Clothes
       - id: SyndicatePersonalAI     # is in usless tab, thief item
         prob: 0.1
+        orGroup: Clothes
       - id: GatfruitSeeds           # can be obtained from anomaly
         prob: 0.1
+        orGroup: Clothes
       - id: ThrowingKnife           # single knife can be found in some boot
         prob: 0.1
+        orGroup: Clothes
       - id: DehydratedSpaceCarp     # can be found by salvage
         prob: 0.01
