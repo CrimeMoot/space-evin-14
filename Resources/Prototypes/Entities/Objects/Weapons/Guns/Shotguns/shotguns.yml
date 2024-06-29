@@ -224,6 +224,9 @@
     graph: ShotgunSawn
     node: shotgunsawn
     deconstructionTarget: null
+  - type: Tag
+    tags:
+    - doublebarreledshotgun
 
 - type: entity
   name: handmade pistol
