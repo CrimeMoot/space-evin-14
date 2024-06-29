@@ -36,3 +36,5 @@
     proto: null
   - type: Construction
     graph: ImprovisedHooKGraph
+    node: cannon
+    deconstructionTarget: null
