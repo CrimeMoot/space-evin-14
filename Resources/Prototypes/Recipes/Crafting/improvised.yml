@@ -226,5 +226,5 @@
   objectType: Item
   description: Обрез из мусора. Разве что имеет три ствола и МОДНЫЙ крюк.
   icon:
-    sprite: _Evin/Objects/Weapons/Guns/Shotguns/hookshotgun.rsi
+    sprite: _Evin/Objects/Weapons/Guns/Shotguns/hook.rsi
     state: icon
