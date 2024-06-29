@@ -27,7 +27,7 @@
               icon:
                 sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
                 state: icon
-              name: double-barreled shotgun
+              name: sawn-off shotgun
             - material: Cloth
               amount: 5
             - material: Steel
