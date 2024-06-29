@@ -59,3 +59,21 @@
   typingState: slime0
   idleState: slime3 # Corvax-TypingIndicator
   offset: 0, 0.125
+
+- type: typingIndicator
+  id: furryblue
+  typingState: blue0
+  idleState: blue3 # Corvax-TypingIndicator
+  offset: 0, 0.125
+
+- type: typingIndicator
+  id: furryred
+  typingState: red0
+  idleState: red3 # Corvax-TypingIndicator
+  offset: 0, 0.125
+
+- type: typingIndicator
+  id: furrybrown
+  typingState: brown0
+  idleState: brown3 # Corvax-TypingIndicator
+  offset: 0, 0.125
