@@ -1,0 +1,23 @@
+- type: entity
+  name: Thunderstrike12
+  parent: [WeaponShotgunBulldog, BaseGunWieldable]
+  id: WeaponShotgunThunderstrike
+  description: Тактический дробовик, разработанный для максимальной мощности и надежности в боевых условиях. Использует 12-калиберные патроны, идеально подходит для ближнего боя и подавления противника.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Shotguns/tacticalshot.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: base-unshaded
+        map: ["enum.GunVisualLayers.BaseUnshaded"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    sprite: Objects/Weapons/Guns/Shotguns/enforcer_inhands_64x.rsi
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage

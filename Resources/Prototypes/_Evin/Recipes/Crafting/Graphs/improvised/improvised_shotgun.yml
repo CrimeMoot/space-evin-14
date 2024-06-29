@@ -1,0 +1,44 @@
+- type: constructionGraph
+  id: ImprovisedHooKGraph
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: cannon
+          steps:
+            - tag: Pipe
+              icon:
+                sprite: Structures/Piping/Atmospherics/pipe.rsi
+                state: pipeStraight
+              name: pipe
+            - tag: ModularReceiver
+              icon:
+                sprite: Objects/Misc/modular_receiver.rsi
+                state: icon
+              name: modular receiver
+            - tag: Handcuffs
+              icon:
+                sprite: Objects/Misc/cablecuffs.rsi
+                state: cuff
+                color: red
+              name: handcuffs
+            - tag: Igniter
+              name: an igniter
+              icon:
+                sprite: Objects/Devices/igniter.rsi
+                state: icon
+              doAfter: 1
+            - tag: RifleStock
+              icon:
+                sprite: Objects/Misc/rifle_stock.rsi
+                state: icon
+              name: rifle stock
+            - material: Cloth
+              amount: 5
+            - material: Steel
+              amount: 10
+            - material: Cable
+              amount: 5
+              doAfter: 10
+    - node: cannon
+      entity: BaseWeaponShotgunHookEmpty
