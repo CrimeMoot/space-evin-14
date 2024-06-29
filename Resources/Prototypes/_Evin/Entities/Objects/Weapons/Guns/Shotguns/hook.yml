@@ -34,3 +34,5 @@
   components:
   - type: BallisticAmmoProvider
     proto: null
+  - type: Construction
+    graph: ImprovisedHooKGraph
