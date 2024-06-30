@@ -51,6 +51,8 @@
   - type: Sprite
     sprite: _Evin/Objects/Weapons/Guns/Shotguns/hook.rsi
   - type: Clothing
+  - type: Item
+    size: Small
   - type: BallisticAmmoProvider
     proto: null
   - type: Construction
