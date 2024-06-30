@@ -22,7 +22,7 @@
 
 - type: entity
   name: Hook!
-  parent: BaseWeaponShotgun
+  parent: WeaponShotgunHook
   id: WeaponShotgunHookCraft
   description: Оу щит, бро! Оно стреляет - смотри в лицо не стрельни.
   components:
@@ -48,6 +48,9 @@
   description: Оу щит, бро! Оно стреляет - смотри в лицо не стрельни.
   suffix: Empty
   components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Shotguns/hook.rsi
+  - type: Clothing
   - type: BallisticAmmoProvider
     proto: null
   - type: Construction
