@@ -11,11 +11,6 @@
                 sprite: Structures/Piping/Atmospherics/pipe.rsi
                 state: pipeStraight
               name: pipe
-            - tag: ModularReceiver
-              icon:
-                sprite: Objects/Misc/modular_receiver.rsi
-                state: icon
-              name: modular receiver
             - tag: Handcuffs
               icon:
                 sprite: Objects/Misc/cablecuffs.rsi
@@ -28,11 +23,11 @@
                 sprite: Objects/Devices/igniter.rsi
                 state: icon
               doAfter: 1
-            - tag: RifleStock
+            - tag: doublebarreledshotgun
               icon:
-                sprite: Objects/Misc/rifle_stock.rsi
+                sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
                 state: icon
-              name: rifle stock
+              name: sawn-off shotgun
             - material: Cloth
               amount: 5
             - material: Steel

@@ -53,6 +53,9 @@
     {
       "name": "walkietalkie-active"
     },
+	{
+	  "name": "old-radio-urist"
+	},
     {
       "name": "walkietalkie-inhand-right",
       "directions": 4
