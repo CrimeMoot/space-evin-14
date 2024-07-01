@@ -1,0 +1,61 @@
+- type: entity
+  name: Hook!
+  parent: BaseWeaponShotgun
+  id: WeaponShotgunHook
+  description: Оу щит, бро! Оно стреляет - смотри в лицо не стрельни.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Shotguns/hookshotgun.rsi
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Shotguns/hookshotgun.rsi
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
+  - type: Gun
+    fireRate: 4
+    soundGunshot:
+      path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_sawed.ogg
+  - type: BallisticAmmoProvider
+    capacity: 3
+
+
+- type: entity
+  name: Hook!
+  parent: WeaponShotgunHook
+  id: WeaponShotgunHookCraft
+  description: Оу щит, бро! Оно стреляет - смотри в лицо не стрельни.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Shotguns/hookshotgun.rsi
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Shotguns/hookshotgun.rsi
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
+  - type: Gun
+    fireRate: 4
+    soundGunshot:
+      path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_sawed.ogg
+  - type: BallisticAmmoProvider
+    proto: null
+
+- type: entity
+  name: Hook!
+  parent: WeaponShotgunHook
+  id: BaseWeaponShotgunHookEmpty
+  description: Оу щит, бро! Оно стреляет - смотри в лицо не стрельни.
+  suffix: Empty
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Shotguns/hook.rsi
+  - type: Clothing
+  - type: Item
+    size: Small
+  - type: BallisticAmmoProvider
+    proto: null
+  - type: Construction
+    graph: ImprovisedHooKGraph
+    node: cannon
+    deconstructionTarget: null

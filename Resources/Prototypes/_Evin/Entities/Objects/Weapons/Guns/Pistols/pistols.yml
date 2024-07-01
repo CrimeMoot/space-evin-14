@@ -1,0 +1,96 @@
+- type: entity
+  name: PX-17
+  parent: BaseWeaponPistol
+  id: WeaponPistolPX17
+  description: Надежный и точный пистолет, идеально подходит для оперативников, которым важна скорость и эффективность. Использует патроны .35.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/compact_pistol.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/compact_pistol.rsi
+
+
+- type: entity
+  name: PX-17S
+  parent: BaseWeaponPistol
+  id: WeaponPistolPX17S
+  description: Тот же надежный PX-17, но с глушителем для скрытных операций, когда важна тишина. Использует патроны .35.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/compact_pistol_silence.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/compact_pistol_silence.rsi
+  - type: Gun
+    fireRate: 5
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
+      params:
+        volume: -14
+    availableModes:
+    - SemiAuto
+  
+  
+- type: entity
+  name: viper-9
+  parent: BaseWeaponPistol
+  id: WeaponPistolViper9
+  description: Мощный и удобный в использовании пистолет, созданный для интенсивных боевых ситуаций. Использует патроны .35.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/pistol.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/pistol.rsi
+    
+    
+- type: entity
+  name: viper-9S
+  parent: BaseWeaponPistol
+  id: WeaponPistolViper9S
+  description: Модифицированная версия Viper-9 с глушителем, обеспечивающая бесшумное устранение целей. Использует патроны .35.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/pistols-silencer.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/pistols-silencer.rsi
+  - type: Gun
+    fireRate: 4
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
+      params:
+        volume: -14
+    availableModes:
+    - SemiAuto
+    
+- type: entity
+  name: cobra-13
+  parent: BaseWeaponPistol
+  id: WeaponPistolCobra13S
+  description: Современный пистолет с интегрированным глушителем, обеспечивающий бесшумную и точную стрельбу. Использует патроны .35, идеально подходит для скрытных операций и предотвращения обнаружения.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/cobraretarche.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Clothing
+    sprite: _Evin/Objects/Weapons/Guns/Pistols/cobraretarche.rsi
+  - type: Gun
+    fireRate: 6
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
+      params:
+        volume: -14
+    availableModes:
+    - SemiAuto

@@ -1,0 +1,51 @@
+- type: entity
+  name: Taurus Judge
+  parent: BaseItem
+  id: WeaponShotgunTaurusJudge
+  description: Пистолет Taurus Judge представляет собой уникальное оружие, спроектированное для использования разнообразных патронов, что делает его исключительно адаптивным в различных сценариях. Он оснащен цилиндрическим магазином, способным вмещать патроны дробовика калибра .50 (включая все категории), антиматериальные патроны .60 и патроны Magnum калибра .45.
+  components:
+  - type: Sprite
+    sprite: _Evin/Objects/Weapons/Guns/Shotguns/taurusjudge.rsi
+    layers:
+    - state: icon
+      map: [ "enum.GunVisualLayers.Base" ]
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
+    quickEquip: false
+    slots:
+    - suitStorage
+    - Belt
+  - type: Item
+    size: Small
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 2
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Evin/Weapons/gunshots_shotgun.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+  - type: UseDelay
+    delay: 0.6
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - ShellShotgun
+      - CartridgeMagnum
+      - SpeedLoaderMagnum
+      - CartridgeAntiMateriel
+    proto: ShellShotgun
+    capacity: 5
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: StaticPrice
+    price: 2500

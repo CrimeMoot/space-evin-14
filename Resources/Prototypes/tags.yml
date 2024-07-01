@@ -503,6 +503,9 @@
   id: Debug
 
 - type: Tag
+  id: doublebarreledshotgun
+
+- type: Tag
   id: Dice
 
 - type: Tag
