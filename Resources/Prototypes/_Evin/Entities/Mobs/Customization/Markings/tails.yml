@@ -4,15 +4,6 @@
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
   sponsorOnly: false
-  coloring:
-    default:
-      type:
-        !type:CategoryColoring
-          category: Hair
-      fallbackTypes:
-        - !type:CategoryColoring
-          category: FacialHair
-        - !type:SkinColoring
   sprites:
   - sprite: _Evin/Mobs/Customization/tails.rsi
     state: m_tail_akula_front_primary
@@ -29,7 +20,6 @@
 
 - type: marking
   id: LabTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -45,7 +35,6 @@
 
 - type: marking
   id: WaggingFennecTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -61,7 +50,6 @@
 
 - type: marking
   id: FennecTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -77,7 +65,6 @@
 
 - type: marking
   id: WaggingMuridTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -89,7 +76,6 @@
 
 - type: marking
   id: MuridTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -101,7 +87,6 @@
 
 - type: marking
   id: WaggingMuridTwoTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -113,7 +98,6 @@
 
 - type: marking
   id: MuridTwoTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -125,7 +109,6 @@
 
 - type: marking
   id: WaggingRacoonTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -139,7 +122,6 @@
 
 - type: marking
   id: RacoonTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -155,7 +137,6 @@
 
 - type: marking
   id: WaggingSharkTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -167,7 +148,6 @@
 
 - type: marking
   id: SharkTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -179,7 +159,6 @@
 
 - type: marking
   id: WaggingDatasharkTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -197,7 +176,6 @@
 
 - type: marking
   id: DatasharkTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -215,7 +193,6 @@
 
 - type: marking
   id: HawkTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -231,7 +208,6 @@
 
 - type: marking
   id: WaggingHawkTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -246,8 +222,7 @@
     state: m_waggingtail_hawk_front_secondary
 
 - type: marking
-  id: WaggingOtieTail
-  parent: AkulaTail
+  id: WaggingOtieTai
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -259,7 +234,6 @@
 
 - type: marking
   id: WaggingAustralianshepherdTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -275,7 +249,6 @@
 
 - type: marking
   id: AustralianShepherdTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -291,7 +264,6 @@
 
 - type: marking
   id: WaggingShepherdTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -307,7 +279,6 @@
 
 - type: marking
   id: WaggingWahTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -323,7 +294,6 @@
 
 - type: marking
   id: WahTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -339,7 +309,6 @@
 
 - type: marking
   id: WaggingGuilmonTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -351,7 +320,6 @@
 
 - type: marking
   id: GuilmonTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -363,7 +331,6 @@
 
 - type: marking
   id: WaggingRabbitTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
@@ -375,7 +342,6 @@
 
 - type: marking
   id: RabbitTail
-  parent: AkulaTail
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]

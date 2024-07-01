@@ -1,0 +1,39 @@
+- type: constructionGraph
+  id: ImprovisedHooKGraph
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: cannon
+          steps:
+            - tag: Pipe
+              icon:
+                sprite: Structures/Piping/Atmospherics/pipe.rsi
+                state: pipeStraight
+              name: pipe
+            - tag: Handcuffs
+              icon:
+                sprite: Objects/Misc/cablecuffs.rsi
+                state: cuff
+                color: red
+              name: handcuffs
+            - tag: Igniter
+              name: an igniter
+              icon:
+                sprite: Objects/Devices/igniter.rsi
+                state: icon
+              doAfter: 1
+            - tag: doublebarreledshotgun
+              icon:
+                sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
+                state: icon
+              name: sawn-off shotgun
+            - material: Cloth
+              amount: 5
+            - material: Steel
+              amount: 10
+            - material: Cable
+              amount: 5
+              doAfter: 10
+    - node: cannon
+      entity: BaseWeaponShotgunHookEmpty

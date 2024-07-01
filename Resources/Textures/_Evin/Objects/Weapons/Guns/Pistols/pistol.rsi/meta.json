@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Polaris at https://github.com/PolarisSS13/Polaris/blob/a9fe81de927454727fa78d88515475b230f8acd2/icons/obj/gun.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bolt-open"
+    },
+    {
+      "name": "base"
+    },
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-BELT",
+      "directions": 4
+    },
+    {
+      "name": "equipped-SUITSTORAGE",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "mag-0"
+    }
+  ]
+}

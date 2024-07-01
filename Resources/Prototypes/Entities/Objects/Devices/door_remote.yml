@@ -6,7 +6,8 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Devices/door_remote.rsi
+ # sprite: Objects/Devices/door_remote.rsi // Orig
+    sprite: _Evin/Objects/Devices/remotedevace.rsi
   - type: Item
     storedRotation: -90
   - type: Access
@@ -21,11 +22,8 @@
   components:
   - type: Sprite
     layers:
-    - state: door_remotebase
-    - state: door_remotelightscolour
+    - state: remote_command_open
       color: "#e6e600"
-    - state: door_remotescreencolour
-      color: "#9f9f00"
   - type: Access
     groups:
     - Command
@@ -37,11 +35,8 @@
   components:
   - type: Sprite
     layers:
-    - state: door_remotebase
-    - state: door_remotelightscolour
+    - state: remote_security_open
       color: "#cb0000"
-    - state: door_remotescreencolour
-      color: "#830000"
   - type: Access
     groups:
     - Security
@@ -53,11 +48,8 @@
   components:
   - type: Sprite
     layers:
-    - state: door_remotebase
-    - state: door_remotelightscolour
+    - state: remote_security_open
       color: "#e80000"
-    - state: door_remotescreencolour
-      color: "#a80000"
   - type: Access
     groups:
     - Armory
@@ -69,11 +61,8 @@
   components:
   - type: Sprite
     layers:
-    - state: door_remotebase
-    - state: door_remotelightscolour
+    - state: remote_civilian_open
       color: "#58c800"
-    - state: door_remotescreencolour
-      color: "#3a7231"
   - type: Access
     groups:
     - Service
@@ -85,11 +74,8 @@
   components:
   - type: Sprite
     layers:
-    - state: door_remotebase
-    - state: door_remotelightscolour
+    - state: remote_sci_open
       color: "#a53aaa"
-    - state: door_remotescreencolour
-      color: "#652368"
   - type: Access
     groups:
     - Research
@@ -101,11 +87,8 @@
   components:
   - type: Sprite
     layers:
-    - state: door_remotebase
-    - state: door_remotelightscolour
+    - state: remote_cargo_open
       color: "#b18644"
-    - state: door_remotescreencolour
-      color: "#5b4523"
   - type: Access
     groups:
     - Cargo
@@ -117,11 +100,8 @@
   components:
   - type: Sprite
     layers:
-    - state: door_remotebase
-    - state: door_remotelightscolour
+    - state: remote_med_open
       color: "#68aed6"
-    - state: door_remotescreencolour
-      color: "#325f7a"
   - type: Access
     groups:
     - Medical
@@ -133,11 +113,8 @@
   components:
   - type: Sprite
     layers:
-    - state: door_remotebase
-    - state: door_remotelightscolour
+    - state: remote_engi_open
       color: "#ffa62b"
-    - state: door_remotescreencolour
-      color: "#bc5b00"
   - type: Access
     groups:
     - Engineering
@@ -150,11 +127,8 @@
   components:
   - type: Sprite
     layers:
-    - state: door_remotebase
-    - state: door_remotelightscolour
+    - state: remote_omni_open
       color: "#2eba22"
-    - state: door_remotescreencolour
-      color: "#22871a"
   - type: Access
     groups:
     - AllAccess
