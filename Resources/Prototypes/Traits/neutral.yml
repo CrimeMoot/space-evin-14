@@ -31,3 +31,27 @@
   components:
     - type: ReplacementAccent
       accent: liar
+
+- type: trait
+  id: TypingFurryblue
+  name: trait-typingblue-name
+  description: trait-typingblue-desc
+  components:
+    - type: TypingIndicator
+      proto: furryblue
+
+- type: trait
+  id: TypingFurryred
+  name: trait-typingred-name
+  description: trait-typinged-desc
+  components:
+    - type: TypingIndicator
+      proto: furryred
+
+- type: trait
+  id: TypingFurrybrown
+  name: trait-typingbrown-name
+  description: trait-typingbrown-desc
+  components:
+    - type: TypingIndicator
+      proto: furrybrown
