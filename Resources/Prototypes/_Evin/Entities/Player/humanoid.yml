@@ -129,3 +129,65 @@
       - NamesLastMilitary
     - type: Loadout
       prototypes: [ ERTmedGearGammaDSO ]
+
+- type: entity
+  id: RandomHumanoidSpawnerCBURNUnitDSO
+  name: CBURN Agent
+  suffix: ДСО, без снаряжения
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: cburn
+    - type: RandomHumanoidSpawner
+      settings: CBURNAgentDSO
+    - type: InitialInfectedExempt
+
+- type: randomHumanoidSettings
+  speciesBlacklist: # Corvax-MRP
+    - Diona
+  id: CBURNAgentDSO
+  parent: EventHumanoidMindShielded
+  components:
+    - type: Loadout
+      prototypes: [CBURNGearDSO]
+    - type: GhostRole
+      name: ghost-role-information-cburn-agent-name
+      description: ghost-role-information-cburn-agent-description
+      raffle:
+        settings: short
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+
+- type: entity
+  id: RandomHumanoidSpawnerDeathsquad
+  parent: RandomHumanoidSpawnerERTLeader
+  name: эскадрон смерти
+  suffix: ДСО, без снаряжения
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: ertmedical
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: DeathsquadDSO
+
+- type: randomHumanoidSettings
+  id: DeathsquadDSO
+  parent: ERTLeader
+  components:
+    - type: GhostRole
+      name: Эскадрон смерти
+      description: Вы выполняете приказы Офицера специальных операций
+      raffle:
+        settings: short
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: Loadout
+      prototypes: [ DeathsquadGearDSO ]

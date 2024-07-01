@@ -16,6 +16,7 @@
       - id: WeaponPulsePistol
       - id: WeaponPulseCarbine
       - id: Whistle
+      - id: TrackingImplanterDSO
 
 - type: entity
   id: LockerDSOsec
@@ -34,6 +35,7 @@
       - id: ClothingMaskGasERT
       - id: WeaponPulsePistol
       - id: WeaponPulseCarbine
+      - id: TrackingImplanterDSO
 
 - type: entity
   id: LockerDSOeng
@@ -53,6 +55,7 @@
       - id: WeaponPulsePistol
       - id: WeaponPulseCarbine
       - id: ClothingEyesGlassesMeson
+      - id: TrackingImplanterDSO
 
 - type: entity
   id: LockerDSOmedical
@@ -72,3 +75,65 @@
       - id: WeaponPulsePistol
       - id: WeaponPulseCarbine
       - id: ClothingEyesHudMedical
+      - id: TrackingImplanterDSO
+      - id: HandheldCrewMonitor
+
+- type: entity
+  id: LockerDSOCBURN
+  name: шкафчик РХБЗЗ
+  parent: LockerCaptain
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitCBURN
+      - id: RadioHandheld
+      - id: WeaponLaserGun
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingMaskGasERT
+      - id: OxygenTankFilled
+      - id: ClothingShoesBootsCombatFilled
+      - id: ClothingBeltBandolier
+      - id: ClothingBackpackDuffelCBURNFilled
+      - id: ClothingHandsGlovesCombat
+      - id: TrackingImplanterDSO
+
+- type: entity
+  id: LockerDSOCBURNLeader
+  name: шкафчик командира РХБЗЗ
+  parent: LockerCaptain
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitCBURNLeader
+      - id: RadioHandheld
+      - id: WeaponLaserGun
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingMaskGasERT
+      - id: OxygenTankFilled
+      - id: ClothingShoesBootsCombatFilled
+      - id: ClothingBeltBandolier
+      - id: ClothingBackpackDuffelCBURNFilled
+      - id: ClothingHandsGlovesCombat
+      - id: Whistle
+      - id: TrackingImplanterDSO
+
+- type: entity
+  id: LockerDeathsquad
+  name: шкафчик эскадрона смерти
+  parent: LockerCaptain
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingMaskGasDeathSquad
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingShoesBootsMagAdv
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingOuterHardsuitDeathsquad
+      - id: ClothingBackpackDeathSquadFilled
+      - id: EnergyShield
+      - id: EnergySword
+      - id: ClothingBeltMilitaryWebbingMedFilled
+      - id: AirTankFilled
+      - id: PinpointerNuclear
+      - id: HandheldCrewMonitor
+      - id: TrackingImplanterDSO

@@ -25,3 +25,10 @@
     jumpsuit: ClothingUniformJumpsuitERTSecurity
     id: ERTSecurityPDA
     ears: ClothingHeadsetAltDSO
+
+- type: startingGear
+  id: DeathsquadGearDSO
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitDeathSquad
+    id: DeathsquadPDA
+    ears: ClothingHeadsetAltDSO

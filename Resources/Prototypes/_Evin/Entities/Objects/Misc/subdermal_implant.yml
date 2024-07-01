@@ -1,0 +1,27 @@
+- type: entity
+  parent: BaseSubdermalImplant
+  id: TrackingImplantDSO
+  name: tracking implant
+  description: This implant has a tracking device attached to the suit sensor network, as well as a condition monitor for the Security radio channel.
+  noSpawn: true
+  components:
+    - type: SubdermalImplant
+      whitelist:
+        components:
+        - MobState # admeme implanting a chair with tracking implant needs to give the chair mobstate so it can die first
+    - type: SuitSensor
+      randomMode: false
+      controlsLocked: true
+      mode: SensorCords
+      activationContainer: "implant"
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+      transmitFrequencyId: SuitSensor
+    - type: StationLimitedNetwork
+    - type: WirelessNetworkConnection
+      range: 500
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+    - type: Rattle
+      radioChannel: "DSO"
