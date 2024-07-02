@@ -120,8 +120,8 @@
   - type: Grammar
     attributes:
       gender: male
-    - type: Puller
-      needsHands: false
+  - type: Puller
+    needsHands: false
 
 - type: entity
   id: MobRatKingBuff
