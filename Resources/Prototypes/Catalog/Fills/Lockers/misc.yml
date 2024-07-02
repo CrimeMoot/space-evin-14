@@ -37,7 +37,7 @@
       - id: BoxMRE
         prob: 0.1
       - id: LargeMedkitFilled
-        prob: 0.1
+        prob: 0.03
 
 - type: entity
   id: ClosetWallEmergencyFilledRandom
@@ -63,7 +63,7 @@
       - id: BoxMRE
         prob: 0.1
       - id: LargeMedkitFilled
-        prob: 0.1
+        prob: 0.03
 
 - type: entity
   id: ClosetEmergencyN2FilledRandom
@@ -80,7 +80,7 @@
         prob: 0.20
         orGroup: EmergencyTankOrRegularTank
       - id: LargeMedkitOxygenFilled
-        prob: 0.1
+        prob: 0.03
 
 - type: entity
   id: ClosetFireFilled
@@ -96,7 +96,7 @@
         - id: FireExtinguisher
           prob: 0.25
         - id: LargeMedkitBurnFilled
-          prob: 0.1
+          prob: 0.03
         
 - type: entity
   id: ClosetWallFireFilledRandom
@@ -182,15 +182,15 @@
         - id: BookRandomStory
           prob: 0.1
         - id: LargeMedkitBurnFilled
-          prob: 0.1
+          prob: 0.03
         - id: LargeMedkitFilled
-          prob: 0.1
+          prob: 0.03
         - id: LargeMedkitBruteFilled
-          prob: 0.1
+          prob: 0.03
         - id: LargeMedkitToxinFilled
-          prob: 0.1
+          prob: 0.03
         - id: LargeMedkitOxygenFilled
-          prob: 0.1
+          prob: 0.03
         # Syndicate loot
         - id: null
           prob: 0.95
