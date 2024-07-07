@@ -223,10 +223,18 @@ public sealed partial class LatheMenu : DefaultWindow
         var idx = 1;
         foreach (var recipe in queue)
         {
-            var icon = recipe.Icon == null
-                ? _spriteSystem.GetPrototypeIcon(recipe.Result).Default
-                : _spriteSystem.Frame0(recipe.Icon);
-            QueueList.AddItem($"{idx}. {recipe.Name}", icon);
+            var queuedRecipeBox = new BoxContainer();
+            queuedRecipeBox.Orientation = BoxContainer.LayoutOrientation.Horizontal;
+
+            var queuedRecipeProto = new EntityPrototypeView();
+            queuedRecipeBox.AddChild(queuedRecipeProto);
+            if (_prototypeManager.TryIndex(recipe.Result, out EntityPrototype? entityProto) && entityProto != null)
+                queuedRecipeProto.SetPrototype(entityProto);
+
+            var queuedRecipeLabel = new Label();
+            queuedRecipeLabel.Text = $"{idx}. {recipe.Name}";
+            queuedRecipeBox.AddChild(queuedRecipeLabel);
+            QueueList.AddChild(queuedRecipeBox);
             idx++;
         }
     }
