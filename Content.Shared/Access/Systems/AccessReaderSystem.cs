@@ -380,17 +380,14 @@ public sealed class AccessReaderSystem : EntitySystem
     }
 
     /// <summary>
-    /// Logs an access
+    /// Logs an access for a specific entity.
     /// </summary>
     /// <param name="ent">The reader to log the access on</param>
     /// <param name="accessor">The accessor to log</param>
-    private void LogAccess(Entity<AccessReaderComponent> ent, EntityUid accessor)
+    public void LogAccess(Entity<AccessReaderComponent> ent, EntityUid accessor)
     {
-        if (IsPaused(ent))
+        if (IsPaused(ent) || ent.Comp.LoggingDisabled)
             return;
-
-        if (ent.Comp.AccessLog.Count >= ent.Comp.AccessLogLimit)
-            ent.Comp.AccessLog.Dequeue();
 
         string? name = null;
         // TODO pass the ID card on IsAllowed() instead of using this expensive method
@@ -399,7 +396,21 @@ public sealed class AccessReaderSystem : EntitySystem
             && idCard.Comp is { BypassLogging: false, FullName: not null })
             name = idCard.Comp.FullName;
 
-        name ??= Loc.GetString("access-reader-unknown-id");
+        LogAccess(ent, name ?? Loc.GetString("access-reader-unknown-id"));
+    }
+
+    /// <summary>
+    /// Logs an access with a predetermined name
+    /// </summary>
+    /// <param name="ent">The reader to log the access on</param>
+    /// <param name="name">The name to log as</param>
+    public void LogAccess(Entity<AccessReaderComponent> ent, string name)
+    {
+        if (IsPaused(ent) || ent.Comp.LoggingDisabled)
+            return;
+
+        if (ent.Comp.AccessLog.Count >= ent.Comp.AccessLogLimit)
+            ent.Comp.AccessLog.Dequeue();
 
         var stationTime = _gameTiming.CurTime.Subtract(_gameTicker.RoundStartTimeSpan);
         ent.Comp.AccessLog.Enqueue(new AccessRecord(stationTime, name));
