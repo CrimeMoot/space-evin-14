@@ -20,10 +20,10 @@
         Blunt: 0.7
         Slash: 0.6
         Piercing: 0.6
-        Heat: 0.8
+        Heat: 0.79
         Radiation: 0.6
         Caustic: 0.6
-        Stun: 0.9
+        Stun: 0.89
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: ToggleableClothing
