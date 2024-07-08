@@ -66,7 +66,6 @@ public sealed class ReflectSystem : EntitySystem
             args.Direction = dir.Value;
             args.Reflected = true;
             break;
-<<<<<<< HEAD
         }
     }
 
