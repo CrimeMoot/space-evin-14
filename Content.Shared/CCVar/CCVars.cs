@@ -400,8 +400,6 @@ namespace Content.Shared.CCVar
         /// </remarks>
         public static readonly CVarDef<bool> GameTabletopPlace =
             CVarDef.Create("game.tabletop_place", false, CVar.SERVERONLY);
-
->>>>>>> Upstream
         /*
          * Discord
          */
