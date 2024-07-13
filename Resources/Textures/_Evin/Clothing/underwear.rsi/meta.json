@@ -1,12 +1,15 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from Skyrat-SS13 at commit e2d3dfd494be1be6108cbcadd3c8aabedbef73cf",
+  "copyright": "Taken from Skyrat-SS13 at commit e2d3dfd494be1be6108cbcadd3c8aabedbef73cf, icon.png by @hiucko (github), under cc-0 1.0",
   "size": {
     "x": 32,
     "y": 32
     },
   "states": [
+    {
+      "name": "icon"
+    },
     {
       "name": "male_briefs",
       "directions": 4
