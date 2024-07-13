@@ -1,0 +1,920 @@
+
+
+    {
+      : "male_briefs",
+      "directions": 4
+    },
+    {
+      : "male_boxers",
+      "directions": 4
+    },
+    {
+      : "male_stripe",
+      "directions": 4
+    },
+    {
+      : "male_midway",
+      "directions": 4
+    },
+    {
+      : "male_longjohns",
+      "directions": 4
+    },
+    {
+      : "male_kinky",
+      "directions": 4
+    },
+    {
+      : "male_mankini",
+      "directions": 4
+    },
+    {
+      : "male_hearts",
+      "directions": 4
+    },
+    {
+      : "male_commie",
+      "directions": 4
+    },
+    {
+      : "male_assblastusa",
+      "directions": 4
+    },
+    {
+      : "male_uk",
+      "directions": 4
+    },
+    {
+      : "female_bikini",
+      "directions": 4
+    },
+    {
+      : "female_lace",
+      "directions": 4
+    },
+    {
+      : "female_bralette",
+      "directions": 4
+    },
+    {
+      : "female_sport",
+      "directions": 4
+    },
+    {
+      : "female_thong",
+      "directions": 4
+    },
+    {
+      : "female_strapless",
+      "directions": 4
+    },
+    {
+      : "female_babydoll",
+      "directions": 4
+    },
+    {
+      : "swim_onepiece",
+      "directions": 4
+    },
+    {
+      : "swim_strapless_onepiece",
+      "directions": 4
+    },
+    {
+      : "swim_twopiece",
+      "directions": 4
+    },
+    {
+      : "swim_strapless_twopiece",
+      "directions": 4
+    },
+    {
+      : "swim_stripe",
+      "directions": 4
+    },
+    {
+      : "swim_halter",
+      "directions": 4
+    },
+    {
+      : "female_neko_white",
+      "directions": 4
+    },
+    {
+      : "female_neko_black",
+      "directions": 4
+    },
+    {
+      : "female_kinky",
+      "directions": 4
+    },
+    {
+      : "female_commie",
+      "directions": 4
+    },
+    {
+      : "female_assblastusa",
+      "directions": 4
+    },
+    {
+      : "female_uk",
+      "directions": 4
+    },
+    {
+      : "shirt_white",
+      "directions": 4
+    },
+    {
+      : "tank_white",
+      "directions": 4
+    },
+    {
+      : "shirt_black",
+      "directions": 4
+    },
+    {
+      : "tank_black",
+      "directions": 4
+    },
+    {
+      : "shirt_grey",
+      "directions": 4
+    },
+    {
+      : "tank_grey",
+      "directions": 4
+    },
+    {
+      : "lover",
+      "directions": 4
+    },
+    {
+      : "ian",
+      "directions": 4
+    },
+    {
+      : "uk",
+      "directions": 4
+    },
+    {
+      : "ilovent",
+      "directions": 4
+    },
+    {
+      : "peace",
+      "directions": 4
+    },
+    {
+      : "band",
+      "directions": 4
+    },
+    {
+      : "pogoman",
+      "directions": 4
+    },
+    {
+      : "matroska",
+      "directions": 4
+    },
+    {
+      : "whiteshortsleeve",
+      "directions": 4
+    },
+    {
+      : "purpleshortsleeve",
+      "directions": 4
+    },
+    {
+      : "blueshortsleeve",
+      "directions": 4
+    },
+    {
+      : "greenshortsleeve",
+      "directions": 4
+    },
+    {
+      : "blackshortsleeve",
+      "directions": 4
+    },
+    {
+      : "blueshirt",
+      "directions": 4
+    },
+    {
+      : "redshirt",
+      "directions": 4
+    },
+    {
+      : "yellowshirt",
+      "directions": 4
+    },
+    {
+      : "greenshirt",
+      "directions": 4
+    },
+    {
+      : "bluepolo",
+      "directions": 4
+    },
+    {
+      : "redpolo",
+      "directions": 4
+    },
+    {
+      : "whitepolo",
+      "directions": 4
+    },
+    {
+      : "grayyellowpolo",
+      "directions": 4
+    },
+    {
+      : "redtop",
+      "directions": 4
+    },
+    {
+      : "whitetop",
+      "directions": 4
+    },
+    {
+      : "tank_midriff",
+      "directions": 4
+    },
+    {
+      : "greenshirtsport",
+      "directions": 4
+    },
+    {
+      : "redshirtsport",
+      "directions": 4
+    },
+    {
+      : "blueshirtsport",
+      "directions": 4
+    },
+    {
+      : "shirt_ss13",
+      "directions": 4
+    },
+    {
+      : "tank_fire",
+      "directions": 4
+    },
+    {
+      : "shirt_question",
+      "directions": 4
+    },
+    {
+      : "shirt_skull",
+      "directions": 4
+    },
+    {
+      : "shirt_commie",
+      "directions": 4
+    },
+    {
+      : "shirt_nano",
+      "directions": 4
+    },
+    {
+      : "shirt_stripes",
+      "directions": 4
+    },
+    {
+      : "shirt_blue",
+      "directions": 4
+    },
+    {
+      : "shirt_red",
+      "directions": 4
+    },
+    {
+      : "tank_red",
+      "directions": 4
+    },
+    {
+      : "shirt_green",
+      "directions": 4
+    },
+    {
+      : "shirt_meat",
+      "directions": 4
+    },
+    {
+      : "shirt_tiedye",
+      "directions": 4
+    },
+    {
+      : "shirt_redjersey",
+      "directions": 4
+    },
+    {
+      : "shirt_bluejersey",
+      "directions": 4
+    },
+    {
+      : "tank_stripes",
+      "directions": 4
+    },
+    {
+      : "shirt_alien",
+      "directions": 4
+    },
+    {
+      : "shirt_clown",
+      "directions": 4
+    },
+    {
+      : "white_norm",
+      "directions": 4
+    },
+    {
+      : "white_short",
+      "directions": 4
+    },
+    {
+      : "white_knee",
+      "directions": 4
+    },
+    {
+      : "white_thigh",
+      "directions": 4
+    },
+    {
+      : "black_norm",
+      "directions": 4
+    },
+    {
+      : "black_short",
+      "directions": 4
+    },
+    {
+      : "black_knee",
+      "directions": 4
+    },
+    {
+      : "black_thigh",
+      "directions": 4
+    },
+    {
+      : "thin_knee",
+      "directions": 4
+    },
+    {
+      : "thin_thigh",
+      "directions": 4
+    },
+    {
+      : "pantyhose",
+      "directions": 4
+    },
+    {
+      : "rainbow_knee",
+      "directions": 4
+    },
+    {
+      : "rainbow_thigh",
+      "directions": 4
+    },
+    {
+      : "striped_knee",
+      "directions": 4
+    },
+    {
+      : "striped_thigh",
+      "directions": 4
+    },
+    {
+      : "shirt_assblastusa",
+      "directions": 4
+    },
+    {
+      : "assblastusa_knee",
+      "directions": 4
+    },
+    {
+      : "assblastusa_thigh",
+      "directions": 4
+    },
+    {
+      : "uk_knee",
+      "directions": 4
+    },
+    {
+      : "uk_thigh",
+      "directions": 4
+    },
+    {
+      : "commie_knee",
+      "directions": 4
+    },
+    {
+      : "commie_thigh",
+      "directions": 4
+    },
+    {
+      : "stockings_lpink",
+      "directions": 4
+    },
+    {
+      : "stockings_purple",
+      "directions": 4
+    },
+    {
+      : "stockings_green",
+      "directions": 4
+    },
+    {
+      : "stockings_cyan",
+      "directions": 4
+    },
+    {
+      : "stockings_orange",
+      "directions": 4
+    },
+    {
+      : "stockings_yellow",
+      "directions": 4
+    },
+    {
+      : "stockings_dpink",
+      "directions": 4
+    },
+    {
+      : "stockings_blue",
+      "directions": 4
+    },
+    {
+      : "thocks",
+      "directions": 4
+    },
+    {
+      : "ace_thigh",
+      "directions": 4
+    },
+    {
+      : "ace_knee",
+      "directions": 4
+    },
+    {
+      : "trans_knee",
+      "directions": 4
+    },
+    {
+      : "trans_thigh",
+      "directions": 4
+    },
+    {
+      : "fishnet_knee",
+      "directions": 4
+    },
+    {
+      : "fishnet_thigh",
+      "directions": 4
+    },
+    {
+      : "fishnet_full",
+      "directions": 4
+    },
+    {
+      : "sports_bra",
+      "directions": 4
+    },
+    {
+      : "sports_bra_alt",
+      "directions": 4
+    },
+    {
+      : "undershirt",
+      "directions": 4
+    },
+    {
+      : "shortsleeve",
+      "directions": 4
+    },
+    {
+      : "polo",
+      "directions": 4
+    },
+    {
+      : "tanktop",
+      "directions": 4
+    },
+    {
+      : "tanktop_alt",
+      "directions": 4
+    },
+    {
+      : "tank_rainbow",
+      "directions": 4
+    },
+    {
+      : "tank_sun",
+      "directions": 4
+    },
+    {
+      : "tank_midriff_alt",
+      "directions": 4
+    },
+    {
+      : "ljont",
+      "directions": 4
+    },
+    {
+      : "longstripe",
+      "directions": 4
+    },
+    {
+      : "longstripe_blue",
+      "directions": 4
+    },
+    {
+      : "bee_shirt",
+      "directions": 4
+    },
+    {
+      : "shirt_bc",
+      "directions": 4
+    },
+    {
+      : "one_arm",
+      "directions": 4
+    },
+    {
+      : "turtleneck",
+      "directions": 4
+    },
+    {
+      : "turtleneck_sleeveless",
+      "directions": 4
+    },
+    {
+      : "leotard",
+      "directions": 4
+    },
+    {
+      : "leotard_turtleneck",
+      "directions": 4
+    },
+    {
+      : "leotard_turtleneck_sleeveless",
+      "directions": 4
+    },
+    {
+      : "turtleneck_smooth",
+      "directions": 4
+    },
+    {
+      : "buttondown",
+      "directions": 4
+    },
+    {
+      : "buttondown_short",
+      "directions": 4
+    },
+    {
+      : "bra_thin",
+      "directions": 4
+    },
+    {
+      : "panties_thin",
+      "directions": 4
+    },
+    {
+      : "bra_neko",
+      "directions": 4
+    },
+    {
+      : "panties_neko",
+      "directions": 4
+    },
+    {
+      : "bra_swimming",
+      "directions": 4
+    },
+    {
+      : "panties_swimming",
+      "directions": 4
+    },
+    {
+      : "babydoll",
+      "directions": 4
+    },
+    {
+      : "thong_babydoll",
+      "directions": 4
+    },
+    {
+      : "bra_kinky",
+      "directions": 4
+    },
+    {
+      : "panties_kinky",
+      "directions": 4
+    },
+    {
+      : "bra_bee-kini",
+      "directions": 4
+    },
+    {
+      : "panties_bee-kini",
+      "directions": 4
+    },
+    {
+      : "bra_assblastusa",
+      "directions": 4
+    },
+    {
+      : "panties_assblastusa",
+      "directions": 4
+    },
+    {
+      : "bra_commie",
+      "directions": 4
+    },
+    {
+      : "panties_commie",
+      "directions": 4
+    },
+    {
+      : "bra_uk",
+      "directions": 4
+    },
+    {
+      : "panties_uk",
+      "directions": 4
+    },
+    {
+      : "striped_bra",
+      "directions": 4
+    },
+    {
+      : "striped_panties",
+      "directions": 4
+    },
+    {
+      : "lizared_top",
+      "directions": 4
+    },
+    {
+      : "lizared",
+      "directions": 4
+    },
+    {
+      : "bra_latex",
+      "directions": 4
+    },
+    {
+      : "panties_latex",
+      "directions": 4
+    },
+    {
+      : "bra",
+      "directions": 4
+    },
+    {
+      : "bra_alt",
+      "directions": 4
+    },
+    {
+      : "bra_strapless",
+      "directions": 4
+    },
+    {
+      : "bra_strapless_alt",
+      "directions": 4
+    },
+    {
+      : "halterneck_bra",
+      "directions": 4
+    },
+    {
+      : "binder",
+      "directions": 4
+    },
+    {
+      : "binder_strapless",
+      "directions": 4
+    },
+    {
+      : "bandages",
+      "directions": 4
+    },
+    {
+      : "panties",
+      "directions": 4
+    },
+    {
+      : "panties_slim",
+      "directions": 4
+    },
+    {
+      : "thong",
+      "directions": 4
+    },
+    {
+      : "bee_shorts",
+      "directions": 4
+    },
+    {
+      : "boyshorts",
+      "directions": 4
+    },
+    {
+      : "stockings_ripped",
+      "directions": 4
+    },
+    {
+      : "leggings",
+      "directions": 4
+    },
+    {
+      : "leggings-stir",
+      "directions": 4
+    },
+    {
+      : "pantyhose-stir",
+      "directions": 4
+    },
+    {
+      : "pantyhose_ripped",
+      "directions": 4
+    },
+    {
+      : "pantyhose_ripped-stir",
+      "directions": 4
+    },
+    {
+      : "rainbow_thigh-stir",
+      "directions": 4
+    },
+    {
+      : "rainbow_knee-stir",
+      "directions": 4
+    },
+    {
+      : "bee_knee_old",
+      "directions": 4
+    },
+    {
+      : "bee_thigh_old",
+      "directions": 4
+    },
+    {
+      : "striped_thigh-stir",
+      "directions": 4
+    },
+    {
+      : "leggings-stir-black",
+      "directions": 4
+    },
+    {
+      : "socks_thigh-stir",
+      "directions": 4
+    },
+    {
+      : "socks_knee-stir",
+      "directions": 4
+    },
+    {
+      : "socks_norm-stir",
+      "directions": 4
+    },
+    {
+      : "socks_latex",
+      "directions": 4
+    },
+    {
+      : "candycaner_norm",
+      "directions": 4
+    },
+    {
+      : "candycaner_knee",
+      "directions": 4
+    },
+    {
+      : "candycaner_thigh",
+      "directions": 4
+    },
+    {
+      : "christmas_norm",
+      "directions": 4
+    },
+    {
+      : "christmas_knee",
+      "directions": 4
+    },
+    {
+      : "christmas_thigh",
+      "directions": 4
+    },
+    {
+      : "candycaneg_norm",
+      "directions": 4
+    },
+    {
+      : "candycaneg_knee",
+      "directions": 4
+    },
+    {
+      : "candycaneg_thigh",
+      "directions": 4
+    },
+    {
+      : "swimming_blue",
+      "directions": 4
+    },
+    {
+      : "swimming_red",
+      "directions": 4
+    },
+    {
+      : "swimming_black",
+      "directions": 4
+    },
+    {
+      : "corset",
+      "directions": 4
+    },
+    {
+      : "shibari",
+      "directions": 4
+    },
+    {
+      : "shibari_sleeves",
+      "directions": 4
+    },
+    {
+      : "chastbelt",
+      "directions": 4
+    },
+    {
+      : "chastbra",
+      "directions": 4
+    },
+    {
+      : "chastcage",
+      "directions": 4
+    },
+    {
+      : "pasties",
+      "directions": 4
+    },
+    {
+      : "pasties_alt",
+      "directions": 4
+    },
+    {
+      : "fishnet",
+      "directions": 4
+    },
+    {
+      : "fishnet_lower",
+      "directions": 4
+    },
+    {
+      : "fishnet_body",
+      "directions": 4
+    },
+    {
+      : "fishnet_sleeves",
+      "directions": 4
+    },
+    {
+      : "fishnet_alt",
+      "directions": 4
+    },
+    {
+      : "fishnet_lower_alt",
+      "directions": 4
+    },
+    {
+      : "fishnet_body_alt",
+      "directions": 4
+    },
+    {
+      : "fishnet_sleeves_alt",
+      "directions": 4
+    },
+    {
+      : "hi_vis_bra",
+      "directions": 4
+    },
+    {
+      : "boyshorts_alt",
+      "directions": 4
+    },
+    {
+      : "strapless_biki_bra_alt",
+      "directions": 4
+    },
+    {
+      : "bikini_bra",
+      "directions": 4
+    },
+    {
+      : "strapless_biki_bra",
+      "directions": 4
+    }
+  ]
+}

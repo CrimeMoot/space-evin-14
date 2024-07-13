@@ -1,0 +1,2747 @@
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_briefs
+  name:  male_briefs
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_briefs
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_boxers
+  name:  male_boxers
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_boxers
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_stripe
+  name:  male_stripe
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_stripe
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_midway
+  name:  male_midway
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_midway
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_longjohns
+  name:  male_longjohns
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_longjohns
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_kinky
+  name:  male_kinky
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_kinky
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_mankini
+  name:  male_mankini
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_mankini
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_hearts
+  name:  male_hearts
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_hearts
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_commie
+  name:  male_commie
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_commie
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_assblastusa
+  name:  male_assblastusa
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_assblastusa
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  male_uk
+  name:  male_uk
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: male_uk
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_bikini
+  name:  female_bikini
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_bikini
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_lace
+  name:  female_lace
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_lace
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_bralette
+  name:  female_bralette
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_bralette
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_sport
+  name:  female_sport
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_sport
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_thong
+  name:  female_thong
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_thong
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_strapless
+  name:  female_strapless
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_strapless
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_babydoll
+  name:  female_babydoll
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_babydoll
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  swim_onepiece
+  name:  swim_onepiece
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: swim_onepiece
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  swim_strapless_onepiece
+  name:  swim_strapless_onepiece
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: swim_strapless_onepiece
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  swim_twopiece
+  name:  swim_twopiece
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: swim_twopiece
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  swim_strapless_twopiece
+  name:  swim_strapless_twopiece
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: swim_strapless_twopiece
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  swim_stripe
+  name:  swim_stripe
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: swim_stripe
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  swim_halter
+  name:  swim_halter
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: swim_halter
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_neko_white
+  name:  female_neko_white
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_neko_white
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_neko_black
+  name:  female_neko_black
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_neko_black
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_kinky
+  name:  female_kinky
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_kinky
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_commie
+  name:  female_commie
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_commie
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_assblastusa
+  name:  female_assblastusa
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_assblastusa
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  female_uk
+  name:  female_uk
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: female_uk
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_white
+  name:  shirt_white
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_white
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_white
+  name:  tank_white
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_white
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_black
+  name:  shirt_black
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_black
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_black
+  name:  tank_black
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_black
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_grey
+  name:  shirt_grey
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_grey
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_grey
+  name:  tank_grey
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_grey
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  lover
+  name:  lover
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: lover
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  ian
+  name:  ian
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: ian
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  uk
+  name:  uk
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: uk
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  ilovent
+  name:  ilovent
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: ilovent
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  peace
+  name:  peace
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: peace
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  band
+  name:  band
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: band
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  pogoman
+  name:  pogoman
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: pogoman
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  matroska
+  name:  matroska
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: matroska
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  whiteshortsleeve
+  name:  whiteshortsleeve
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: whiteshortsleeve
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  purpleshortsleeve
+  name:  purpleshortsleeve
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: purpleshortsleeve
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  blueshortsleeve
+  name:  blueshortsleeve
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: blueshortsleeve
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  greenshortsleeve
+  name:  greenshortsleeve
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: greenshortsleeve
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  blackshortsleeve
+  name:  blackshortsleeve
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: blackshortsleeve
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  blueshirt
+  name:  blueshirt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: blueshirt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  redshirt
+  name:  redshirt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: redshirt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  yellowshirt
+  name:  yellowshirt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: yellowshirt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  greenshirt
+  name:  greenshirt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: greenshirt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bluepolo
+  name:  bluepolo
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bluepolo
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  redpolo
+  name:  redpolo
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: redpolo
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  whitepolo
+  name:  whitepolo
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: whitepolo
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  grayyellowpolo
+  name:  grayyellowpolo
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: grayyellowpolo
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  redtop
+  name:  redtop
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: redtop
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  whitetop
+  name:  whitetop
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: whitetop
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_midriff
+  name:  tank_midriff
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_midriff
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  greenshirtsport
+  name:  greenshirtsport
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: greenshirtsport
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  redshirtsport
+  name:  redshirtsport
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: redshirtsport
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  blueshirtsport
+  name:  blueshirtsport
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: blueshirtsport
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_ss13
+  name:  shirt_ss13
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_ss13
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_fire
+  name:  tank_fire
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_fire
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_question
+  name:  shirt_question
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_question
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_skull
+  name:  shirt_skull
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_skull
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_commie
+  name:  shirt_commie
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_commie
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_nano
+  name:  shirt_nano
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_nano
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_stripes
+  name:  shirt_stripes
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_stripes
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_blue
+  name:  shirt_blue
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_blue
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_red
+  name:  shirt_red
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_red
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_red
+  name:  tank_red
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_red
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_green
+  name:  shirt_green
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_green
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_meat
+  name:  shirt_meat
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_meat
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_tiedye
+  name:  shirt_tiedye
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_tiedye
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_redjersey
+  name:  shirt_redjersey
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_redjersey
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_bluejersey
+  name:  shirt_bluejersey
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_bluejersey
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_stripes
+  name:  tank_stripes
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_stripes
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_alien
+  name:  shirt_alien
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_alien
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_clown
+  name:  shirt_clown
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_clown
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  white_norm
+  name:  white_norm
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: white_norm
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  white_short
+  name:  white_short
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: white_short
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  white_knee
+  name:  white_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: white_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  white_thigh
+  name:  white_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: white_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  black_norm
+  name:  black_norm
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: black_norm
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  black_short
+  name:  black_short
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: black_short
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  black_knee
+  name:  black_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: black_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  black_thigh
+  name:  black_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: black_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  thin_knee
+  name:  thin_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: thin_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  thin_thigh
+  name:  thin_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: thin_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  pantyhose
+  name:  pantyhose
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: pantyhose
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  rainbow_knee
+  name:  rainbow_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: rainbow_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  rainbow_thigh
+  name:  rainbow_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: rainbow_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  striped_knee
+  name:  striped_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: striped_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  striped_thigh
+  name:  striped_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: striped_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_assblastusa
+  name:  shirt_assblastusa
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_assblastusa
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  assblastusa_knee
+  name:  assblastusa_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: assblastusa_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  assblastusa_thigh
+  name:  assblastusa_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: assblastusa_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  uk_knee
+  name:  uk_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: uk_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  uk_thigh
+  name:  uk_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: uk_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  commie_knee
+  name:  commie_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: commie_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  commie_thigh
+  name:  commie_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: commie_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  stockings_lpink
+  name:  stockings_lpink
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: stockings_lpink
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  stockings_purple
+  name:  stockings_purple
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: stockings_purple
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  stockings_green
+  name:  stockings_green
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: stockings_green
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  stockings_cyan
+  name:  stockings_cyan
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: stockings_cyan
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  stockings_orange
+  name:  stockings_orange
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: stockings_orange
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  stockings_yellow
+  name:  stockings_yellow
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: stockings_yellow
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  stockings_dpink
+  name:  stockings_dpink
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: stockings_dpink
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  stockings_blue
+  name:  stockings_blue
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: stockings_blue
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  thocks
+  name:  thocks
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: thocks
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  ace_thigh
+  name:  ace_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: ace_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  ace_knee
+  name:  ace_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: ace_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  trans_knee
+  name:  trans_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: trans_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  trans_thigh
+  name:  trans_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: trans_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_knee
+  name:  fishnet_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_thigh
+  name:  fishnet_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_full
+  name:  fishnet_full
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_full
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  sports_bra
+  name:  sports_bra
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: sports_bra
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  sports_bra_alt
+  name:  sports_bra_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: sports_bra_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  undershirt
+  name:  undershirt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: undershirt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shortsleeve
+  name:  shortsleeve
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shortsleeve
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  polo
+  name:  polo
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: polo
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tanktop
+  name:  tanktop
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tanktop
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tanktop_alt
+  name:  tanktop_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tanktop_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_rainbow
+  name:  tank_rainbow
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_rainbow
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_sun
+  name:  tank_sun
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_sun
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  tank_midriff_alt
+  name:  tank_midriff_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: tank_midriff_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  ljont
+  name:  ljont
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: ljont
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  longstripe
+  name:  longstripe
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: longstripe
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  longstripe_blue
+  name:  longstripe_blue
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: longstripe_blue
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bee_shirt
+  name:  bee_shirt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bee_shirt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shirt_bc
+  name:  shirt_bc
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shirt_bc
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  one_arm
+  name:  one_arm
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: one_arm
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  turtleneck
+  name:  turtleneck
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: turtleneck
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  turtleneck_sleeveless
+  name:  turtleneck_sleeveless
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: turtleneck_sleeveless
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  leotard
+  name:  leotard
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: leotard
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  leotard_turtleneck
+  name:  leotard_turtleneck
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: leotard_turtleneck
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  leotard_turtleneck_sleeveless
+  name:  leotard_turtleneck_sleeveless
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: leotard_turtleneck_sleeveless
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  turtleneck_smooth
+  name:  turtleneck_smooth
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: turtleneck_smooth
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  buttondown
+  name:  buttondown
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: buttondown
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  buttondown_short
+  name:  buttondown_short
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: buttondown_short
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_thin
+  name:  bra_thin
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_thin
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_thin
+  name:  panties_thin
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_thin
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_neko
+  name:  bra_neko
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_neko
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_neko
+  name:  panties_neko
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_neko
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_swimming
+  name:  bra_swimming
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_swimming
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_swimming
+  name:  panties_swimming
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_swimming
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  babydoll
+  name:  babydoll
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: babydoll
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  thong_babydoll
+  name:  thong_babydoll
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: thong_babydoll
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_kinky
+  name:  bra_kinky
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_kinky
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_kinky
+  name:  panties_kinky
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_kinky
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_bee-kini
+  name:  bra_bee-kini
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_bee-kini
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_bee-kini
+  name:  panties_bee-kini
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_bee-kini
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_assblastusa
+  name:  bra_assblastusa
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_assblastusa
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_assblastusa
+  name:  panties_assblastusa
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_assblastusa
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_commie
+  name:  bra_commie
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_commie
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_commie
+  name:  panties_commie
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_commie
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_uk
+  name:  bra_uk
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_uk
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_uk
+  name:  panties_uk
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_uk
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  striped_bra
+  name:  striped_bra
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: striped_bra
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  striped_panties
+  name:  striped_panties
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: striped_panties
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  lizared_top
+  name:  lizared_top
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: lizared_top
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  lizared
+  name:  lizared
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: lizared
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_latex
+  name:  bra_latex
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_latex
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_latex
+  name:  panties_latex
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_latex
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra
+  name:  bra
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_alt
+  name:  bra_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_strapless
+  name:  bra_strapless
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_strapless
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bra_strapless_alt
+  name:  bra_strapless_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bra_strapless_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  halterneck_bra
+  name:  halterneck_bra
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: halterneck_bra
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  binder
+  name:  binder
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: binder
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  binder_strapless
+  name:  binder_strapless
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: binder_strapless
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bandages
+  name:  bandages
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bandages
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties
+  name:  panties
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  panties_slim
+  name:  panties_slim
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: panties_slim
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  thong
+  name:  thong
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: thong
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bee_shorts
+  name:  bee_shorts
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bee_shorts
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  boyshorts
+  name:  boyshorts
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: boyshorts
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  stockings_ripped
+  name:  stockings_ripped
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: stockings_ripped
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  leggings
+  name:  leggings
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: leggings
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  leggings-stir
+  name:  leggings-stir
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: leggings-stir
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  pantyhose-stir
+  name:  pantyhose-stir
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: pantyhose-stir
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  pantyhose_ripped
+  name:  pantyhose_ripped
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: pantyhose_ripped
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  pantyhose_ripped-stir
+  name:  pantyhose_ripped-stir
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: pantyhose_ripped-stir
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  rainbow_thigh-stir
+  name:  rainbow_thigh-stir
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: rainbow_thigh-stir
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  rainbow_knee-stir
+  name:  rainbow_knee-stir
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: rainbow_knee-stir
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bee_knee_old
+  name:  bee_knee_old
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bee_knee_old
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bee_thigh_old
+  name:  bee_thigh_old
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bee_thigh_old
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  striped_thigh-stir
+  name:  striped_thigh-stir
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: striped_thigh-stir
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  leggings-stir-black
+  name:  leggings-stir-black
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: leggings-stir-black
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  socks_thigh-stir
+  name:  socks_thigh-stir
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: socks_thigh-stir
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  socks_knee-stir
+  name:  socks_knee-stir
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: socks_knee-stir
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  socks_norm-stir
+  name:  socks_norm-stir
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: socks_norm-stir
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  socks_latex
+  name:  socks_latex
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: socks_latex
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  candycaner_norm
+  name:  candycaner_norm
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: candycaner_norm
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  candycaner_knee
+  name:  candycaner_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: candycaner_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  candycaner_thigh
+  name:  candycaner_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: candycaner_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  christmas_norm
+  name:  christmas_norm
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: christmas_norm
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  christmas_knee
+  name:  christmas_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: christmas_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  christmas_thigh
+  name:  christmas_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: christmas_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  candycaneg_norm
+  name:  candycaneg_norm
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: candycaneg_norm
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  candycaneg_knee
+  name:  candycaneg_knee
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: candycaneg_knee
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  candycaneg_thigh
+  name:  candycaneg_thigh
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: candycaneg_thigh
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  swimming_blue
+  name:  swimming_blue
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: swimming_blue
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  swimming_red
+  name:  swimming_red
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: swimming_red
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  swimming_black
+  name:  swimming_black
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: swimming_black
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  corset
+  name:  corset
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: corset
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shibari
+  name:  shibari
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shibari
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  shibari_sleeves
+  name:  shibari_sleeves
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: shibari_sleeves
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  chastbelt
+  name:  chastbelt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: chastbelt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  chastbra
+  name:  chastbra
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: chastbra
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  chastcage
+  name:  chastcage
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: chastcage
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  pasties
+  name:  pasties
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: pasties
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  pasties_alt
+  name:  pasties_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: pasties_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet
+  name:  fishnet
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_lower
+  name:  fishnet_lower
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_lower
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_body
+  name:  fishnet_body
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_body
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_sleeves
+  name:  fishnet_sleeves
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_sleeves
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_alt
+  name:  fishnet_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_lower_alt
+  name:  fishnet_lower_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_lower_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_body_alt
+  name:  fishnet_body_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_body_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  fishnet_sleeves_alt
+  name:  fishnet_sleeves_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: fishnet_sleeves_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  hi_vis_bra
+  name:  hi_vis_bra
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: hi_vis_bra
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  boyshorts_alt
+  name:  boyshorts_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: boyshorts_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  strapless_biki_bra_alt
+  name:  strapless_biki_bra_alt
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: strapless_biki_bra_alt
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  bikini_bra
+  name:  bikini_bra
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: bikini_bra
+
+- type: entity
+  parent: ClothingShoesBase
+  id:  strapless_biki_bra
+  name:  strapless_biki_bra
+  components:
+  - type: Sprite
+    sprite: _Evin/Clothing/underwear.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Evin/Clothing/underwear.rsi
+    state: strapless_biki_bra
