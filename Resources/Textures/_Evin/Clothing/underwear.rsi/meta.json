@@ -5,921 +5,922 @@
   "size": {
     "x": 32,
     "y": 32
-  },
+    },
+  "states": [
     {
-      : "male_briefs",
+      "name": "male_briefs",
       "directions": 4
     },
     {
-      : "male_boxers",
+      "name": "male_boxers",
       "directions": 4
     },
     {
-      : "male_stripe",
+      "name": "male_stripe",
       "directions": 4
     },
     {
-      : "male_midway",
+      "name": "male_midway",
       "directions": 4
     },
     {
-      : "male_longjohns",
+      "name": "male_longjohns",
       "directions": 4
     },
     {
-      : "male_kinky",
+      "name": "male_kinky",
       "directions": 4
     },
     {
-      : "male_mankini",
+      "name": "male_mankini",
       "directions": 4
     },
     {
-      : "male_hearts",
+      "name": "male_hearts",
       "directions": 4
     },
     {
-      : "male_commie",
+      "name": "male_commie",
       "directions": 4
     },
     {
-      : "male_assblastusa",
+      "name": "male_assblastusa",
       "directions": 4
     },
     {
-      : "male_uk",
+      "name": "male_uk",
       "directions": 4
     },
     {
-      : "female_bikini",
+      "name": "female_bikini",
       "directions": 4
     },
     {
-      : "female_lace",
+      "name": "female_lace",
       "directions": 4
     },
     {
-      : "female_bralette",
+      "name": "female_bralette",
       "directions": 4
     },
     {
-      : "female_sport",
+      "name": "female_sport",
       "directions": 4
     },
     {
-      : "female_thong",
+      "name": "female_thong",
       "directions": 4
     },
     {
-      : "female_strapless",
+      "name": "female_strapless",
       "directions": 4
     },
     {
-      : "female_babydoll",
+      "name": "female_babydoll",
       "directions": 4
     },
     {
-      : "swim_onepiece",
+      "name": "swim_onepiece",
       "directions": 4
     },
     {
-      : "swim_strapless_onepiece",
+      "name": "swim_strapless_onepiece",
       "directions": 4
     },
     {
-      : "swim_twopiece",
+      "name": "swim_twopiece",
       "directions": 4
     },
     {
-      : "swim_strapless_twopiece",
+      "name": "swim_strapless_twopiece",
       "directions": 4
     },
     {
-      : "swim_stripe",
+      "name": "swim_stripe",
       "directions": 4
     },
     {
-      : "swim_halter",
+      "name": "swim_halter",
       "directions": 4
     },
     {
-      : "female_neko_white",
+      "name": "female_neko_white",
       "directions": 4
     },
     {
-      : "female_neko_black",
+      "name": "female_neko_black",
       "directions": 4
     },
     {
-      : "female_kinky",
+      "name": "female_kinky",
       "directions": 4
     },
     {
-      : "female_commie",
+      "name": "female_commie",
       "directions": 4
     },
     {
-      : "female_assblastusa",
+      "name": "female_assblastusa",
       "directions": 4
     },
     {
-      : "female_uk",
+      "name": "female_uk",
       "directions": 4
     },
     {
-      : "shirt_white",
+      "name": "shirt_white",
       "directions": 4
     },
     {
-      : "tank_white",
+      "name": "tank_white",
       "directions": 4
     },
     {
-      : "shirt_black",
+      "name": "shirt_black",
       "directions": 4
     },
     {
-      : "tank_black",
+      "name": "tank_black",
       "directions": 4
     },
     {
-      : "shirt_grey",
+      "name": "shirt_grey",
       "directions": 4
     },
     {
-      : "tank_grey",
+      "name": "tank_grey",
       "directions": 4
     },
     {
-      : "lover",
+      "name": "lover",
       "directions": 4
     },
     {
-      : "ian",
+      "name": "ian",
       "directions": 4
     },
     {
-      : "uk",
+      "name": "uk",
       "directions": 4
     },
     {
-      : "ilovent",
+      "name": "ilovent",
       "directions": 4
     },
     {
-      : "peace",
+      "name": "peace",
       "directions": 4
     },
     {
-      : "band",
+      "name": "band",
       "directions": 4
     },
     {
-      : "pogoman",
+      "name": "pogoman",
       "directions": 4
     },
     {
-      : "matroska",
+      "name": "matroska",
       "directions": 4
     },
     {
-      : "whiteshortsleeve",
+      "name": "whiteshortsleeve",
       "directions": 4
     },
     {
-      : "purpleshortsleeve",
+      "name": "purpleshortsleeve",
       "directions": 4
     },
     {
-      : "blueshortsleeve",
+      "name": "blueshortsleeve",
       "directions": 4
     },
     {
-      : "greenshortsleeve",
+      "name": "greenshortsleeve",
       "directions": 4
     },
     {
-      : "blackshortsleeve",
+      "name": "blackshortsleeve",
       "directions": 4
     },
     {
-      : "blueshirt",
+      "name": "blueshirt",
       "directions": 4
     },
     {
-      : "redshirt",
+      "name": "redshirt",
       "directions": 4
     },
     {
-      : "yellowshirt",
+      "name": "yellowshirt",
       "directions": 4
     },
     {
-      : "greenshirt",
+      "name": "greenshirt",
       "directions": 4
     },
     {
-      : "bluepolo",
+      "name": "bluepolo",
       "directions": 4
     },
     {
-      : "redpolo",
+      "name": "redpolo",
       "directions": 4
     },
     {
-      : "whitepolo",
+      "name": "whitepolo",
       "directions": 4
     },
     {
-      : "grayyellowpolo",
+      "name": "grayyellowpolo",
       "directions": 4
     },
     {
-      : "redtop",
+      "name": "redtop",
       "directions": 4
     },
     {
-      : "whitetop",
+      "name": "whitetop",
       "directions": 4
     },
     {
-      : "tank_midriff",
+      "name": "tank_midriff",
       "directions": 4
     },
     {
-      : "greenshirtsport",
+      "name": "greenshirtsport",
       "directions": 4
     },
     {
-      : "redshirtsport",
+      "name": "redshirtsport",
       "directions": 4
     },
     {
-      : "blueshirtsport",
+      "name": "blueshirtsport",
       "directions": 4
     },
     {
-      : "shirt_ss13",
+      "name": "shirt_ss13",
       "directions": 4
     },
     {
-      : "tank_fire",
+      "name": "tank_fire",
       "directions": 4
     },
     {
-      : "shirt_question",
+      "name": "shirt_question",
       "directions": 4
     },
     {
-      : "shirt_skull",
+      "name": "shirt_skull",
       "directions": 4
     },
     {
-      : "shirt_commie",
+      "name": "shirt_commie",
       "directions": 4
     },
     {
-      : "shirt_nano",
+      "name": "shirt_nano",
       "directions": 4
     },
     {
-      : "shirt_stripes",
+      "name": "shirt_stripes",
       "directions": 4
     },
     {
-      : "shirt_blue",
+      "name": "shirt_blue",
       "directions": 4
     },
     {
-      : "shirt_red",
+      "name": "shirt_red",
       "directions": 4
     },
     {
-      : "tank_red",
+      "name": "tank_red",
       "directions": 4
     },
     {
-      : "shirt_green",
+      "name": "shirt_green",
       "directions": 4
     },
     {
-      : "shirt_meat",
+      "name": "shirt_meat",
       "directions": 4
     },
     {
-      : "shirt_tiedye",
+      "name": "shirt_tiedye",
       "directions": 4
     },
     {
-      : "shirt_redjersey",
+      "name": "shirt_redjersey",
       "directions": 4
     },
     {
-      : "shirt_bluejersey",
+      "name": "shirt_bluejersey",
       "directions": 4
     },
     {
-      : "tank_stripes",
+      "name": "tank_stripes",
       "directions": 4
     },
     {
-      : "shirt_alien",
+      "name": "shirt_alien",
       "directions": 4
     },
     {
-      : "shirt_clown",
+      "name": "shirt_clown",
       "directions": 4
     },
     {
-      : "white_norm",
+      "name": "white_norm",
       "directions": 4
     },
     {
-      : "white_short",
+      "name": "white_short",
       "directions": 4
     },
     {
-      : "white_knee",
+      "name": "white_knee",
       "directions": 4
     },
     {
-      : "white_thigh",
+      "name": "white_thigh",
       "directions": 4
     },
     {
-      : "black_norm",
+      "name": "black_norm",
       "directions": 4
     },
     {
-      : "black_short",
+      "name": "black_short",
       "directions": 4
     },
     {
-      : "black_knee",
+      "name": "black_knee",
       "directions": 4
     },
     {
-      : "black_thigh",
+      "name": "black_thigh",
       "directions": 4
     },
     {
-      : "thin_knee",
+      "name": "thin_knee",
       "directions": 4
     },
     {
-      : "thin_thigh",
+      "name": "thin_thigh",
       "directions": 4
     },
     {
-      : "pantyhose",
+      "name": "pantyhose",
       "directions": 4
     },
     {
-      : "rainbow_knee",
+      "name": "rainbow_knee",
       "directions": 4
     },
     {
-      : "rainbow_thigh",
+      "name": "rainbow_thigh",
       "directions": 4
     },
     {
-      : "striped_knee",
+      "name": "striped_knee",
       "directions": 4
     },
     {
-      : "striped_thigh",
+      "name": "striped_thigh",
       "directions": 4
     },
     {
-      : "shirt_assblastusa",
+      "name": "shirt_assblastusa",
       "directions": 4
     },
     {
-      : "assblastusa_knee",
+      "name": "assblastusa_knee",
       "directions": 4
     },
     {
-      : "assblastusa_thigh",
+      "name": "assblastusa_thigh",
       "directions": 4
     },
     {
-      : "uk_knee",
+      "name": "uk_knee",
       "directions": 4
     },
     {
-      : "uk_thigh",
+      "name": "uk_thigh",
       "directions": 4
     },
     {
-      : "commie_knee",
+      "name": "commie_knee",
       "directions": 4
     },
     {
-      : "commie_thigh",
+      "name": "commie_thigh",
       "directions": 4
     },
     {
-      : "stockings_lpink",
+      "name": "stockings_lpink",
       "directions": 4
     },
     {
-      : "stockings_purple",
+      "name": "stockings_purple",
       "directions": 4
     },
     {
-      : "stockings_green",
+      "name": "stockings_green",
       "directions": 4
     },
     {
-      : "stockings_cyan",
+      "name": "stockings_cyan",
       "directions": 4
     },
     {
-      : "stockings_orange",
+      "name": "stockings_orange",
       "directions": 4
     },
     {
-      : "stockings_yellow",
+      "name": "stockings_yellow",
       "directions": 4
     },
     {
-      : "stockings_dpink",
+      "name": "stockings_dpink",
       "directions": 4
     },
     {
-      : "stockings_blue",
+      "name": "stockings_blue",
       "directions": 4
     },
     {
-      : "thocks",
+      "name": "thocks",
       "directions": 4
     },
     {
-      : "ace_thigh",
+      "name": "ace_thigh",
       "directions": 4
     },
     {
-      : "ace_knee",
+      "name": "ace_knee",
       "directions": 4
     },
     {
-      : "trans_knee",
+      "name": "trans_knee",
       "directions": 4
     },
     {
-      : "trans_thigh",
+      "name": "trans_thigh",
       "directions": 4
     },
     {
-      : "fishnet_knee",
+      "name": "fishnet_knee",
       "directions": 4
     },
     {
-      : "fishnet_thigh",
+      "name": "fishnet_thigh",
       "directions": 4
     },
     {
-      : "fishnet_full",
+      "name": "fishnet_full",
       "directions": 4
     },
     {
-      : "sports_bra",
+      "name": "sports_bra",
       "directions": 4
     },
     {
-      : "sports_bra_alt",
+      "name": "sports_bra_alt",
       "directions": 4
     },
     {
-      : "undershirt",
+      "name": "undershirt",
       "directions": 4
     },
     {
-      : "shortsleeve",
+      "name": "shortsleeve",
       "directions": 4
     },
     {
-      : "polo",
+      "name": "polo",
       "directions": 4
     },
     {
-      : "tanktop",
+      "name": "tanktop",
       "directions": 4
     },
     {
-      : "tanktop_alt",
+      "name": "tanktop_alt",
       "directions": 4
     },
     {
-      : "tank_rainbow",
+      "name": "tank_rainbow",
       "directions": 4
     },
     {
-      : "tank_sun",
+      "name": "tank_sun",
       "directions": 4
     },
     {
-      : "tank_midriff_alt",
+      "name": "tank_midriff_alt",
       "directions": 4
     },
     {
-      : "ljont",
+      "name": "ljont",
       "directions": 4
     },
     {
-      : "longstripe",
+      "name": "longstripe",
       "directions": 4
     },
     {
-      : "longstripe_blue",
+      "name": "longstripe_blue",
       "directions": 4
     },
     {
-      : "bee_shirt",
+      "name": "bee_shirt",
       "directions": 4
     },
     {
-      : "shirt_bc",
+      "name": "shirt_bc",
       "directions": 4
     },
     {
-      : "one_arm",
+      "name": "one_arm",
       "directions": 4
     },
     {
-      : "turtleneck",
+      "name": "turtleneck",
       "directions": 4
     },
     {
-      : "turtleneck_sleeveless",
+      "name": "turtleneck_sleeveless",
       "directions": 4
     },
     {
-      : "leotard",
+      "name": "leotard",
       "directions": 4
     },
     {
-      : "leotard_turtleneck",
+      "name": "leotard_turtleneck",
       "directions": 4
     },
     {
-      : "leotard_turtleneck_sleeveless",
+      "name": "leotard_turtleneck_sleeveless",
       "directions": 4
     },
     {
-      : "turtleneck_smooth",
+      "name": "turtleneck_smooth",
       "directions": 4
     },
     {
-      : "buttondown",
+      "name": "buttondown",
       "directions": 4
     },
     {
-      : "buttondown_short",
+      "name": "buttondown_short",
       "directions": 4
     },
     {
-      : "bra_thin",
+      "name": "bra_thin",
       "directions": 4
     },
     {
-      : "panties_thin",
+      "name": "panties_thin",
       "directions": 4
     },
     {
-      : "bra_neko",
+      "name": "bra_neko",
       "directions": 4
     },
     {
-      : "panties_neko",
+      "name": "panties_neko",
       "directions": 4
     },
     {
-      : "bra_swimming",
+      "name": "bra_swimming",
       "directions": 4
     },
     {
-      : "panties_swimming",
+      "name": "panties_swimming",
       "directions": 4
     },
     {
-      : "babydoll",
+      "name": "babydoll",
       "directions": 4
     },
     {
-      : "thong_babydoll",
+      "name": "thong_babydoll",
       "directions": 4
     },
     {
-      : "bra_kinky",
+      "name": "bra_kinky",
       "directions": 4
     },
     {
-      : "panties_kinky",
+      "name": "panties_kinky",
       "directions": 4
     },
     {
-      : "bra_bee-kini",
+      "name": "bra_bee-kini",
       "directions": 4
     },
     {
-      : "panties_bee-kini",
+      "name": "panties_bee-kini",
       "directions": 4
     },
     {
-      : "bra_assblastusa",
+      "name": "bra_assblastusa",
       "directions": 4
     },
     {
-      : "panties_assblastusa",
+      "name": "panties_assblastusa",
       "directions": 4
     },
     {
-      : "bra_commie",
+      "name": "bra_commie",
       "directions": 4
     },
     {
-      : "panties_commie",
+      "name": "panties_commie",
       "directions": 4
     },
     {
-      : "bra_uk",
+      "name": "bra_uk",
       "directions": 4
     },
     {
-      : "panties_uk",
+      "name": "panties_uk",
       "directions": 4
     },
     {
-      : "striped_bra",
+      "name": "striped_bra",
       "directions": 4
     },
     {
-      : "striped_panties",
+      "name": "striped_panties",
       "directions": 4
     },
     {
-      : "lizared_top",
+      "name": "lizared_top",
       "directions": 4
     },
     {
-      : "lizared",
+      "name": "lizared",
       "directions": 4
     },
     {
-      : "bra_latex",
+      "name": "bra_latex",
       "directions": 4
     },
     {
-      : "panties_latex",
+      "name": "panties_latex",
       "directions": 4
     },
     {
-      : "bra",
+      "name": "bra",
       "directions": 4
     },
     {
-      : "bra_alt",
+      "name": "bra_alt",
       "directions": 4
     },
     {
-      : "bra_strapless",
+      "name": "bra_strapless",
       "directions": 4
     },
     {
-      : "bra_strapless_alt",
+      "name": "bra_strapless_alt",
       "directions": 4
     },
     {
-      : "halterneck_bra",
+      "name": "halterneck_bra",
       "directions": 4
     },
     {
-      : "binder",
+      "name": "binder",
       "directions": 4
     },
     {
-      : "binder_strapless",
+      "name": "binder_strapless",
       "directions": 4
     },
     {
-      : "bandages",
+      "name": "bandages",
       "directions": 4
     },
     {
-      : "panties",
+      "name": "panties",
       "directions": 4
     },
     {
-      : "panties_slim",
+      "name": "panties_slim",
       "directions": 4
     },
     {
-      : "thong",
+      "name": "thong",
       "directions": 4
     },
     {
-      : "bee_shorts",
+      "name": "bee_shorts",
       "directions": 4
     },
     {
-      : "boyshorts",
+      "name": "boyshorts",
       "directions": 4
     },
     {
-      : "stockings_ripped",
+      "name": "stockings_ripped",
       "directions": 4
     },
     {
-      : "leggings",
+      "name": "leggings",
       "directions": 4
     },
     {
-      : "leggings-stir",
+      "name": "leggings-stir",
       "directions": 4
     },
     {
-      : "pantyhose-stir",
+      "name": "pantyhose-stir",
       "directions": 4
     },
     {
-      : "pantyhose_ripped",
+      "name": "pantyhose_ripped",
       "directions": 4
     },
     {
-      : "pantyhose_ripped-stir",
+      "name": "pantyhose_ripped-stir",
       "directions": 4
     },
     {
-      : "rainbow_thigh-stir",
+      "name": "rainbow_thigh-stir",
       "directions": 4
     },
     {
-      : "rainbow_knee-stir",
+      "name": "rainbow_knee-stir",
       "directions": 4
     },
     {
-      : "bee_knee_old",
+      "name": "bee_knee_old",
       "directions": 4
     },
     {
-      : "bee_thigh_old",
+      "name": "bee_thigh_old",
       "directions": 4
     },
     {
-      : "striped_thigh-stir",
+      "name": "striped_thigh-stir",
       "directions": 4
     },
     {
-      : "leggings-stir-black",
+      "name": "leggings-stir-black",
       "directions": 4
     },
     {
-      : "socks_thigh-stir",
+      "name": "socks_thigh-stir",
       "directions": 4
     },
     {
-      : "socks_knee-stir",
+      "name": "socks_knee-stir",
       "directions": 4
     },
     {
-      : "socks_norm-stir",
+      "name": "socks_norm-stir",
       "directions": 4
     },
     {
-      : "socks_latex",
+      "name": "socks_latex",
       "directions": 4
     },
     {
-      : "candycaner_norm",
+      "name": "candycaner_norm",
       "directions": 4
     },
     {
-      : "candycaner_knee",
+      "name": "candycaner_knee",
       "directions": 4
     },
     {
-      : "candycaner_thigh",
+      "name": "candycaner_thigh",
       "directions": 4
     },
     {
-      : "christmas_norm",
+      "name": "christmas_norm",
       "directions": 4
     },
     {
-      : "christmas_knee",
+      "name": "christmas_knee",
       "directions": 4
     },
     {
-      : "christmas_thigh",
+      "name": "christmas_thigh",
       "directions": 4
     },
     {
-      : "candycaneg_norm",
+      "name": "candycaneg_norm",
       "directions": 4
     },
     {
-      : "candycaneg_knee",
+      "name": "candycaneg_knee",
       "directions": 4
     },
     {
-      : "candycaneg_thigh",
+      "name": "candycaneg_thigh",
       "directions": 4
     },
     {
-      : "swimming_blue",
+      "name": "swimming_blue",
       "directions": 4
     },
     {
-      : "swimming_red",
+      "name": "swimming_red",
       "directions": 4
     },
     {
-      : "swimming_black",
+      "name": "swimming_black",
       "directions": 4
     },
     {
-      : "corset",
+      "name": "corset",
       "directions": 4
     },
     {
-      : "shibari",
+      "name": "shibari",
       "directions": 4
     },
     {
-      : "shibari_sleeves",
+      "name": "shibari_sleeves",
       "directions": 4
     },
     {
-      : "chastbelt",
+      "name": "chastbelt",
       "directions": 4
     },
     {
-      : "chastbra",
+      "name": "chastbra",
       "directions": 4
     },
     {
-      : "chastcage",
+      "name": "chastcage",
       "directions": 4
     },
     {
-      : "pasties",
+      "name": "pasties",
       "directions": 4
     },
     {
-      : "pasties_alt",
+      "name": "pasties_alt",
       "directions": 4
     },
     {
-      : "fishnet",
+      "name": "fishnet",
       "directions": 4
     },
     {
-      : "fishnet_lower",
+      "name": "fishnet_lower",
       "directions": 4
     },
     {
-      : "fishnet_body",
+      "name": "fishnet_body",
       "directions": 4
     },
     {
-      : "fishnet_sleeves",
+      "name": "fishnet_sleeves",
       "directions": 4
     },
     {
-      : "fishnet_alt",
+      "name": "fishnet_alt",
       "directions": 4
     },
     {
-      : "fishnet_lower_alt",
+      "name": "fishnet_lower_alt",
       "directions": 4
     },
     {
-      : "fishnet_body_alt",
+      "name": "fishnet_body_alt",
       "directions": 4
     },
     {
-      : "fishnet_sleeves_alt",
+      "name": "fishnet_sleeves_alt",
       "directions": 4
     },
     {
-      : "hi_vis_bra",
+      "name": "hi_vis_bra",
       "directions": 4
     },
     {
-      : "boyshorts_alt",
+      "name": "boyshorts_alt",
       "directions": 4
     },
     {
-      : "strapless_biki_bra_alt",
+      "name": "strapless_biki_bra_alt",
       "directions": 4
     },
     {
-      : "bikini_bra",
+      "name": "bikini_bra",
       "directions": 4
     },
     {
-      : "strapless_biki_bra",
+      "name": "strapless_biki_bra",
       "directions": 4
     }
   ]
