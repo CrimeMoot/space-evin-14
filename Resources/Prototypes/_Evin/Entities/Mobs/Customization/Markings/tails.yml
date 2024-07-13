@@ -1,0 +1,352 @@
+- type: marking
+  id: AkulaTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sponsorOnly: false
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_akula_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_akula_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_akula_front_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_akula_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_akula_front_tertiary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_akula_behind_tertiary
+
+- type: marking
+  id: LabTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_lab_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_lab_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_lab_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_lab_front_primary
+
+- type: marking
+  id: WaggingFennecTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_fennec_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_fennec_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_fennec_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_fennec_front_secondary
+
+- type: marking
+  id: FennecTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_fennec_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_fennec_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_fennec_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_fennec_front_secondary
+
+- type: marking
+  id: WaggingMuridTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_murid_wagging_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_murid_front_primary
+
+- type: marking
+  id: MuridTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_murid_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_murid_front_primary
+
+- type: marking
+  id: WaggingMuridTwoTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_murid_two_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_murid_two_front_primary
+
+- type: marking
+  id: MuridTwoTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_murid_two_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_murid_two_front_primary
+
+- type: marking
+  id: WaggingRacoonTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_raccoon_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_raccoon_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_raccoon_front_secondary
+
+- type: marking
+  id: RacoonTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_raccoon_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_raccoon_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_raccoon_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_raccoon_front_secondary
+
+- type: marking
+  id: WaggingSharkTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_shark_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_shark_front_primary
+
+- type: marking
+  id: SharkTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_shark_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_shark_behind_primary
+
+- type: marking
+  id: WaggingDatasharkTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_datashark_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_datashark_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_datashark_behind_tertiary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_datashark_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_datashark_front_tertiary
+
+- type: marking
+  id: DatasharkTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_datashark_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_datashark_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_datashark_behind_tertiary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_datashark_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_datashark_front_tertiary
+
+- type: marking
+  id: HawkTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_hawk_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_hawk_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_hawk_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_hawk_front_secondary
+
+- type: marking
+  id: WaggingHawkTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_hawk_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_hawk_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_hawk_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_hawk_front_secondary
+
+- type: marking
+  id: WaggingOtieTai
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_otie_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_otie_front_primary
+
+- type: marking
+  id: WaggingAustralianshepherdTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_australianshepherd_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_australianshepherd_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_australianshepherd_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_australianshepherd_front_secondary
+
+- type: marking
+  id: AustralianShepherdTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_australianshepherd_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_australianshepherd_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_australianshepherd_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_australianshepherd_front_secondary
+
+- type: marking
+  id: WaggingShepherdTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_shepherd_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_shepherd_behind_tertiary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_shepherd_front_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_shepherd_front_tertiary
+
+- type: marking
+  id: WaggingWahTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_wah_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_wah_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_wah_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_wah_front_secondary
+
+- type: marking
+  id: WahTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_wah_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_wah_behind_secondary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_wah_front_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_wah_front_secondary
+
+- type: marking
+  id: WaggingGuilmonTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_guilmon_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_guilmon_front_primary
+
+- type: marking
+  id: GuilmonTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_guilmon_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_guilmon_front_primary
+
+- type: marking
+  id: WaggingRabbitTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_rabbit_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_waggingtail_rabbit_front_primary
+
+- type: marking
+  id: RabbitTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid]
+  sprites:
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_rabbit_behind_primary
+  - sprite: _Evin/Mobs/Customization/tails.rsi
+    state: m_tail_rabbit_front_primary
