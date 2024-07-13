@@ -1,5 +1,11 @@
-
-
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Skyrat-SS13 at commit e2d3dfd494be1be6108cbcadd3c8aabedbef73cf",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
     {
       : "male_briefs",
       "directions": 4
