@@ -47,11 +47,11 @@ namespace Content.Client.Construction
 
             CommandBinds.Builder
                 .Bind(ContentKeyFunctions.OpenCraftingMenu,
-                    new PointerInputCmdHandler(HandleOpenCraftingMenu, outsidePrediction:true))
+                    new PointerInputCmdHandler(HandleOpenCraftingMenu, outsidePrediction: true))
                 .Bind(EngineKeyFunctions.Use,
                     new PointerInputCmdHandler(HandleUse, outsidePrediction: true))
                 .Bind(ContentKeyFunctions.EditorFlipObject,
-                    new PointerInputCmdHandler(HandleFlip, outsidePrediction:true))
+                    new PointerInputCmdHandler(HandleFlip, outsidePrediction: true))
                 .Register<ConstructionSystem>();
 
             SubscribeLocalEvent<ConstructionGhostComponent, ExaminedEvent>(HandleConstructionGhostExamined);
@@ -195,9 +195,14 @@ namespace Content.Client.Construction
             if (GhostPresent(loc))
                 return false;
 
+<<<<<<< HEAD
             // This InRangeUnobstructed should probably be replaced with "is there something blocking us in that tile?"
             var predicate = GetPredicate(prototype.CanBuildInImpassable, loc.ToMap(EntityManager, _transformSystem));
             if (!_interactionSystem.InRangeUnobstructed(user, loc, 20f, predicate: predicate))
+=======
+            var predicate = GetPredicate(prototype.CanBuildInImpassable, _transformSystem.ToMapCoordinates(loc));
+            if (!_examineSystem.InRangeUnOccluded(user, loc, 20f, predicate: predicate))
+>>>>>>> Upstream
                 return false;
 
             if (!CheckConstructionConditions(prototype, loc, dir, user, showPopup: true))

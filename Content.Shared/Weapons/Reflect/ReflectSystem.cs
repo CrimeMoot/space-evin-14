@@ -3,18 +3,17 @@ using System.Numerics;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Alert;
 using Content.Shared.Audio;
-using Content.Shared.Damage.Components;
 using Content.Shared.Database;
-using Content.Shared.Gravity;
 using Content.Shared.Hands;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
+using Content.Shared.Item.ItemToggle;
 using Content.Shared.Item.ItemToggle.Components;
 using Content.Shared.Popups;
 using Content.Shared.Projectiles;
-using Content.Shared.Standing;
 using Content.Shared.Weapons.Ranged.Components;
 using Content.Shared.Weapons.Ranged.Events;
+using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Network;
 using Robust.Shared.Physics.Components;
@@ -29,21 +28,16 @@ namespace Content.Shared.Weapons.Reflect;
 /// </summary>
 public sealed class ReflectSystem : EntitySystem
 {
+    [Dependency] private readonly IGameTiming _gameTiming = default!;
     [Dependency] private readonly INetManager _netManager = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ISharedAdminLogManager _adminLogger = default!;
-    [Dependency] private readonly IGameTiming _gameTiming = default!;
+    [Dependency] private readonly ItemToggleSystem _toggle = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly InventorySystem _inventorySystem = default!;
-    [Dependency] private readonly SharedGravitySystem _gravity = default!;
-    [Dependency] private readonly StandingStateSystem _standing = default!;
-    [Dependency] private readonly AlertsSystem _alerts = default!;
-
-    [ValidatePrototypeId<AlertPrototype>]
-    private const string DeflectingAlert = "Deflecting";
 
     public override void Initialize()
     {
@@ -66,7 +60,11 @@ public sealed class ReflectSystem : EntitySystem
         if (args.Reflected)
             return;
 
+<<<<<<< HEAD
         foreach (var ent in _inventorySystem.GetHandOrInventoryEntities(uid, SlotFlags.WITHOUT_POCKET))
+=======
+        foreach (var ent in _inventorySystem.GetHandOrInventoryEntities(uid, SlotFlags.All & ~SlotFlags.POCKET))
+>>>>>>> Upstream
         {
             if (!TryReflectHitscan(uid, ent, args.Shooter, args.SourceItem, args.Direction, out var dir))
                 continue;
@@ -74,6 +72,7 @@ public sealed class ReflectSystem : EntitySystem
             args.Direction = dir.Value;
             args.Reflected = true;
             break;
+<<<<<<< HEAD
         }
     }
 
@@ -114,6 +113,43 @@ public sealed class ReflectSystem : EntitySystem
 
         if (!_random.Prob(CalcReflectChance(reflector, reflect)))
             return false;
+=======
+        }
+    }
+
+    private void OnReflectUserCollide(EntityUid uid, ReflectUserComponent component, ref ProjectileReflectAttemptEvent args)
+    {
+        foreach (var ent in _inventorySystem.GetHandOrInventoryEntities(uid, SlotFlags.All & ~SlotFlags.POCKET))
+        {
+            if (!TryReflectProjectile(uid, ent, args.ProjUid))
+                continue;
+
+            args.Cancelled = true;
+            break;
+        }
+    }
+
+    private void OnReflectCollide(EntityUid uid, ReflectComponent component, ref ProjectileReflectAttemptEvent args)
+    {
+        if (args.Cancelled)
+            return;
+
+        if (TryReflectProjectile(uid, uid, args.ProjUid, reflect: component))
+            args.Cancelled = true;
+    }
+
+    private bool TryReflectProjectile(EntityUid user, EntityUid reflector, EntityUid projectile, ProjectileComponent? projectileComp = null, ReflectComponent? reflect = null)
+    {
+        if (!Resolve(reflector, ref reflect, false) ||
+            !_toggle.IsActivated(reflector) ||
+            !TryComp<ReflectiveComponent>(projectile, out var reflective) ||
+            (reflect.Reflects & reflective.Reflective) == 0x0 ||
+            !_random.Prob(reflect.ReflectProb) ||
+            !TryComp<PhysicsComponent>(projectile, out var physics))
+        {
+            return false;
+        }
+>>>>>>> Upstream
 
         var rotation = _random.NextAngle(-reflect.Spread / 2, reflect.Spread / 2).Opposite();
         var existingVelocity = _physics.GetMapLinearVelocity(projectile, component: physics);
@@ -151,6 +187,7 @@ public sealed class ReflectSystem : EntitySystem
         return true;
     }
 
+<<<<<<< HEAD
     private float CalcReflectChance(EntityUid reflector, ReflectComponent reflect)
     {
         /*
@@ -179,6 +216,8 @@ public sealed class ReflectSystem : EntitySystem
         );
     }
 
+=======
+>>>>>>> Upstream
     private void OnReflectHitscan(EntityUid uid, ReflectComponent component, ref HitScanReflectAttemptEvent args)
     {
         if (args.Reflected ||
@@ -203,20 +242,28 @@ public sealed class ReflectSystem : EntitySystem
         [NotNullWhen(true)] out Vector2? newDirection)
     {
         if (!TryComp<ReflectComponent>(reflector, out var reflect) ||
+<<<<<<< HEAD
             !reflect.Enabled ||
             TryComp<StaminaComponent>(reflector, out var staminaComponent) && staminaComponent.Critical ||
             _standing.IsDown(reflector))
+=======
+            !_toggle.IsActivated(reflector) ||
+            !_random.Prob(reflect.ReflectProb))
+>>>>>>> Upstream
         {
             newDirection = null;
             return false;
         }
 
+<<<<<<< HEAD
         if (!_random.Prob(CalcReflectChance(reflector, reflect)))
         {
             newDirection = null;
             return false;
         }
 
+=======
+>>>>>>> Upstream
         if (_netManager.IsServer)
         {
             _popup.PopupEntity(Loc.GetString("reflect-shot"), user);
@@ -240,9 +287,12 @@ public sealed class ReflectSystem : EntitySystem
             return;
 
         EnsureComp<ReflectUserComponent>(args.Equipee);
+<<<<<<< HEAD
 
         if (component.Enabled)
             EnableAlert(args.Equipee);
+=======
+>>>>>>> Upstream
     }
 
     private void OnReflectUnequipped(EntityUid uid, ReflectComponent comp, GotUnequippedEvent args)
@@ -256,9 +306,12 @@ public sealed class ReflectSystem : EntitySystem
             return;
 
         EnsureComp<ReflectUserComponent>(args.User);
+<<<<<<< HEAD
 
         if (component.Enabled)
             EnableAlert(args.User);
+=======
+>>>>>>> Upstream
     }
 
     private void OnReflectHandUnequipped(EntityUid uid, ReflectComponent component, GotUnequippedHandEvent args)
@@ -268,6 +321,7 @@ public sealed class ReflectSystem : EntitySystem
 
     private void OnToggleReflect(EntityUid uid, ReflectComponent comp, ref ItemToggledEvent args)
     {
+<<<<<<< HEAD
         comp.Enabled = args.Activated;
         Dirty(uid, comp);
 
@@ -275,6 +329,10 @@ public sealed class ReflectSystem : EntitySystem
             EnableAlert(uid);
         else
             DisableAlert(uid);
+=======
+        if (args.User is {} user)
+            RefreshReflectUser(user);
+>>>>>>> Upstream
     }
 
     /// <summary>
@@ -282,28 +340,15 @@ public sealed class ReflectSystem : EntitySystem
     /// </summary>
     private void RefreshReflectUser(EntityUid user)
     {
-        foreach (var ent in _inventorySystem.GetHandOrInventoryEntities(user, SlotFlags.WITHOUT_POCKET))
+        foreach (var ent in _inventorySystem.GetHandOrInventoryEntities(user, SlotFlags.All & ~SlotFlags.POCKET))
         {
-            if (!HasComp<ReflectComponent>(ent))
+            if (!HasComp<ReflectComponent>(ent) || !_toggle.IsActivated(ent))
                 continue;
 
             EnsureComp<ReflectUserComponent>(user);
-            EnableAlert(user);
-
             return;
         }
 
         RemCompDeferred<ReflectUserComponent>(user);
-        DisableAlert(user);
-    }
-
-    private void EnableAlert(EntityUid alertee)
-    {
-        _alerts.ShowAlert(alertee, DeflectingAlert);
-    }
-
-    private void DisableAlert(EntityUid alertee)
-    {
-        _alerts.ClearAlert(alertee, DeflectingAlert);
     }
 }

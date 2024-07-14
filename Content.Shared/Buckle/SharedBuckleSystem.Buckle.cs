@@ -10,6 +10,11 @@ using Content.Shared.Interaction;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Movement.Events;
 using Content.Shared.Popups;
+<<<<<<< HEAD
+=======
+using Content.Shared.Pulling.Events;
+using Content.Shared.Rotation;
+>>>>>>> Upstream
 using Content.Shared.Standing;
 using Content.Shared.Storage.Components;
 using Content.Shared.Stunnable;
@@ -329,12 +334,21 @@ public abstract partial class SharedBuckleSystem
 
         if (!StrapTryAdd(strapUid, buckleUid, buckleComp, false, strapComp))
         {
+<<<<<<< HEAD
             var message = Loc.GetString(buckleUid == userUid
                 ? "buckle-component-cannot-buckle-message"
                 : "buckle-component-other-cannot-buckle-message", ("owner", Identity.Entity(buckleUid, EntityManager)));
             if (_netManager.IsServer)
                 _popup.PopupEntity(message, userUid, userUid);
             return false;
+=======
+            case StrapPosition.Stand:
+                _standing.Stand(buckle, force: true);
+                break;
+            case StrapPosition.Down:
+                _standing.Down(buckle, false, false, force: true);
+                break;
+>>>>>>> Upstream
         }
 
         if (TryComp<AppearanceComponent>(buckleUid, out var appearance))
@@ -518,6 +532,44 @@ public abstract partial class SharedBuckleSystem
         {
             return TryBuckle(buckleUid, userUid, strapUid, buckle);
         }
+<<<<<<< HEAD
+=======
+
+        Unbuckle(buckle!, (strap, strapComp), user);
+    }
+
+    private void Unbuckle(Entity<BuckleComponent> buckle, Entity<StrapComponent> strap, EntityUid? user)
+    {
+        if (user == buckle.Owner)
+            _adminLogger.Add(LogType.Action, LogImpact.Low, $"{user} unbuckled themselves from {strap}");
+        else if (user != null)
+            _adminLogger.Add(LogType.Action, LogImpact.Low, $"{user} unbuckled {buckle} from {strap}");
+
+        _audio.PlayPredicted(strap.Comp.UnbuckleSound, strap, user);
+
+        SetBuckledTo(buckle, null);
+
+        var buckleXform = Transform(buckle);
+        var oldBuckledXform = Transform(strap);
+
+        if (buckleXform.ParentUid == strap.Owner && !Terminating(buckleXform.ParentUid))
+        {
+            _container.AttachParentToContainerOrGrid((buckle, buckleXform));
+
+            var oldBuckledToWorldRot = _transform.GetWorldRotation(strap);
+            _transform.SetWorldRotation(buckleXform, oldBuckledToWorldRot);
+
+            if (strap.Comp.UnbuckleOffset != Vector2.Zero)
+                buckleXform.Coordinates = oldBuckledXform.Coordinates.Offset(strap.Comp.UnbuckleOffset);
+        }
+
+        _rotationVisuals.ResetHorizontalAngle(buckle.Owner);
+        Appearance.SetData(strap, StrapVisuals.State, strap.Comp.BuckledEntities.Count != 0);
+        Appearance.SetData(buckle, BuckleVisuals.Buckled, false);
+
+        if (HasComp<KnockedDownComponent>(buckle) || _mobState.IsIncapacitated(buckle))
+            _standing.Down(buckle, playSound: false);
+>>>>>>> Upstream
         else
         {
             return TryUnbuckle(buckleUid, userUid, force, buckle);

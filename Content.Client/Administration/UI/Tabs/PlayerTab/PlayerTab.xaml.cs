@@ -108,7 +108,7 @@ namespace Content.Client.Administration.UI.Tabs.PlayerTab
         private void RefreshPlayerList(IReadOnlyList<PlayerInfo> players)
         {
             _players = players;
-            PlayerCount.Text = $"Players: {_playerMan.PlayerCount}";
+            PlayerCount.Text = Loc.GetString("player-tab-player-count", ("count", _playerMan.PlayerCount));
 
             var sortedPlayers = new List<PlayerInfo>(players);
             sortedPlayers.Sort(Compare);

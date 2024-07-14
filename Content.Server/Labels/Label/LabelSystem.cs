@@ -18,7 +18,10 @@ namespace Content.Server.Labels
     {
         [Dependency] private readonly ItemSlotsSystem _itemSlotsSystem = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
+<<<<<<< HEAD
         [Dependency] private readonly MetaDataSystem _metaData = default!;
+=======
+>>>>>>> Upstream
 
         public const string ContainerName = "paper_label";
 
@@ -26,7 +29,6 @@ namespace Content.Server.Labels
         {
             base.Initialize();
 
-            SubscribeLocalEvent<LabelComponent, MapInitEvent>(OnLabelCompMapInit);
             SubscribeLocalEvent<PaperLabelComponent, ComponentInit>(OnComponentInit);
             SubscribeLocalEvent<PaperLabelComponent, ComponentRemove>(OnComponentRemove);
             SubscribeLocalEvent<PaperLabelComponent, EntInsertedIntoContainerMessage>(OnContainerModified);
@@ -34,6 +36,7 @@ namespace Content.Server.Labels
             SubscribeLocalEvent<PaperLabelComponent, ExaminedEvent>(OnExamined);
         }
 
+<<<<<<< HEAD
         private void OnLabelCompMapInit(EntityUid uid, LabelComponent component, MapInitEvent args)
         {
             if (!string.IsNullOrEmpty(component.CurrentLabel))
@@ -43,6 +46,8 @@ namespace Content.Server.Labels
             }
         }
 
+=======
+>>>>>>> Upstream
         /// <summary>
         /// Apply or remove a label on an entity.
         /// </summary>
@@ -75,7 +80,11 @@ namespace Content.Server.Labels
             // Update label
             label.OriginalName ??= metadata.EntityName;
             label.CurrentLabel = text;
+<<<<<<< HEAD
             _metaData.SetEntityName(uid, $"{label.OriginalName} ({text})", metadata);
+=======
+            NameMod.RefreshNameModifiers(uid);
+>>>>>>> Upstream
 
             Dirty(uid, label);
         }

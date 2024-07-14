@@ -127,6 +127,10 @@ namespace Content.Server.Database
 
             if (exemptFlags is { } exempt)
             {
+                // Any flag to bypass BlacklistedRange bans.
+                if (exempt != ServerBanExemptFlags.None)
+                    exempt |= ServerBanExemptFlags.BlacklistedRange;
+
                 query = query.Where(b => (b.ExemptFlags & exempt) == 0);
             }
 
@@ -140,7 +144,15 @@ namespace Content.Server.Database
             ServerBanExemptFlags? exemptFlags)
         {
             if (!exemptFlags.GetValueOrDefault(ServerBanExemptFlags.None).HasFlag(ServerBanExemptFlags.IP)
+<<<<<<< HEAD
                 && address != null && ban.Address is not null && address.IsInSubnet(ban.Address.ToTuple().Value))
+=======
+                && address != null
+                && ban.Address is not null
+                && address.IsInSubnet(ban.Address.ToTuple().Value)
+                && (!ban.ExemptFlags.HasFlag(ServerBanExemptFlags.BlacklistedRange) ||
+                     newPlayer))
+>>>>>>> Upstream
             {
                 return true;
             }

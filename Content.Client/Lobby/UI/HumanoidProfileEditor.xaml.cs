@@ -483,6 +483,58 @@ namespace Content.Client.Lobby.UI
             {
                 foreach (var trait in traits)
                 {
+<<<<<<< HEAD
+=======
+                    Text = Loc.GetString("humanoid-profile-editor-no-traits"),
+                    FontColorOverride = Color.Gray,
+                });
+                return;
+            }
+
+            // Setup model
+            Dictionary<string, List<string>> traitGroups = new();
+            List<string> defaultTraits = new();
+            traitGroups.Add(TraitCategoryPrototype.Default, defaultTraits);
+
+            foreach (var trait in traits)
+            {
+                if (trait.Category == null)
+                {
+                    defaultTraits.Add(trait.ID);
+                    continue;
+                }
+
+                if (!_prototypeManager.HasIndex(trait.Category))
+                    continue;
+
+                var group = traitGroups.GetOrNew(trait.Category);
+                group.Add(trait.ID);
+            }
+
+            // Create UI view from model
+            foreach (var (categoryId, categoryTraits) in traitGroups)
+            {
+                TraitCategoryPrototype? category = null;
+
+                if (categoryId != TraitCategoryPrototype.Default)
+                {
+                    category = _prototypeManager.Index<TraitCategoryPrototype>(categoryId);
+                    // Label
+                    TraitsList.AddChild(new Label
+                    {
+                        Text = Loc.GetString(category.Name),
+                        Margin = new Thickness(0, 10, 0, 0),
+                        StyleClasses = { StyleBase.StyleClassLabelHeading },
+                    });
+                }
+
+                List<TraitPreferenceSelector?> selectors = new();
+                var selectionCount = 0;
+
+                foreach (var traitProto in categoryTraits)
+                {
+                    var trait = _prototypeManager.Index<TraitPrototype>(traitProto);
+>>>>>>> Upstream
                     var selector = new TraitPreferenceSelector(trait);
 
                     if (Profile?.TraitPreferences.Contains(trait.ID) == true)
@@ -496,7 +548,19 @@ namespace Content.Client.Lobby.UI
 
                     selector.PreferenceChanged += preference =>
                     {
+<<<<<<< HEAD
                         Profile = Profile?.WithTraitPreference(trait.ID, preference);
+=======
+                        if (preference)
+                        {
+                            Profile = Profile?.WithTraitPreference(trait.ID, _prototypeManager);
+                        }
+                        else
+                        {
+                            Profile = Profile?.WithoutTraitPreference(trait.ID, _prototypeManager);
+                        }
+
+>>>>>>> Upstream
                         SetDirty();
                     };
 
@@ -1136,7 +1200,7 @@ namespace Content.Client.Lobby.UI
             SetDirty();
         }
 
-        private bool IsDirty
+        public bool IsDirty
         {
             get => _isDirty;
             set

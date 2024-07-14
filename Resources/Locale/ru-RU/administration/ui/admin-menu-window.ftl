@@ -6,6 +6,10 @@ admin-menu-adminbus-tab = АдминАбуз
 admin-menu-atmos-tab = Атмос
 admin-menu-round-tab = Раунд
 admin-menu-server-tab = Сервер
+<<<<<<< HEAD
 admin-menu-panic-bunker-tab = Режим "Бункер"
+=======
+admin-menu-panic-bunker-tab = Бункер
+>>>>>>> Upstream
 admin-menu-players-tab = Игроки
 admin-menu-objects-tab = Объекты

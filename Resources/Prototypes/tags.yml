@@ -547,6 +547,9 @@
 - type: Tag
   id: DrinkSpaceGlue
 
+- type: Tag 
+  id: Dropper
+
 - type: Tag
   id: DroneUsable
 
@@ -624,6 +627,9 @@
 
 - type: Tag
   id: GasScrubber
+
+- type: Tag
+  id: GasTank
 
 - type: Tag
   id: GasVent
@@ -1103,6 +1109,9 @@
 
 - type: Tag
   id: SalvageExperiment
+
+- type: Tag
+  id: Scarf
 
 - type: Tag
   id: Screwdriver
