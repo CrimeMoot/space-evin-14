@@ -19,4 +19,3 @@ public abstract partial class EntityEffectCondition
     /// <returns></returns>
     public abstract string GuidebookExplanation(IPrototypeManager prototype);
 }
-

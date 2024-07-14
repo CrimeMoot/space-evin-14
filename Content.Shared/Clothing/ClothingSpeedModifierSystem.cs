@@ -44,7 +44,7 @@ public sealed class ClothingSpeedModifierSystem : EntitySystem
             return;
 
         var diff = !MathHelper.CloseTo(component.SprintModifier, state.SprintModifier) ||
-                   !MathHelper.CloseTo(component.WalkModifier, state.WalkModifier);
+        !MathHelper.CloseTo(component.WalkModifier, state.WalkModifier);
 
         component.WalkModifier = state.WalkModifier;
         component.SprintModifier = state.SprintModifier;

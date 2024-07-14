@@ -58,17 +58,17 @@ public abstract partial class EntityEffect
             return null;
 
         return Loc.GetString(ReagentEffectFormat, ("effect", effect), ("chance", Probability),
-            ("conditionCount", Conditions?.Length ?? 0),
-            ("conditions",
-                ContentLocalizationManager.FormatList(Conditions?.Select(x => x.GuidebookExplanation(prototype)).ToList() ??
-                                                        new List<string>())));
+                             ("conditionCount", Conditions?.Length ?? 0),
+                             ("conditions",
+                              ContentLocalizationManager.FormatList(Conditions?.Select(x => x.GuidebookExplanation(prototype)).ToList() ??
+                              new List<string>())));
     }
 }
 
 public static class EntityEffectExt
 {
     public static bool ShouldApply(this EntityEffect effect, EntityEffectBaseArgs args,
-        IRobustRandom? random = null)
+                                   IRobustRandom? random = null)
     {
         if (random == null)
             random = IoCManager.Resolve<IRobustRandom>();
