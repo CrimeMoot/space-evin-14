@@ -10,8 +10,6 @@ public sealed partial class MagbootsComponent : Component
 {
     [DataField]
     public ProtoId<AlertPrototype> MagbootsAlert = "Magboots";
-<<<<<<< HEAD
-=======
 
     /// <summary>
     /// If true, the user must be standing on a grid or planet map to experience the weightlessness-canceling effect
@@ -24,5 +22,4 @@ public sealed partial class MagbootsComponent : Component
     /// </summary>
     [DataField]
     public string Slot = "shoes";
->>>>>>> Upstream
 }
