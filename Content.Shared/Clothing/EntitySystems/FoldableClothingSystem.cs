@@ -44,15 +44,6 @@ public sealed class FoldableClothingSystem : EntitySystem
                 if (ent.Comp.FoldedEquippedPrefix != null)
                     _clothingSystem.SetEquippedPrefix(ent.Owner, ent.Comp.FoldedEquippedPrefix, clothingComp);
 
-<<<<<<< HEAD
-                if (ent.Comp.FoldedHeldPrefix != null)
-                    _itemSystem.SetHeldPrefix(ent.Owner, ent.Comp.FoldedHeldPrefix, false, itemComp);
-            }
-            else
-            {
-                if (ent.Comp.UnfoldedSlots.HasValue)
-                    _clothingSystem.SetSlots(ent.Owner, ent.Comp.UnfoldedSlots.Value, clothingComp);
-=======
             if (ent.Comp.FoldedHeldPrefix != null)
                 _itemSystem.SetHeldPrefix(ent.Owner, ent.Comp.FoldedHeldPrefix, false, itemComp);
 
@@ -64,7 +55,6 @@ public sealed class FoldableClothingSystem : EntitySystem
         {
             if (ent.Comp.UnfoldedSlots.HasValue)
                 _clothingSystem.SetSlots(ent.Owner, ent.Comp.UnfoldedSlots.Value, clothingComp);
->>>>>>> Upstream
 
                 if (ent.Comp.FoldedEquippedPrefix != null)
                     _clothingSystem.SetEquippedPrefix(ent.Owner, null, clothingComp);
@@ -72,13 +62,9 @@ public sealed class FoldableClothingSystem : EntitySystem
                 if (ent.Comp.FoldedHeldPrefix != null)
                     _itemSystem.SetHeldPrefix(ent.Owner, null, false, itemComp);
 
-<<<<<<< HEAD
-            }
-=======
             if (TryComp<HideLayerClothingComponent>(ent.Owner, out var hideLayerComp))
                 hideLayerComp.Slots = ent.Comp.UnfoldedHideLayers;
 
->>>>>>> Upstream
         }
     }
 }

@@ -29,8 +29,8 @@ namespace Content.Shared.Preferences
         private static readonly Regex RestrictedNameRegex = new("[^А-Яа-яёЁ0-9' -]");
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
-        public const int MaxNameLength = 32;
-        public const int MaxDescLength = 512;
+        public const int MaxNameLength = 64; //Evin
+        public const int MaxDescLength = 2048; //Evin
 
         /// <summary>
         /// Job preferences for initial spawn.
@@ -367,20 +367,6 @@ namespace Content.Shared.Preferences
             };
         }
 
-<<<<<<< HEAD
-        public HumanoidCharacterProfile WithTraitPreference(string traitId, bool pref)
-        {
-            var list = new HashSet<string>(_traitPreferences);
-
-            if (pref)
-            {
-                list.Add(traitId);
-            }
-            else
-            {
-                list.Remove(traitId);
-            }
-=======
         public HumanoidCharacterProfile WithTraitPreference(ProtoId<TraitPrototype> traitId, IPrototypeManager protoManager)
         {
             // null category is assumed to be default.
@@ -433,7 +419,6 @@ namespace Content.Shared.Preferences
         {
             var list = new HashSet<ProtoId<TraitPrototype>>(_traitPreferences);
             list.Remove(traitId);
->>>>>>> Upstream
 
             return new(this)
             {

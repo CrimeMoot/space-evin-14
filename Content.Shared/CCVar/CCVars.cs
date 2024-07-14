@@ -383,8 +383,6 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<string> RoundEndSoundCollection =
             CVarDef.Create("game.round_end_sound_collection", "RoundEnd", CVar.SERVERONLY);
 
-<<<<<<< HEAD
-=======
         /// <summary>
         /// Whether or not to add every player as a global override to PVS at round end.
         /// This will allow all players to see their clothing in the round screen player list screen,
@@ -403,7 +401,6 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<bool> GameTabletopPlace =
             CVarDef.Create("game.tabletop_place", false, CVar.SERVERONLY);
 
->>>>>>> Upstream
         /*
          * Discord
          */

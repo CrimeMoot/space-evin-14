@@ -10,11 +10,8 @@ using Content.Shared.Interaction;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Movement.Events;
 using Content.Shared.Popups;
-<<<<<<< HEAD
-=======
 using Content.Shared.Pulling.Events;
 using Content.Shared.Rotation;
->>>>>>> Upstream
 using Content.Shared.Standing;
 using Content.Shared.Storage.Components;
 using Content.Shared.Stunnable;
@@ -334,21 +331,12 @@ public abstract partial class SharedBuckleSystem
 
         if (!StrapTryAdd(strapUid, buckleUid, buckleComp, false, strapComp))
         {
-<<<<<<< HEAD
-            var message = Loc.GetString(buckleUid == userUid
-                ? "buckle-component-cannot-buckle-message"
-                : "buckle-component-other-cannot-buckle-message", ("owner", Identity.Entity(buckleUid, EntityManager)));
-            if (_netManager.IsServer)
-                _popup.PopupEntity(message, userUid, userUid);
-            return false;
-=======
             case StrapPosition.Stand:
                 _standing.Stand(buckle, force: true);
                 break;
             case StrapPosition.Down:
                 _standing.Down(buckle, false, false, force: true);
                 break;
->>>>>>> Upstream
         }
 
         if (TryComp<AppearanceComponent>(buckleUid, out var appearance))
@@ -532,8 +520,6 @@ public abstract partial class SharedBuckleSystem
         {
             return TryBuckle(buckleUid, userUid, strapUid, buckle);
         }
-<<<<<<< HEAD
-=======
 
         Unbuckle(buckle!, (strap, strapComp), user);
     }
@@ -569,7 +555,6 @@ public abstract partial class SharedBuckleSystem
 
         if (HasComp<KnockedDownComponent>(buckle) || _mobState.IsIncapacitated(buckle))
             _standing.Down(buckle, playSound: false);
->>>>>>> Upstream
         else
         {
             return TryUnbuckle(buckleUid, userUid, force, buckle);

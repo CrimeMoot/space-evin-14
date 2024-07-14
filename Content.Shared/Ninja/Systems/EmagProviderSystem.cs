@@ -17,11 +17,7 @@ public sealed class EmagProviderSystem : EntitySystem
     [Dependency] private readonly EntityWhitelistSystem _whitelist = default!;
     [Dependency] private readonly ISharedAdminLogManager _adminLogger = default!;
     [Dependency] private readonly SharedNinjaGlovesSystem _gloves = default!;
-<<<<<<< HEAD
-    [Dependency] private readonly TagSystem _tags = default!;
-=======
     [Dependency] private readonly TagSystem _tag = default!;
->>>>>>> Upstream
 
     public override void Initialize()
     {
@@ -42,11 +38,7 @@ public sealed class EmagProviderSystem : EntitySystem
         var (uid, comp) = ent;
 
         // only allowed to emag entities on the whitelist
-<<<<<<< HEAD
-        if (comp.Whitelist != null && !comp.Whitelist.IsValid(target, EntityManager))
-=======
         if (_whitelist.IsWhitelistFail(comp.Whitelist, target))
->>>>>>> Upstream
             return;
 
         // only allowed to emag non-immune entities

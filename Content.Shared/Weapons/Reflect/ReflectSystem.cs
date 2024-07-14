@@ -60,11 +60,7 @@ public sealed class ReflectSystem : EntitySystem
         if (args.Reflected)
             return;
 
-<<<<<<< HEAD
-        foreach (var ent in _inventorySystem.GetHandOrInventoryEntities(uid, SlotFlags.WITHOUT_POCKET))
-=======
         foreach (var ent in _inventorySystem.GetHandOrInventoryEntities(uid, SlotFlags.All & ~SlotFlags.POCKET))
->>>>>>> Upstream
         {
             if (!TryReflectHitscan(uid, ent, args.Shooter, args.SourceItem, args.Direction, out var dir))
                 continue;
@@ -72,48 +68,6 @@ public sealed class ReflectSystem : EntitySystem
             args.Direction = dir.Value;
             args.Reflected = true;
             break;
-<<<<<<< HEAD
-        }
-    }
-
-    private void OnReflectUserCollide(EntityUid uid, ReflectUserComponent component, ref ProjectileReflectAttemptEvent args)
-    {
-        foreach (var ent in _inventorySystem.GetHandOrInventoryEntities(uid, SlotFlags.WITHOUT_POCKET))
-        {
-            if (!TryReflectProjectile(uid, ent, args.ProjUid))
-                continue;
-
-            args.Cancelled = true;
-            break;
-        }
-    }
-
-    private void OnReflectCollide(EntityUid uid, ReflectComponent component, ref ProjectileReflectAttemptEvent args)
-    {
-        if (args.Cancelled)
-            return;
-
-        if (TryReflectProjectile(uid, uid, args.ProjUid, reflect: component))
-            args.Cancelled = true;
-    }
-
-    private bool TryReflectProjectile(EntityUid user, EntityUid reflector, EntityUid projectile, ProjectileComponent? projectileComp = null, ReflectComponent? reflect = null)
-    {
-        // Do we have the components needed to try a reflect at all?
-        if (
-            !Resolve(reflector, ref reflect, false) ||
-            !reflect.Enabled ||
-            !TryComp<ReflectiveComponent>(projectile, out var reflective) ||
-            (reflect.Reflects & reflective.Reflective) == 0x0 ||
-            !TryComp<PhysicsComponent>(projectile, out var physics) ||
-            TryComp<StaminaComponent>(reflector, out var staminaComponent) && staminaComponent.Critical ||
-            _standing.IsDown(reflector)
-        )
-            return false;
-
-        if (!_random.Prob(CalcReflectChance(reflector, reflect)))
-            return false;
-=======
         }
     }
 
@@ -149,7 +103,6 @@ public sealed class ReflectSystem : EntitySystem
         {
             return false;
         }
->>>>>>> Upstream
 
         var rotation = _random.NextAngle(-reflect.Spread / 2, reflect.Spread / 2).Opposite();
         var existingVelocity = _physics.GetMapLinearVelocity(projectile, component: physics);
@@ -187,37 +140,6 @@ public sealed class ReflectSystem : EntitySystem
         return true;
     }
 
-<<<<<<< HEAD
-    private float CalcReflectChance(EntityUid reflector, ReflectComponent reflect)
-    {
-        /*
-         *  The rules of deflection are as follows:
-         *  If you innately reflect things via magic, biology etc., you always have a full chance.
-         *  If you are standing up and standing still, you're prepared to deflect and have full chance.
-         *  If you have velocity, your deflection chance depends on your velocity, clamped.
-         *  If you are floating, your chance is the minimum value possible.
-         *  You cannot deflect if you are knocked down or stunned.
-         */
-
-        if (reflect.Innate)
-            return reflect.ReflectProb;
-
-        if (_gravity.IsWeightless(reflector))
-            return reflect.MinReflectProb;
-
-        if (!TryComp<PhysicsComponent>(reflector, out var reflectorPhysics))
-            return reflect.ReflectProb;
-
-        return MathHelper.Lerp(
-            reflect.MinReflectProb,
-            reflect.ReflectProb,
-            // Inverse progression between velocities fed in as progression between probabilities. We go high -> low so the output here needs to be _inverted_.
-            1 - Math.Clamp((reflectorPhysics.LinearVelocity.Length() - reflect.VelocityBeforeNotMaxProb) / (reflect.VelocityBeforeMinProb - reflect.VelocityBeforeNotMaxProb), 0, 1)
-        );
-    }
-
-=======
->>>>>>> Upstream
     private void OnReflectHitscan(EntityUid uid, ReflectComponent component, ref HitScanReflectAttemptEvent args)
     {
         if (args.Reflected ||
@@ -242,28 +164,19 @@ public sealed class ReflectSystem : EntitySystem
         [NotNullWhen(true)] out Vector2? newDirection)
     {
         if (!TryComp<ReflectComponent>(reflector, out var reflect) ||
-<<<<<<< HEAD
-            !reflect.Enabled ||
-            TryComp<StaminaComponent>(reflector, out var staminaComponent) && staminaComponent.Critical ||
-            _standing.IsDown(reflector))
-=======
             !_toggle.IsActivated(reflector) ||
             !_random.Prob(reflect.ReflectProb))
->>>>>>> Upstream
         {
             newDirection = null;
             return false;
         }
 
-<<<<<<< HEAD
         if (!_random.Prob(CalcReflectChance(reflector, reflect)))
         {
             newDirection = null;
             return false;
         }
 
-=======
->>>>>>> Upstream
         if (_netManager.IsServer)
         {
             _popup.PopupEntity(Loc.GetString("reflect-shot"), user);
@@ -287,12 +200,6 @@ public sealed class ReflectSystem : EntitySystem
             return;
 
         EnsureComp<ReflectUserComponent>(args.Equipee);
-<<<<<<< HEAD
-
-        if (component.Enabled)
-            EnableAlert(args.Equipee);
-=======
->>>>>>> Upstream
     }
 
     private void OnReflectUnequipped(EntityUid uid, ReflectComponent comp, GotUnequippedEvent args)
@@ -306,12 +213,6 @@ public sealed class ReflectSystem : EntitySystem
             return;
 
         EnsureComp<ReflectUserComponent>(args.User);
-<<<<<<< HEAD
-
-        if (component.Enabled)
-            EnableAlert(args.User);
-=======
->>>>>>> Upstream
     }
 
     private void OnReflectHandUnequipped(EntityUid uid, ReflectComponent component, GotUnequippedHandEvent args)
@@ -321,18 +222,8 @@ public sealed class ReflectSystem : EntitySystem
 
     private void OnToggleReflect(EntityUid uid, ReflectComponent comp, ref ItemToggledEvent args)
     {
-<<<<<<< HEAD
-        comp.Enabled = args.Activated;
-        Dirty(uid, comp);
-
-        if (comp.Enabled)
-            EnableAlert(uid);
-        else
-            DisableAlert(uid);
-=======
         if (args.User is {} user)
             RefreshReflectUser(user);
->>>>>>> Upstream
     }
 
     /// <summary>

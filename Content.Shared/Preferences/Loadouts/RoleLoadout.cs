@@ -1,4 +1,4 @@
-using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Corvax.Interfaces.Shared;
@@ -192,11 +192,6 @@ public sealed partial class RoleLoadout : IEquatable<RoleLoadout>
             if (groupProto.MinLimit > 0)
             {
                 // Apply any loadouts we can.
-<<<<<<< HEAD
-                for (var j = 0; j < Math.Min(groupProto.MinLimit, groupProto.Loadouts.Count); j++)
-                {
-                    AddLoadout(group, groupProto.Loadouts[j], protoManager);
-=======
                 foreach (var protoId in groupProto.Loadouts)
                 {
                     // Reached the limit, time to stop
@@ -217,7 +212,6 @@ public sealed partial class RoleLoadout : IEquatable<RoleLoadout>
 
                     loadouts.Add(defaultLoadout);
                     Apply(loadoutProto);
->>>>>>> Upstream
                 }
             }
         }
