@@ -96,9 +96,6 @@ public enum LogType
     ChatRateLimited = 87,
     AtmosTemperatureChanged = 88,
     DeviceNetwork = 89,
-<<<<<<< HEAD
-    StoreRefund = 90
-=======
     StoreRefund = 90,
 
     /// <summary>
@@ -113,5 +110,4 @@ public enum LogType
     /// A player did an item-use interaction of an item they were holding onto another object.
     /// </summary>
     InteractUsing = 92,
->>>>>>> Upstream
 }
