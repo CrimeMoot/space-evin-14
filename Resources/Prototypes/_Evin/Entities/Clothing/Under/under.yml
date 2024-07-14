@@ -8,7 +8,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_briefs
+    state: equipped-male_briefs_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -20,7 +20,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_boxers
+    state: male_boxers_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -32,7 +32,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_stripe
+    state: male_stripe_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -44,7 +44,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_midway
+    state: male_midway_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -56,7 +56,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_longjohns
+    state: male_longjohns_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -68,7 +68,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_kinky
+    state: male_kinky_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -80,7 +80,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_mankini
+    state: male_mankini_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -92,7 +92,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_hearts
+    state: male_hearts_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -104,7 +104,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_commie
+    state: male_commie_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -116,7 +116,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_assblastusa
+    state: male_assblastusa_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -128,7 +128,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: male_uk
+    state: male_uk_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -140,7 +140,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_bikini
+    state: female_bikini_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -152,7 +152,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_lace
+    state: female_lace_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -164,7 +164,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_bralette
+    state: female_bralette_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -176,7 +176,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_sport
+    state: female_sport_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -188,7 +188,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_thong
+    state: female_thong_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -200,7 +200,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_strapless
+    state: female_strapless_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -212,7 +212,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_babydoll
+    state: female_babydoll_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -224,7 +224,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: swim_onepiece
+    state: swim_onepiece_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -236,7 +236,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: swim_strapless_onepiece
+    state: swim_strapless_onepiece_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -248,7 +248,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: swim_twopiece
+    state: swim_twopiece_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -260,7 +260,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: swim_strapless_twopiece
+    state: swim_strapless_twopiece_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -272,7 +272,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: swim_stripe
+    state: swim_stripe_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -284,7 +284,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: swim_halter
+    state: swim_halter_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -296,7 +296,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_neko_white
+    state: female_neko_white_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -308,7 +308,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_neko_black
+    state: female_neko_black_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -320,7 +320,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_kinky
+    state: female_kinky_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -332,7 +332,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_commie
+    state: female_commie_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -344,7 +344,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_assblastusa
+    state: female_assblastusa_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -356,7 +356,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: female_uk
+    state: female_uk_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -368,7 +368,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_white
+    state: shirt_white_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -380,7 +380,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_white
+    state: tank_white_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -392,7 +392,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_black
+    state: shirt_black_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -404,7 +404,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_black
+    state: tank_black_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -416,7 +416,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_grey
+    state: shirt_grey_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -428,7 +428,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_grey
+    state: tank_grey_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -440,7 +440,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: lover
+    state: lover_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -452,7 +452,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: ian
+    state: ian_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -464,7 +464,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: uk
+    state: uk_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -476,7 +476,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: ilovent
+    state: ilovent_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -488,7 +488,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: peace
+    state: peace_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -500,7 +500,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: band
+    state: band_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -512,7 +512,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: pogoman
+    state: pogoman_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -524,7 +524,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: matroska
+    state: matroska_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -536,7 +536,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: whiteshortsleeve
+    state: whiteshortsleeve_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -548,7 +548,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: purpleshortsleeve
+    state: purpleshortsleeve_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -560,7 +560,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: blueshortsleeve
+    state: blueshortsleeve_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -572,7 +572,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: greenshortsleeve
+    state: greenshortsleeve_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -584,7 +584,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: blackshortsleeve
+    state: blackshortsleeve_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -596,7 +596,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: blueshirt
+    state: blueshirt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -608,7 +608,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: redshirt
+    state: redshirt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -620,7 +620,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: yellowshirt
+    state: yellowshirt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -632,7 +632,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: greenshirt
+    state: greenshirt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -644,7 +644,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bluepolo
+    state: bluepolo_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -656,7 +656,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: redpolo
+    state: redpolo_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -668,7 +668,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: whitepolo
+    state: whitepolo_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -680,7 +680,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: grayyellowpolo
+    state: grayyellowpolo_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -692,7 +692,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: redtop
+    state: redtop_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -704,7 +704,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: whitetop
+    state: whitetop_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -716,7 +716,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_midriff
+    state: tank_midriff_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -728,7 +728,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: greenshirtsport
+    state: greenshirtsport_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -740,7 +740,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: redshirtsport
+    state: redshirtsport_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -752,7 +752,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: blueshirtsport
+    state: blueshirtsport_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -764,7 +764,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_ss13
+    state: shirt_ss13_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -776,7 +776,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_fire
+    state: tank_fire_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -788,7 +788,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_question
+    state: shirt_question_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -800,7 +800,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_skull
+    state: shirt_skull_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -812,7 +812,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_commie
+    state: shirt_commie_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -824,7 +824,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_nano
+    state: shirt_nano_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -836,7 +836,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_stripes
+    state: shirt_stripes_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -848,7 +848,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_blue
+    state: shirt_blue_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -860,7 +860,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_red
+    state: shirt_red_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -872,7 +872,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_red
+    state: tank_red_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -884,7 +884,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_green
+    state: shirt_green_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -896,7 +896,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_meat
+    state: shirt_meat_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -908,7 +908,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_tiedye
+    state: shirt_tiedye_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -920,7 +920,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_redjersey
+    state: shirt_redjersey_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -932,7 +932,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_bluejersey
+    state: shirt_bluejersey_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -944,7 +944,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_stripes
+    state: tank_stripes_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -956,7 +956,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_alien
+    state: shirt_alien_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -968,7 +968,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_clown
+    state: shirt_clown_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -980,7 +980,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: white_norm
+    state: white_norm_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -992,7 +992,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: white_short
+    state: white_short_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1004,7 +1004,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: white_knee
+    state: white_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1016,7 +1016,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: white_thigh
+    state: white_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1028,7 +1028,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: black_norm
+    state: black_norm_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1040,7 +1040,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: black_short
+    state: black_short_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1052,7 +1052,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: black_knee
+    state: black_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1064,7 +1064,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: black_thigh
+    state: black_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1076,7 +1076,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: thin_knee
+    state: thin_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1088,7 +1088,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: thin_thigh
+    state: thin_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1100,7 +1100,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: pantyhose
+    state: pantyhose_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1112,7 +1112,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: rainbow_knee
+    state: rainbow_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1124,7 +1124,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: rainbow_thigh
+    state: rainbow_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1136,7 +1136,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: striped_knee
+    state: striped_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1148,7 +1148,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: striped_thigh
+    state: striped_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1160,7 +1160,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_assblastusa
+    state: shirt_assblastusa_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1172,7 +1172,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: assblastusa_knee
+    state: assblastusa_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1184,7 +1184,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: assblastusa_thigh
+    state: assblastusa_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1196,7 +1196,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: uk_knee
+    state: uk_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1208,7 +1208,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: uk_thigh
+    state: uk_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1220,7 +1220,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: commie_knee
+    state: commie_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1232,7 +1232,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: commie_thigh
+    state: commie_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1244,7 +1244,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: stockings_lpink
+    state: stockings_lpink_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1256,7 +1256,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: stockings_purple
+    state: stockings_purple_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1268,7 +1268,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: stockings_green
+    state: stockings_green_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1280,7 +1280,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: stockings_cyan
+    state: stockings_cyan_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1292,7 +1292,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: stockings_orange
+    state: stockings_orange_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1304,7 +1304,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: stockings_yellow
+    state: stockings_yellow_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1316,7 +1316,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: stockings_dpink
+    state: stockings_dpink_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1328,7 +1328,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: stockings_blue
+    state: stockings_blue_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1340,7 +1340,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: thocks
+    state: thocks_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1352,7 +1352,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: ace_thigh
+    state: ace_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1364,7 +1364,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: ace_knee
+    state: ace_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1376,7 +1376,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: trans_knee
+    state: trans_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1388,7 +1388,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: trans_thigh
+    state: trans_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1400,7 +1400,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_knee
+    state: fishnet_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1412,7 +1412,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_thigh
+    state: fishnet_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1424,7 +1424,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_full
+    state: fishnet_full_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1436,7 +1436,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: sports_bra
+    state: sports_bra_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1448,7 +1448,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: sports_bra_alt
+    state: sports_bra_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1460,7 +1460,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: undershirt
+    state: undershirt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1472,7 +1472,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shortsleeve
+    state: shortsleeve_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1484,7 +1484,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: polo
+    state: polo_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1496,7 +1496,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tanktop
+    state: tanktop_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1508,7 +1508,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tanktop_alt
+    state: tanktop_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1520,7 +1520,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_rainbow
+    state: tank_rainbow_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1532,7 +1532,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_sun
+    state: tank_sun_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1544,7 +1544,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: tank_midriff_alt
+    state: tank_midriff_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1556,7 +1556,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: ljont
+    state: ljont_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1568,7 +1568,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: longstripe
+    state: longstripe_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1580,7 +1580,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: longstripe_blue
+    state: longstripe_blue_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1592,7 +1592,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bee_shirt
+    state: bee_shirt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1604,7 +1604,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shirt_bc
+    state: shirt_bc_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1616,7 +1616,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: one_arm
+    state: one_arm_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1628,7 +1628,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: turtleneck
+    state: turtleneck_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1640,7 +1640,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: turtleneck_sleeveless
+    state: turtleneck_sleeveless_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1652,7 +1652,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: leotard
+    state: leotard_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1664,7 +1664,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: leotard_turtleneck
+    state: leotard_turtleneck_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1676,7 +1676,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: leotard_turtleneck_sleeveless
+    state: leotard_turtleneck_sleeveless_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1688,7 +1688,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: turtleneck_smooth
+    state: turtleneck_smooth_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1700,7 +1700,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: buttondown
+    state: buttondown_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1712,7 +1712,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: buttondown_short
+    state: buttondown_short_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1724,7 +1724,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_thin
+    state: bra_thin_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1736,7 +1736,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_thin
+    state: panties_thin_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1748,7 +1748,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_neko
+    state: bra_neko_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1760,7 +1760,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_neko
+    state: panties_neko_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1772,7 +1772,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_swimming
+    state: bra_swimming_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1784,7 +1784,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_swimming
+    state: panties_swimming_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1796,7 +1796,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: babydoll
+    state: babydoll_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1808,7 +1808,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: thong_babydoll
+    state: thong_babydoll_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1820,7 +1820,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_kinky
+    state: bra_kinky_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1832,7 +1832,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_kinky
+    state: panties_kinky_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1844,7 +1844,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_bee-kini
+    state: bra_bee-kini_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1856,7 +1856,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_bee-kini
+    state: panties_bee-kini_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1868,7 +1868,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_assblastusa
+    state: bra_assblastusa_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1880,7 +1880,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_assblastusa
+    state: panties_assblastusa_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1892,7 +1892,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_commie
+    state: bra_commie_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1904,7 +1904,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_commie
+    state: panties_commie_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1916,7 +1916,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_uk
+    state: bra_uk_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1928,7 +1928,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_uk
+    state: panties_uk_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1940,7 +1940,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: striped_bra
+    state: striped_bra_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1952,7 +1952,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: striped_panties
+    state: striped_panties_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1964,7 +1964,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: lizared_top
+    state: lizared_top_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1976,7 +1976,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: lizared
+    state: lizared_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -1988,7 +1988,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_latex
+    state: bra_latex_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2000,7 +2000,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_latex
+    state: panties_latex_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2012,7 +2012,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra
+    state: bra_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2024,7 +2024,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_alt
+    state: bra_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2036,7 +2036,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_strapless
+    state: bra_strapless_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2048,7 +2048,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bra_strapless_alt
+    state: bra_strapless_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2060,7 +2060,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: halterneck_bra
+    state: halterneck_bra_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2072,7 +2072,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: binder
+    state: binder_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2084,7 +2084,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: binder_strapless
+    state: binder_strapless_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2096,7 +2096,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bandages
+    state: bandages_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2108,7 +2108,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties
+    state: panties_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2120,7 +2120,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: panties_slim
+    state: panties_slim_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2132,7 +2132,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: thong
+    state: thong_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2144,7 +2144,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bee_shorts
+    state: bee_shorts_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2156,7 +2156,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: boyshorts
+    state: boyshorts_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2168,7 +2168,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: stockings_ripped
+    state: stockings_ripped_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2180,7 +2180,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: leggings
+    state: leggings_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2192,7 +2192,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: leggings-stir
+    state: leggings-stir_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2204,7 +2204,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: pantyhose-stir
+    state: pantyhose-stir_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2216,7 +2216,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: pantyhose_ripped
+    state: pantyhose_ripped_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2228,7 +2228,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: pantyhose_ripped-stir
+    state: pantyhose_ripped-stir_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2240,7 +2240,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: rainbow_thigh-stir
+    state: rainbow_thigh-stir_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2252,7 +2252,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: rainbow_knee-stir
+    state: rainbow_knee-stir_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2264,7 +2264,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bee_knee_old
+    state: bee_knee_old_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2276,7 +2276,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bee_thigh_old
+    state: bee_thigh_old_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2288,7 +2288,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: striped_thigh-stir
+    state: striped_thigh-stir_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2300,7 +2300,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: leggings-stir-black
+    state: leggings-stir-black_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2312,7 +2312,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: socks_thigh-stir
+    state: socks_thigh-stir_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2324,7 +2324,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: socks_knee-stir
+    state: socks_knee-stir_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2336,7 +2336,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: socks_norm-stir
+    state: socks_norm-stir_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2348,7 +2348,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: socks_latex
+    state: socks_latex_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2360,7 +2360,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: candycaner_norm
+    state: candycaner_norm_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2372,7 +2372,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: candycaner_knee
+    state: candycaner_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2384,7 +2384,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: candycaner_thigh
+    state: candycaner_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2396,7 +2396,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: christmas_norm
+    state: christmas_norm_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2408,7 +2408,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: christmas_knee
+    state: christmas_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2420,7 +2420,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: christmas_thigh
+    state: christmas_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2432,7 +2432,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: candycaneg_norm
+    state: candycaneg_norm_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2444,7 +2444,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: candycaneg_knee
+    state: candycaneg_knee_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2456,7 +2456,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: candycaneg_thigh
+    state: candycaneg_thigh_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2468,7 +2468,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: swimming_blue
+    state: swimming_blue_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2480,7 +2480,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: swimming_red
+    state: swimming_red_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2492,7 +2492,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: swimming_black
+    state: swimming_black_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2504,7 +2504,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: corset
+    state: corset_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2516,7 +2516,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shibari
+    state: shibari_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2528,7 +2528,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: shibari_sleeves
+    state: shibari_sleeves_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2540,7 +2540,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: chastbelt
+    state: chastbelt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2552,7 +2552,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: chastbra
+    state: chastbra_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2564,7 +2564,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: chastcage
+    state: chastcage_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2576,7 +2576,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: pasties
+    state: pasties_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2588,7 +2588,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: pasties_alt
+    state: pasties_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2600,7 +2600,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet
+    state: fishnet_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2612,7 +2612,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_lower
+    state: fishnet_lower_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2624,7 +2624,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_body
+    state: fishnet_body_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2636,7 +2636,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_sleeves
+    state: fishnet_sleeves_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2648,7 +2648,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_alt
+    state: fishnet_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2660,7 +2660,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_lower_alt
+    state: fishnet_lower_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2672,7 +2672,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_body_alt
+    state: fishnet_body_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2684,7 +2684,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: fishnet_sleeves_alt
+    state: fishnet_sleeves_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2696,7 +2696,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: hi_vis_bra
+    state: hi_vis_bra_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2708,7 +2708,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: boyshorts_alt
+    state: boyshorts_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2720,7 +2720,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: strapless_biki_bra_alt
+    state: strapless_biki_bra_alt_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2732,7 +2732,7 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: bikini_bra
+    state: bikini_bra_FEET
 
 - type: entity
   parent: ClothingShoesBase
@@ -2744,4 +2744,4 @@
     state: icon
   - type: Clothing
     sprite: _Evin/Clothing/underwear.rsi
-    state: strapless_biki_bra
+    state: strapless_biki_bra_FEET
