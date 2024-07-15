@@ -43,6 +43,7 @@ public sealed class ChargesSystem : SharedChargesSystem
             return;
 
         var startRecharge = comp.Charges == comp.MaxCharges;
+
         base.AddCharges(uid, change, comp);
 
         // if a charge was just used from full, start the recharge timer
