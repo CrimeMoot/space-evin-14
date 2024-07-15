@@ -294,6 +294,7 @@
       - id: BookSecretDocuments
       - id: BookBusido # Corvax-Books
       - id: WeaponLaserHos
+      - id: BookSpaceLaw
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -320,7 +321,11 @@
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
+<<<<<<< HEAD
       - id: WeaponLaserHos
+=======
+      - id: BookSpaceLaw
+>>>>>>> Upstream
 
 - type: entity
   id: LockerFreezerVaultFilled

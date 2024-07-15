@@ -9,6 +9,7 @@ cmd-jobwhitelistadd-already-whitelisted = {$player} уже в вайтлисте
 cmd-jobwhitelistadd-added = {$player} добавлен в вайтлист {$jobId} ({$jobName}).
 
 cmd-jobwhitelistget-desc = Даёт список всех должностей, в вайтлистах на которые игрок состоит.
+<<<<<<< HEAD
 cmd-jobwhitelistget-help = Использование: jobwhitelistadd <username>
 cmd-jobwhitelistget-whitelisted-none = Игрока {$player} нет в вайтлистах ни на какую должность.
 cmd-jobwhitelistget-whitelisted-for = "Игрок {$player} в вайтлистах на следующие должности:
@@ -18,3 +19,12 @@ cmd-jobwhitelistremove-desc = Отнимает право игрока игра�
 cmd-jobwhitelistremove-help = Использование: jobwhitelistadd <username> <job>
 cmd-jobwhitelistremove-was-not-whitelisted = {$player} не был в вайтлисте на игру в должности {$jobId} ({$jobName}).
 cmd-jobwhitelistremove-removed = {$player} удалён из вайтлиста должности {$jobId} ({$jobName}).
+=======
+cmd-jobwhitelistget-help = Использование: jobwhitelistget <username>
+cmd-jobwhitelistget-whitelisted-none = Игрока { $player } нет в вайтлистах ни на какую должность.
+cmd-jobwhitelistget-whitelisted-for = Игрок { $player } в вайтлистах на следующие должности: { $jobs }
+cmd-jobwhitelistremove-desc = Отнимает право игрока играть на должности из вайтлиста.
+cmd-jobwhitelistremove-help = Использование: jobwhitelistremove <username> <job>
+cmd-jobwhitelistremove-was-not-whitelisted = { $player } не был в вайтлисте на игру в должности { $jobId } ({ $jobName }).
+cmd-jobwhitelistremove-removed = { $player } удалён из вайтлиста должности { $jobId } ({ $jobName }).
+>>>>>>> Upstream

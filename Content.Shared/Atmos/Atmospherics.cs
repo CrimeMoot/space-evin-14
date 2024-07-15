@@ -286,6 +286,7 @@ namespace Content.Shared.Atmos
         ///     (The pressure threshold is so low that it doesn't make sense to do any calculations,
         ///     so it just applies this flat value).
         /// </summary>
+
         public const int LowPressureDamage = 1; // Evin 
 
         public const float WindowHeatTransferCoefficient = 0.1f;

@@ -31,6 +31,6 @@
     id: IAAPDA
     eyes: ClothingEyesGlassesSunglasses
     ears: ClothingHeadsetIAA
-    pocket2: HyperLinkBookCorporateLaw
+    pocket2: BookSpaceLaw
   inhand:
     - BriefcaseIAAFilled
